@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.conda312/
+.env
+*.part
+assets/*
+!assets/manifest.json
+e1_results/*
+!e1_results/codi_full/
+outputs/
+*.pt
+*.bin
+*.safetensors

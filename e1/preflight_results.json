@@ -1,0 +1,22 @@
+{
+  "gsm8k": {
+    "n": 200,
+    "max_prompt_tokens": 123,
+    "reference_count": 200,
+    "mean_reference_tokens": 98.855
+  },
+  "gsm_hard": {
+    "n": 200,
+    "max_prompt_tokens": 143,
+    "reference_count": 0,
+    "mean_reference_tokens": null
+  },
+  "svamp": {
+    "n": 200,
+    "max_prompt_tokens": 67,
+    "reference_count": 200,
+    "mean_reference_tokens": 10.355
+  },
+  "status": "PASS: parser, all 600 gold labels, unique IDs, tokenizer, context budget",
+  "gpu_execution": "Not performed locally"
+}
