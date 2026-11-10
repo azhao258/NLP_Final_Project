@@ -15,6 +15,7 @@ AIAA4051 Project 11 · Compressing Chain-of-Thought via Interpretable Latent Rea
 | SVAMP | 76/200 | 38.0% | 方程 | 10.355 | 1.726 | 239.06 ms | 257.40 ms |
 
 原始结果在 [e1_results/codi_full](e1_results/codi_full)。长度比取决于参考文本类型，不能直接推算加速倍数。
+GSM-Hard 的所用数据版本仅包含题目和答案，因此参考推理长度及长度比记为 N/A。所有数据集均使用 6 个 latent steps。
 
 E2 待 B 运行。E3 正式对照组待 A 训练。smoke.py 中保留了早期单 batch 验证逻辑，正式训练入口将在 E3 准备。
 
