@@ -1,0 +1,707 @@
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+/home/user/.conda/envs/nlp-e2/lib/python3.12/site-packages/peft/tuners/lora/layer.py:1768: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.53.0. You should pass an instance of `Cache` instead, e.g. `past_key_values=DynamicCache.from_legacy_cache(past_key_values)`.
+gsm8k 1/200 correct=False seconds=0.265
+gsm8k 2/200 correct=False seconds=0.246
+gsm8k 3/200 correct=False seconds=0.247
+gsm8k 4/200 correct=True seconds=0.247
+gsm8k 5/200 correct=False seconds=0.248
+gsm8k 6/200 correct=True seconds=0.246
+gsm8k 7/200 correct=False seconds=0.246
+gsm8k 8/200 correct=False seconds=0.283
+gsm8k 9/200 correct=False seconds=0.266
+gsm8k 10/200 correct=False seconds=0.303
+gsm8k 11/200 correct=False seconds=0.247
+gsm8k 12/200 correct=False seconds=0.245
+gsm8k 13/200 correct=True seconds=0.248
+gsm8k 14/200 correct=False seconds=0.246
+gsm8k 15/200 correct=True seconds=0.247
+gsm8k 16/200 correct=False seconds=0.245
+gsm8k 17/200 correct=False seconds=0.247
+gsm8k 18/200 correct=False seconds=0.247
+gsm8k 19/200 correct=True seconds=0.247
+gsm8k 20/200 correct=False seconds=0.247
+gsm8k 21/200 correct=False seconds=0.245
+gsm8k 22/200 correct=False seconds=0.247
+gsm8k 23/200 correct=True seconds=0.245
+gsm8k 24/200 correct=True seconds=0.246
+gsm8k 25/200 correct=True seconds=0.247
+gsm8k 26/200 correct=False seconds=0.263
+gsm8k 27/200 correct=False seconds=0.241
+gsm8k 28/200 correct=False seconds=0.242
+gsm8k 29/200 correct=False seconds=0.240
+gsm8k 30/200 correct=True seconds=0.239
+gsm8k 31/200 correct=True seconds=0.243
+gsm8k 32/200 correct=True seconds=0.240
+gsm8k 33/200 correct=True seconds=0.243
+gsm8k 34/200 correct=True seconds=0.242
+gsm8k 35/200 correct=False seconds=0.243
+gsm8k 36/200 correct=False seconds=0.243
+gsm8k 37/200 correct=False seconds=0.243
+gsm8k 38/200 correct=False seconds=0.261
+gsm8k 39/200 correct=False seconds=0.242
+gsm8k 40/200 correct=True seconds=0.244
+gsm8k 41/200 correct=True seconds=0.242
+gsm8k 42/200 correct=False seconds=0.262
+gsm8k 43/200 correct=False seconds=0.244
+gsm8k 44/200 correct=False seconds=0.241
+gsm8k 45/200 correct=False seconds=0.241
+gsm8k 46/200 correct=True seconds=0.244
+gsm8k 47/200 correct=False seconds=0.244
+gsm8k 48/200 correct=False seconds=0.245
+gsm8k 49/200 correct=False seconds=0.277
+gsm8k 50/200 correct=False seconds=0.244
+gsm8k 51/200 correct=False seconds=0.241
+gsm8k 52/200 correct=False seconds=0.278
+gsm8k 53/200 correct=False seconds=0.245
+gsm8k 54/200 correct=False seconds=0.263
+gsm8k 55/200 correct=False seconds=0.279
+gsm8k 56/200 correct=True seconds=0.244
+gsm8k 57/200 correct=False seconds=0.242
+gsm8k 58/200 correct=True seconds=0.243
+gsm8k 59/200 correct=False seconds=0.241
+gsm8k 60/200 correct=False seconds=0.242
+gsm8k 61/200 correct=True seconds=0.241
+gsm8k 62/200 correct=True seconds=0.244
+gsm8k 63/200 correct=True seconds=0.242
+gsm8k 64/200 correct=False seconds=0.242
+gsm8k 65/200 correct=False seconds=0.243
+gsm8k 66/200 correct=False seconds=0.242
+gsm8k 67/200 correct=True seconds=0.241
+gsm8k 68/200 correct=True seconds=0.238
+gsm8k 69/200 correct=False seconds=0.243
+gsm8k 70/200 correct=False seconds=0.243
+gsm8k 71/200 correct=True seconds=0.241
+gsm8k 72/200 correct=False seconds=0.243
+gsm8k 73/200 correct=False seconds=0.263
+gsm8k 74/200 correct=False seconds=0.241
+gsm8k 75/200 correct=False seconds=0.280
+gsm8k 76/200 correct=False seconds=0.242
+gsm8k 77/200 correct=False seconds=0.282
+gsm8k 78/200 correct=True seconds=0.264
+gsm8k 79/200 correct=True seconds=0.244
+gsm8k 80/200 correct=True seconds=0.246
+gsm8k 81/200 correct=False seconds=0.243
+gsm8k 82/200 correct=False seconds=0.241
+gsm8k 83/200 correct=True seconds=0.240
+gsm8k 84/200 correct=False seconds=0.242
+gsm8k 85/200 correct=False seconds=0.244
+gsm8k 86/200 correct=True seconds=0.243
+gsm8k 87/200 correct=False seconds=0.241
+gsm8k 88/200 correct=False seconds=0.262
+gsm8k 89/200 correct=True seconds=0.242
+gsm8k 90/200 correct=True seconds=0.244
+gsm8k 91/200 correct=False seconds=0.241
+gsm8k 92/200 correct=False seconds=0.241
+gsm8k 93/200 correct=False seconds=0.240
+gsm8k 94/200 correct=False seconds=0.240
+gsm8k 95/200 correct=True seconds=0.243
+gsm8k 96/200 correct=False seconds=0.245
+gsm8k 97/200 correct=True seconds=0.242
+gsm8k 98/200 correct=False seconds=0.246
+gsm8k 99/200 correct=True seconds=0.240
+gsm8k 100/200 correct=False seconds=0.258
+gsm8k 101/200 correct=False seconds=0.241
+gsm8k 102/200 correct=True seconds=0.245
+gsm8k 103/200 correct=False seconds=0.244
+gsm8k 104/200 correct=True seconds=0.243
+gsm8k 105/200 correct=False seconds=0.242
+gsm8k 106/200 correct=False seconds=0.241
+gsm8k 107/200 correct=False seconds=0.280
+gsm8k 108/200 correct=True seconds=0.243
+gsm8k 109/200 correct=True seconds=0.243
+gsm8k 110/200 correct=False seconds=0.243
+gsm8k 111/200 correct=False seconds=0.241
+gsm8k 112/200 correct=False seconds=0.242
+gsm8k 113/200 correct=False seconds=0.279
+gsm8k 114/200 correct=False seconds=0.243
+gsm8k 115/200 correct=True seconds=0.244
+gsm8k 116/200 correct=False seconds=0.242
+gsm8k 117/200 correct=False seconds=0.243
+gsm8k 118/200 correct=False seconds=0.248
+gsm8k 119/200 correct=True seconds=0.246
+gsm8k 120/200 correct=False seconds=0.243
+gsm8k 121/200 correct=True seconds=0.244
+gsm8k 122/200 correct=True seconds=0.242
+gsm8k 123/200 correct=True seconds=0.241
+gsm8k 124/200 correct=False seconds=0.242
+gsm8k 125/200 correct=False seconds=0.240
+gsm8k 126/200 correct=False seconds=0.241
+gsm8k 127/200 correct=True seconds=0.243
+gsm8k 128/200 correct=False seconds=0.240
+gsm8k 129/200 correct=True seconds=0.240
+gsm8k 130/200 correct=False seconds=0.243
+gsm8k 131/200 correct=False seconds=0.242
+gsm8k 132/200 correct=True seconds=0.241
+gsm8k 133/200 correct=False seconds=0.241
+gsm8k 134/200 correct=False seconds=0.242
+gsm8k 135/200 correct=True seconds=0.239
+gsm8k 136/200 correct=False seconds=0.242
+gsm8k 137/200 correct=False seconds=0.244
+gsm8k 138/200 correct=False seconds=0.243
+gsm8k 139/200 correct=False seconds=0.244
+gsm8k 140/200 correct=False seconds=0.242
+gsm8k 141/200 correct=False seconds=0.243
+gsm8k 142/200 correct=False seconds=0.244
+gsm8k 143/200 correct=True seconds=0.244
+gsm8k 144/200 correct=True seconds=0.245
+gsm8k 145/200 correct=False seconds=0.249
+gsm8k 146/200 correct=False seconds=0.247
+gsm8k 147/200 correct=True seconds=0.246
+gsm8k 148/200 correct=False seconds=0.246
+gsm8k 149/200 correct=False seconds=0.249
+gsm8k 150/200 correct=False seconds=0.264
+gsm8k 151/200 correct=True seconds=0.246
+gsm8k 152/200 correct=False seconds=0.264
+gsm8k 153/200 correct=True seconds=0.247
+gsm8k 154/200 correct=False seconds=0.248
+gsm8k 155/200 correct=True seconds=0.247
+gsm8k 156/200 correct=True seconds=0.247
+gsm8k 157/200 correct=False seconds=0.247
+gsm8k 158/200 correct=False seconds=0.245
+gsm8k 159/200 correct=False seconds=0.246
+gsm8k 160/200 correct=False seconds=0.246
+gsm8k 161/200 correct=False seconds=0.284
+gsm8k 162/200 correct=False seconds=0.247
+gsm8k 163/200 correct=True seconds=0.248
+gsm8k 164/200 correct=False seconds=0.246
+gsm8k 165/200 correct=True seconds=0.245
+gsm8k 166/200 correct=True seconds=0.245
+gsm8k 167/200 correct=True seconds=0.246
+gsm8k 168/200 correct=True seconds=0.244
+gsm8k 169/200 correct=False seconds=0.246
+gsm8k 170/200 correct=False seconds=0.245
+gsm8k 171/200 correct=False seconds=0.247
+gsm8k 172/200 correct=False seconds=0.281
+gsm8k 173/200 correct=False seconds=0.245
+gsm8k 174/200 correct=False seconds=0.286
+gsm8k 175/200 correct=False seconds=0.248
+gsm8k 176/200 correct=False seconds=0.248
+gsm8k 177/200 correct=True seconds=0.249
+gsm8k 178/200 correct=True seconds=0.243
+gsm8k 179/200 correct=True seconds=0.245
+gsm8k 180/200 correct=False seconds=0.245
+gsm8k 181/200 correct=False seconds=0.243
+gsm8k 182/200 correct=False seconds=0.245
+gsm8k 183/200 correct=True seconds=0.264
+gsm8k 184/200 correct=True seconds=0.245
+gsm8k 185/200 correct=False seconds=0.248
+gsm8k 186/200 correct=True seconds=0.246
+gsm8k 187/200 correct=False seconds=0.246
+gsm8k 188/200 correct=False seconds=0.246
+gsm8k 189/200 correct=False seconds=0.264
+gsm8k 190/200 correct=False seconds=0.244
+gsm8k 191/200 correct=False seconds=0.263
+gsm8k 192/200 correct=False seconds=0.262
+gsm8k 193/200 correct=False seconds=0.246
+gsm8k 194/200 correct=True seconds=0.244
+gsm8k 195/200 correct=False seconds=0.247
+gsm8k 196/200 correct=False seconds=0.245
+gsm8k 197/200 correct=False seconds=0.244
+gsm8k 198/200 correct=False seconds=0.246
+gsm8k 199/200 correct=True seconds=0.245
+gsm8k 200/200 correct=False seconds=0.264
+[
+  {
+    "dataset": "gsm8k",
+    "n": 200,
+    "em": 0.335,
+    "parse_failures": 0,
+    "latent_steps": 6,
+    "reference_type": "natural_language",
+    "reference_count": 200,
+    "mean_reference_tokens": 98.855,
+    "length_ratio": 16.475833333333334,
+    "mean_answer_tokens": 5.21,
+    "capped": 0,
+    "mean_seconds": 0.247834171994989,
+    "median_seconds": 0.244471523999664,
+    "p95_seconds": 0.2783444091496676
+  }
+]
+gsm_hard 1/200 correct=False seconds=0.265
+gsm_hard 2/200 correct=True seconds=0.245
+gsm_hard 3/200 correct=False seconds=0.304
+gsm_hard 4/200 correct=False seconds=0.282
+gsm_hard 5/200 correct=False seconds=0.246
+gsm_hard 6/200 correct=True seconds=0.248
+gsm_hard 7/200 correct=False seconds=0.267
+gsm_hard 8/200 correct=False seconds=0.287
+gsm_hard 9/200 correct=False seconds=0.285
+gsm_hard 10/200 correct=False seconds=0.282
+gsm_hard 11/200 correct=False seconds=0.282
+gsm_hard 12/200 correct=False seconds=0.262
+gsm_hard 13/200 correct=False seconds=0.282
+gsm_hard 14/200 correct=False seconds=0.262
+gsm_hard 15/200 correct=False seconds=0.283
+gsm_hard 16/200 correct=False seconds=0.286
+gsm_hard 17/200 correct=False seconds=0.285
+gsm_hard 18/200 correct=True seconds=0.244
+gsm_hard 19/200 correct=False seconds=0.282
+gsm_hard 20/200 correct=False seconds=0.300
+gsm_hard 21/200 correct=False seconds=0.285
+gsm_hard 22/200 correct=False seconds=0.267
+gsm_hard 23/200 correct=False seconds=0.266
+gsm_hard 24/200 correct=True seconds=0.245
+gsm_hard 25/200 correct=False seconds=0.247
+gsm_hard 26/200 correct=False seconds=0.286
+gsm_hard 27/200 correct=False seconds=0.283
+gsm_hard 28/200 correct=False seconds=0.324
+gsm_hard 29/200 correct=False seconds=0.285
+gsm_hard 30/200 correct=False seconds=0.265
+gsm_hard 31/200 correct=False seconds=0.309
+gsm_hard 32/200 correct=False seconds=0.269
+gsm_hard 33/200 correct=False seconds=0.288
+gsm_hard 34/200 correct=False seconds=0.286
+gsm_hard 35/200 correct=True seconds=0.250
+gsm_hard 36/200 correct=False seconds=0.265
+gsm_hard 37/200 correct=False seconds=0.279
+gsm_hard 38/200 correct=False seconds=0.281
+gsm_hard 39/200 correct=False seconds=0.263
+gsm_hard 40/200 correct=False seconds=0.266
+gsm_hard 41/200 correct=False seconds=0.246
+gsm_hard 42/200 correct=False seconds=0.265
+gsm_hard 43/200 correct=False seconds=0.302
+gsm_hard 44/200 correct=False seconds=0.279
+gsm_hard 45/200 correct=False seconds=0.246
+gsm_hard 46/200 correct=False seconds=0.302
+gsm_hard 47/200 correct=False seconds=0.300
+gsm_hard 48/200 correct=False seconds=0.265
+gsm_hard 49/200 correct=False seconds=0.283
+gsm_hard 50/200 correct=False seconds=0.299
+gsm_hard 51/200 correct=False seconds=0.265
+gsm_hard 52/200 correct=False seconds=0.279
+gsm_hard 53/200 correct=False seconds=0.283
+gsm_hard 54/200 correct=False seconds=0.282
+gsm_hard 55/200 correct=False seconds=0.281
+gsm_hard 56/200 correct=False seconds=0.283
+gsm_hard 57/200 correct=False seconds=0.301
+gsm_hard 58/200 correct=False seconds=0.263
+gsm_hard 59/200 correct=False seconds=0.284
+gsm_hard 60/200 correct=False seconds=0.283
+gsm_hard 61/200 correct=True seconds=0.243
+gsm_hard 62/200 correct=False seconds=0.243
+gsm_hard 63/200 correct=False seconds=0.282
+gsm_hard 64/200 correct=False seconds=0.302
+gsm_hard 65/200 correct=False seconds=0.280
+gsm_hard 66/200 correct=False seconds=0.300
+gsm_hard 67/200 correct=False seconds=0.282
+gsm_hard 68/200 correct=False seconds=0.245
+gsm_hard 69/200 correct=False seconds=0.264
+gsm_hard 70/200 correct=False seconds=0.279
+gsm_hard 71/200 correct=False seconds=0.315
+gsm_hard 72/200 correct=True seconds=0.243
+gsm_hard 73/200 correct=False seconds=0.281
+gsm_hard 74/200 correct=False seconds=0.303
+gsm_hard 75/200 correct=False seconds=0.244
+gsm_hard 76/200 correct=True seconds=0.244
+gsm_hard 77/200 correct=False seconds=0.281
+gsm_hard 78/200 correct=False seconds=0.284
+gsm_hard 79/200 correct=True seconds=0.244
+gsm_hard 80/200 correct=False seconds=0.320
+gsm_hard 81/200 correct=False seconds=0.283
+gsm_hard 82/200 correct=False seconds=0.261
+gsm_hard 83/200 correct=False seconds=0.299
+gsm_hard 84/200 correct=True seconds=0.243
+gsm_hard 85/200 correct=False seconds=0.278
+gsm_hard 86/200 correct=False seconds=0.261
+gsm_hard 87/200 correct=True seconds=0.242
+gsm_hard 88/200 correct=True seconds=0.243
+gsm_hard 89/200 correct=False seconds=0.319
+gsm_hard 90/200 correct=False seconds=0.241
+gsm_hard 91/200 correct=False seconds=0.244
+gsm_hard 92/200 correct=False seconds=0.259
+gsm_hard 93/200 correct=False seconds=0.243
+gsm_hard 94/200 correct=False seconds=0.245
+gsm_hard 95/200 correct=False seconds=0.241
+gsm_hard 96/200 correct=False seconds=0.278
+gsm_hard 97/200 correct=False seconds=0.280
+gsm_hard 98/200 correct=False seconds=0.298
+gsm_hard 99/200 correct=False seconds=0.298
+gsm_hard 100/200 correct=False seconds=0.282
+gsm_hard 101/200 correct=False seconds=0.242
+gsm_hard 102/200 correct=False seconds=0.243
+gsm_hard 103/200 correct=True seconds=0.241
+gsm_hard 104/200 correct=False seconds=0.282
+gsm_hard 105/200 correct=False seconds=0.277
+gsm_hard 106/200 correct=False seconds=0.279
+gsm_hard 107/200 correct=False seconds=0.276
+gsm_hard 108/200 correct=False seconds=0.280
+gsm_hard 109/200 correct=False seconds=0.280
+gsm_hard 110/200 correct=True seconds=0.243
+gsm_hard 111/200 correct=False seconds=0.281
+gsm_hard 112/200 correct=False seconds=0.279
+gsm_hard 113/200 correct=False seconds=0.282
+gsm_hard 114/200 correct=False seconds=0.315
+gsm_hard 115/200 correct=False seconds=0.244
+gsm_hard 116/200 correct=False seconds=0.283
+gsm_hard 117/200 correct=False seconds=0.283
+gsm_hard 118/200 correct=False seconds=0.298
+gsm_hard 119/200 correct=False seconds=0.280
+gsm_hard 120/200 correct=False seconds=0.280
+gsm_hard 121/200 correct=False seconds=0.575
+gsm_hard 122/200 correct=False seconds=0.266
+gsm_hard 123/200 correct=False seconds=0.246
+gsm_hard 124/200 correct=False seconds=0.286
+gsm_hard 125/200 correct=True seconds=0.248
+gsm_hard 126/200 correct=False seconds=0.286
+gsm_hard 127/200 correct=False seconds=0.289
+gsm_hard 128/200 correct=False seconds=0.321
+gsm_hard 129/200 correct=False seconds=0.282
+gsm_hard 130/200 correct=False seconds=0.285
+gsm_hard 131/200 correct=False seconds=0.285
+gsm_hard 132/200 correct=False seconds=0.247
+gsm_hard 133/200 correct=True seconds=0.248
+gsm_hard 134/200 correct=False seconds=0.284
+gsm_hard 135/200 correct=False seconds=0.286
+gsm_hard 136/200 correct=False seconds=0.286
+gsm_hard 137/200 correct=False seconds=0.302
+gsm_hard 138/200 correct=False seconds=0.281
+gsm_hard 139/200 correct=False seconds=0.247
+gsm_hard 140/200 correct=False seconds=0.265
+gsm_hard 141/200 correct=False seconds=0.285
+gsm_hard 142/200 correct=False seconds=0.286
+gsm_hard 143/200 correct=False seconds=0.281
+gsm_hard 144/200 correct=False seconds=0.307
+gsm_hard 145/200 correct=False seconds=0.287
+gsm_hard 146/200 correct=False seconds=0.246
+gsm_hard 147/200 correct=False seconds=0.266
+gsm_hard 148/200 correct=False seconds=0.323
+gsm_hard 149/200 correct=False seconds=0.248
+gsm_hard 150/200 correct=False seconds=0.266
+gsm_hard 151/200 correct=False seconds=0.324
+gsm_hard 152/200 correct=False seconds=0.304
+gsm_hard 153/200 correct=False seconds=0.283
+gsm_hard 154/200 correct=False seconds=0.248
+gsm_hard 155/200 correct=False seconds=0.248
+gsm_hard 156/200 correct=False seconds=0.284
+gsm_hard 157/200 correct=True seconds=0.245
+gsm_hard 158/200 correct=False seconds=0.321
+gsm_hard 159/200 correct=False seconds=0.244
+gsm_hard 160/200 correct=False seconds=0.246
+gsm_hard 161/200 correct=False seconds=0.285
+gsm_hard 162/200 correct=True seconds=0.242
+gsm_hard 163/200 correct=False seconds=0.319
+gsm_hard 164/200 correct=False seconds=0.283
+gsm_hard 165/200 correct=False seconds=0.305
+gsm_hard 166/200 correct=False seconds=0.285
+gsm_hard 167/200 correct=False seconds=0.248
+gsm_hard 168/200 correct=False seconds=0.245
+gsm_hard 169/200 correct=False seconds=0.285
+gsm_hard 170/200 correct=False seconds=0.324
+gsm_hard 171/200 correct=False seconds=0.284
+gsm_hard 172/200 correct=False seconds=0.246
+gsm_hard 173/200 correct=False seconds=0.283
+gsm_hard 174/200 correct=False seconds=0.244
+gsm_hard 175/200 correct=False seconds=0.262
+gsm_hard 176/200 correct=False seconds=0.267
+gsm_hard 177/200 correct=False seconds=0.268
+gsm_hard 178/200 correct=False seconds=0.248
+gsm_hard 179/200 correct=False seconds=0.247
+gsm_hard 180/200 correct=False seconds=0.267
+gsm_hard 181/200 correct=False seconds=0.247
+gsm_hard 182/200 correct=False seconds=0.246
+gsm_hard 183/200 correct=False seconds=0.250
+gsm_hard 184/200 correct=False seconds=0.323
+gsm_hard 185/200 correct=False seconds=0.285
+gsm_hard 186/200 correct=False seconds=0.285
+gsm_hard 187/200 correct=False seconds=0.247
+gsm_hard 188/200 correct=False seconds=0.284
+gsm_hard 189/200 correct=False seconds=0.250
+gsm_hard 190/200 correct=False seconds=0.242
+gsm_hard 191/200 correct=False seconds=0.264
+gsm_hard 192/200 correct=False seconds=0.248
+gsm_hard 193/200 correct=False seconds=0.290
+gsm_hard 194/200 correct=False seconds=0.323
+gsm_hard 195/200 correct=False seconds=0.247
+gsm_hard 196/200 correct=False seconds=0.249
+gsm_hard 197/200 correct=False seconds=0.249
+gsm_hard 198/200 correct=False seconds=0.282
+gsm_hard 199/200 correct=False seconds=0.263
+gsm_hard 200/200 correct=False seconds=0.285
+[
+  {
+    "dataset": "gsm8k",
+    "n": 200,
+    "em": 0.335,
+    "parse_failures": 0,
+    "latent_steps": 6,
+    "reference_type": "natural_language",
+    "reference_count": 200,
+    "mean_reference_tokens": 98.855,
+    "length_ratio": 16.475833333333334,
+    "mean_answer_tokens": 5.21,
+    "capped": 0,
+    "mean_seconds": 0.247834171994989,
+    "median_seconds": 0.244471523999664,
+    "p95_seconds": 0.2783444091496676
+  },
+  {
+    "dataset": "gsm_hard",
+    "n": 200,
+    "em": 0.09,
+    "parse_failures": 2,
+    "latent_steps": 6,
+    "reference_type": "missing",
+    "reference_count": 0,
+    "mean_reference_tokens": null,
+    "length_ratio": null,
+    "mean_answer_tokens": 6.58,
+    "capped": 0,
+    "mean_seconds": 0.27509126150000385,
+    "median_seconds": 0.27972751699985565,
+    "p95_seconds": 0.31913140465012474
+  }
+]
+svamp 1/200 correct=False seconds=0.263
+svamp 2/200 correct=False seconds=0.245
+svamp 3/200 correct=False seconds=0.244
+svamp 4/200 correct=False seconds=0.243
+svamp 5/200 correct=True seconds=0.247
+svamp 6/200 correct=False seconds=0.242
+svamp 7/200 correct=False seconds=0.243
+svamp 8/200 correct=False seconds=0.249
+svamp 9/200 correct=False seconds=0.250
+svamp 10/200 correct=False seconds=0.283
+svamp 11/200 correct=True seconds=0.245
+svamp 12/200 correct=False seconds=0.241
+svamp 13/200 correct=False seconds=0.244
+svamp 14/200 correct=False seconds=0.246
+svamp 15/200 correct=False seconds=0.248
+svamp 16/200 correct=False seconds=0.245
+svamp 17/200 correct=True seconds=0.245
+svamp 18/200 correct=False seconds=0.243
+svamp 19/200 correct=False seconds=0.246
+svamp 20/200 correct=True seconds=0.247
+svamp 21/200 correct=True seconds=0.244
+svamp 22/200 correct=False seconds=0.244
+svamp 23/200 correct=True seconds=0.244
+svamp 24/200 correct=False seconds=0.247
+svamp 25/200 correct=False seconds=0.249
+svamp 26/200 correct=False seconds=0.244
+svamp 27/200 correct=True seconds=0.244
+svamp 28/200 correct=False seconds=0.247
+svamp 29/200 correct=True seconds=0.246
+svamp 30/200 correct=True seconds=0.247
+svamp 31/200 correct=True seconds=0.247
+svamp 32/200 correct=False seconds=0.242
+svamp 33/200 correct=True seconds=0.243
+svamp 34/200 correct=False seconds=0.246
+svamp 35/200 correct=True seconds=0.245
+svamp 36/200 correct=True seconds=0.246
+svamp 37/200 correct=False seconds=0.265
+svamp 38/200 correct=False seconds=0.246
+svamp 39/200 correct=True seconds=0.244
+svamp 40/200 correct=False seconds=0.242
+svamp 41/200 correct=False seconds=0.258
+svamp 42/200 correct=True seconds=0.244
+svamp 43/200 correct=False seconds=0.241
+svamp 44/200 correct=True seconds=0.242
+svamp 45/200 correct=False seconds=0.241
+svamp 46/200 correct=True seconds=0.241
+svamp 47/200 correct=False seconds=0.242
+svamp 48/200 correct=False seconds=0.242
+svamp 49/200 correct=True seconds=0.243
+svamp 50/200 correct=False seconds=0.241
+svamp 51/200 correct=True seconds=0.241
+svamp 52/200 correct=False seconds=0.244
+svamp 53/200 correct=True seconds=0.243
+svamp 54/200 correct=True seconds=0.242
+svamp 55/200 correct=True seconds=0.244
+svamp 56/200 correct=False seconds=0.244
+svamp 57/200 correct=True seconds=0.245
+svamp 58/200 correct=False seconds=0.244
+svamp 59/200 correct=False seconds=0.282
+svamp 60/200 correct=False seconds=0.242
+svamp 61/200 correct=False seconds=0.244
+svamp 62/200 correct=False seconds=0.244
+svamp 63/200 correct=False seconds=0.245
+svamp 64/200 correct=True seconds=0.243
+svamp 65/200 correct=True seconds=0.240
+svamp 66/200 correct=False seconds=0.244
+svamp 67/200 correct=False seconds=0.245
+svamp 68/200 correct=True seconds=0.243
+svamp 69/200 correct=True seconds=0.241
+svamp 70/200 correct=True seconds=0.243
+svamp 71/200 correct=True seconds=0.244
+svamp 72/200 correct=True seconds=0.241
+svamp 73/200 correct=True seconds=0.240
+svamp 74/200 correct=True seconds=0.241
+svamp 75/200 correct=False seconds=0.242
+svamp 76/200 correct=False seconds=0.244
+svamp 77/200 correct=False seconds=0.242
+svamp 78/200 correct=True seconds=0.244
+svamp 79/200 correct=True seconds=0.243
+svamp 80/200 correct=True seconds=0.241
+svamp 81/200 correct=False seconds=0.241
+svamp 82/200 correct=True seconds=0.242
+svamp 83/200 correct=False seconds=0.278
+svamp 84/200 correct=False seconds=0.241
+svamp 85/200 correct=False seconds=0.242
+svamp 86/200 correct=False seconds=0.242
+svamp 87/200 correct=False seconds=0.263
+svamp 88/200 correct=True seconds=0.243
+svamp 89/200 correct=True seconds=0.245
+svamp 90/200 correct=False seconds=0.245
+svamp 91/200 correct=False seconds=0.243
+svamp 92/200 correct=False seconds=0.243
+svamp 93/200 correct=True seconds=0.246
+svamp 94/200 correct=False seconds=0.260
+svamp 95/200 correct=False seconds=0.264
+svamp 96/200 correct=False seconds=0.247
+svamp 97/200 correct=False seconds=0.245
+svamp 98/200 correct=True seconds=0.244
+svamp 99/200 correct=False seconds=0.245
+svamp 100/200 correct=False seconds=0.245
+svamp 101/200 correct=True seconds=0.247
+svamp 102/200 correct=False seconds=0.248
+svamp 103/200 correct=False seconds=0.247
+svamp 104/200 correct=False seconds=0.249
+svamp 105/200 correct=True seconds=0.247
+svamp 106/200 correct=True seconds=0.246
+svamp 107/200 correct=True seconds=0.248
+svamp 108/200 correct=False seconds=0.289
+svamp 109/200 correct=True seconds=0.248
+svamp 110/200 correct=False seconds=0.247
+svamp 111/200 correct=False seconds=0.245
+svamp 112/200 correct=False seconds=0.246
+svamp 113/200 correct=False seconds=0.244
+svamp 114/200 correct=True seconds=0.249
+svamp 115/200 correct=True seconds=0.250
+svamp 116/200 correct=True seconds=0.250
+svamp 117/200 correct=True seconds=0.249
+svamp 118/200 correct=False seconds=0.251
+svamp 119/200 correct=False seconds=0.249
+svamp 120/200 correct=False seconds=0.250
+svamp 121/200 correct=False seconds=0.268
+svamp 122/200 correct=False seconds=0.269
+svamp 123/200 correct=False seconds=0.248
+svamp 124/200 correct=False seconds=0.285
+svamp 125/200 correct=True seconds=0.247
+svamp 126/200 correct=True seconds=0.248
+svamp 127/200 correct=True seconds=0.249
+svamp 128/200 correct=True seconds=0.247
+svamp 129/200 correct=False seconds=0.246
+svamp 130/200 correct=False seconds=0.249
+svamp 131/200 correct=False seconds=0.284
+svamp 132/200 correct=False seconds=0.246
+svamp 133/200 correct=False seconds=0.268
+svamp 134/200 correct=False seconds=0.245
+svamp 135/200 correct=False seconds=0.247
+svamp 136/200 correct=True seconds=0.248
+svamp 137/200 correct=False seconds=0.282
+svamp 138/200 correct=False seconds=0.244
+svamp 139/200 correct=True seconds=0.249
+svamp 140/200 correct=False seconds=0.245
+svamp 141/200 correct=False seconds=0.243
+svamp 142/200 correct=True seconds=0.245
+svamp 143/200 correct=False seconds=0.244
+svamp 144/200 correct=False seconds=0.243
+svamp 145/200 correct=False seconds=0.242
+svamp 146/200 correct=True seconds=0.242
+svamp 147/200 correct=True seconds=0.241
+svamp 148/200 correct=True seconds=0.237
+svamp 149/200 correct=True seconds=0.242
+svamp 150/200 correct=True seconds=0.240
+svamp 151/200 correct=True seconds=0.242
+svamp 152/200 correct=False seconds=0.245
+svamp 153/200 correct=True seconds=0.246
+svamp 154/200 correct=True seconds=0.246
+svamp 155/200 correct=True seconds=0.244
+svamp 156/200 correct=False seconds=0.245
+svamp 157/200 correct=False seconds=0.247
+svamp 158/200 correct=True seconds=0.247
+svamp 159/200 correct=False seconds=0.249
+svamp 160/200 correct=False seconds=0.246
+svamp 161/200 correct=False seconds=0.246
+svamp 162/200 correct=True seconds=0.245
+svamp 163/200 correct=False seconds=0.247
+svamp 164/200 correct=True seconds=0.246
+svamp 165/200 correct=True seconds=0.250
+svamp 166/200 correct=False seconds=0.249
+svamp 167/200 correct=False seconds=0.248
+svamp 168/200 correct=True seconds=0.247
+svamp 169/200 correct=False seconds=0.261
+svamp 170/200 correct=False seconds=0.242
+svamp 171/200 correct=False seconds=0.245
+svamp 172/200 correct=False seconds=0.262
+svamp 173/200 correct=False seconds=0.281
+svamp 174/200 correct=True seconds=0.245
+svamp 175/200 correct=True seconds=0.244
+svamp 176/200 correct=True seconds=0.244
+svamp 177/200 correct=False seconds=0.243
+svamp 178/200 correct=True seconds=0.246
+svamp 179/200 correct=False seconds=0.245
+svamp 180/200 correct=False seconds=0.246
+svamp 181/200 correct=False seconds=0.245
+svamp 182/200 correct=True seconds=0.247
+svamp 183/200 correct=True seconds=0.248
+svamp 184/200 correct=True seconds=0.243
+svamp 185/200 correct=False seconds=0.241
+svamp 186/200 correct=False seconds=0.242
+svamp 187/200 correct=False seconds=0.241
+svamp 188/200 correct=False seconds=0.244
+svamp 189/200 correct=True seconds=0.241
+svamp 190/200 correct=False seconds=0.243
+svamp 191/200 correct=False seconds=0.242
+svamp 192/200 correct=False seconds=0.264
+svamp 193/200 correct=False seconds=0.241
+svamp 194/200 correct=False seconds=0.246
+svamp 195/200 correct=True seconds=0.243
+svamp 196/200 correct=False seconds=0.243
+svamp 197/200 correct=True seconds=0.244
+svamp 198/200 correct=False seconds=0.262
+svamp 199/200 correct=False seconds=0.242
+svamp 200/200 correct=False seconds=0.245
+[
+  {
+    "dataset": "gsm8k",
+    "n": 200,
+    "em": 0.335,
+    "parse_failures": 0,
+    "latent_steps": 6,
+    "reference_type": "natural_language",
+    "reference_count": 200,
+    "mean_reference_tokens": 98.855,
+    "length_ratio": 16.475833333333334,
+    "mean_answer_tokens": 5.21,
+    "capped": 0,
+    "mean_seconds": 0.247834171994989,
+    "median_seconds": 0.244471523999664,
+    "p95_seconds": 0.2783444091496676
+  },
+  {
+    "dataset": "gsm_hard",
+    "n": 200,
+    "em": 0.09,
+    "parse_failures": 2,
+    "latent_steps": 6,
+    "reference_type": "missing",
+    "reference_count": 0,
+    "mean_reference_tokens": null,
+    "length_ratio": null,
+    "mean_answer_tokens": 6.58,
+    "capped": 0,
+    "mean_seconds": 0.27509126150000385,
+    "median_seconds": 0.27972751699985565,
+    "p95_seconds": 0.31913140465012474
+  },
+  {
+    "dataset": "svamp",
+    "n": 200,
+    "em": 0.4,
+    "parse_failures": 0,
+    "latent_steps": 6,
+    "reference_type": "equation",
+    "reference_count": 200,
+    "mean_reference_tokens": 10.355,
+    "length_ratio": 1.7258333333333333,
+    "mean_answer_tokens": 5.145,
+    "capped": 0,
+    "mean_seconds": 0.2474094540600163,
+    "median_seconds": 0.2449476169999798,
+    "p95_seconds": 0.2675837018000948
+  }
+]
+COMPLETE /home/user/NLP_Final_Project/e1_results/sim_full
