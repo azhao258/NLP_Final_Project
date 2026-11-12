@@ -1,0 +1,4 @@
+﻿dataset,both_correct,codi_wrong_sim_correct,codi_correct_sim_wrong,both_wrong
+gsm8k,55,12,19,114
+gsm_hard,13,5,5,177
+svamp,68,12,8,112

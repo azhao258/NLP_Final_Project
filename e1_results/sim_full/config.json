@@ -1,0 +1,20 @@
+{
+  "model_id": "internlm/SIM_COT-GPT2-CODI",
+  "limit": 200,
+  "latent_steps": 6,
+  "seed": 11,
+  "batch_size": 1,
+  "precision": "bf16",
+  "max_new_tokens": 64,
+  "warmups": 5,
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126",
+  "timing": "GPU-synchronized prompt + latent + answer generation; excludes tokenization and text decoding",
+  "data_manifest_sha256": "71a506f9b90ec7c71a85bb87a899d2a91ad159e436186c31cf6fd03811b7bf7a",
+  "source_sha256": {
+    "e1/evaluate.py": "3a89d2b378f6a537e76b5311aebc8de595cf151f43a9d51785321f3a3e809557",
+    "e1/metrics.py": "d0977f46786b9049e45349b5f5999a228aca34821188c3b75f7d775cbea597c5",
+    "smoke.py": "26c3e591d536ed9e665701d1ebff6c3f175028f14a0b1cbf4e21b8872926a24b",
+    "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262"
+  }
+}
