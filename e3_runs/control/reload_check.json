@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "updates": 750,
+  "changed_projector": true,
+  "strict_reload_identical": true,
+  "sample_id": "gsm8k-aug-train-2000",
+  "outputs": {
+    "raw_output": "The answer is: 36",
+    "token_ids": [
+      464,
+      3280,
+      318,
+      25,
+      4570,
+      50256
+    ],
+    "answer_tokens": 5,
+    "generated_tokens": 6,
+    "stop_reason": "eos",
+    "decoded_steps": [
+      {
+        "slot": 0,
+        "consumed_by_reasoner": true,
+        "text": "<<3*5=15>>",
+        "token_ids": [
+          16791,
+          18,
+          9,
+          20,
+          28,
+          1314,
+          4211
+        ],
+        "capped": false
+      },
+      {
+        "slot": 1,
+        "consumed_by_reasoner": true,
+        "text": " <<3*2=6>>",
+        "token_ids": [
+          9959,
+          18,
+          9,
+          17,
+          28,
+          21,
+          4211
+        ],
+        "capped": false
+      },
+      {
+        "slot": 2,
+        "consumed_by_reasoner": true,
+        "text": " <<3*2=6>>",
+        "token_ids": [
+          9959,
+          18,
+          9,
+          17,
+          28,
+          21,
+          4211
+        ],
+        "capped": false
+      },
+      {
+        "slot": 3,
+        "consumed_by_reasoner": true,
+        "text": " <<3*2=6>>",
+        "token_ids": [
+          9959,
+          18,
+          9,
+          17,
+          28,
+          21,
+          4211
+        ],
+        "capped": false
+      },
+      {
+        "slot": 4,
+        "consumed_by_reasoner": false,
+        "text": " <<3*2=6>>",
+        "token_ids": [
+          9959,
+          18,
+          9,
+          17,
+          28,
+          21,
+          4211
+        ],
+        "capped": false
+      }
+    ]
+  },
+  "note": "A pilot decoder may emit empty or incorrect text; this gate tests mechanics, not reasoning quality."
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": "gsm8k-aug-train-2",
+    "answer": "100",
+    "arithmetic_steps": 1,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 34,
+    "first_numeric_target_token": " 100",
+    "student_supervised_text": "The answer is: 100<|endoftext|>",
+    "reference_supervised_text": "<<20*5=100>>The answer is: 100<|endoftext|>",
+    "supervision_slots": [
+      "<<20*5=100>><|endoftext|>",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-3",
+    "answer": "30",
+    "arithmetic_steps": 1,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 45,
+    "first_numeric_target_token": " 30",
+    "student_supervised_text": "The answer is: 30<|endoftext|>",
+    "reference_supervised_text": "<<3*10=30>>The answer is: 30<|endoftext|>",
+    "supervision_slots": [
+      "<<3*10=30>><|endoftext|>",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-18",
+    "answer": "14",
+    "arithmetic_steps": 1,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 38,
+    "first_numeric_target_token": " 14",
+    "student_supervised_text": "The answer is: 14<|endoftext|>",
+    "reference_supervised_text": "<<84/6=14>>The answer is: 14<|endoftext|>",
+    "supervision_slots": [
+      "<<84/6=14>><|endoftext|>",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-7",
+    "answer": "6",
+    "arithmetic_steps": 2,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 56,
+    "first_numeric_target_token": " 6",
+    "student_supervised_text": "The answer is: 6<|endoftext|>",
+    "reference_supervised_text": "<<8*3=24>> <<30-24=6>>The answer is: 6<|endoftext|>",
+    "supervision_slots": [
+      "<<8*3=24>><|endoftext|>",
+      " <<30-24=6>><|endoftext|>",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-9",
+    "answer": "225",
+    "arithmetic_steps": 2,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 49,
+    "first_numeric_target_token": " 225",
+    "student_supervised_text": "The answer is: 225<|endoftext|>",
+    "reference_supervised_text": "<<5*3=15>> <<15*15=225>>The answer is: 225<|endoftext|>",
+    "supervision_slots": [
+      "<<5*3=15>><|endoftext|>",
+      " <<15*15=225>><|endoftext|>",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-11",
+    "answer": "10",
+    "arithmetic_steps": 2,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 63,
+    "first_numeric_target_token": " 10",
+    "student_supervised_text": "The answer is: 10<|endoftext|>",
+    "reference_supervised_text": "<<8*.25=2>> <<5*2=10.00>>The answer is: 10<|endoftext|>",
+    "supervision_slots": [
+      "<<8*.25=2>><|endoftext|>",
+      " <<5*2=10.00>><|endoftext|>",
+      "[PAD]",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-23",
+    "answer": "12",
+    "arithmetic_steps": 3,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 61,
+    "first_numeric_target_token": " 12",
+    "student_supervised_text": "The answer is: 12<|endoftext|>",
+    "reference_supervised_text": "<<18*12=216>> <<216-6*12=144>> <<144/12=12>>The answer is: 12<|endoftext|>",
+    "supervision_slots": [
+      "<<18*12=216>><|endoftext|>",
+      " <<216-6*12=144>><|endoftext|>",
+      " <<144/12=12>><|endoftext|>",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  },
+  {
+    "id": "gsm8k-aug-train-36",
+    "answer": "9",
+    "arithmetic_steps": 3,
+    "student_predicting_state_position": 4,
+    "teacher_predicting_state_position": 60,
+    "first_numeric_target_token": " 9",
+    "student_supervised_text": "The answer is: 9<|endoftext|>",
+    "reference_supervised_text": "<<2*2=4>> <<8-4=4>> <<4+5=9>>The answer is: 9<|endoftext|>",
+    "supervision_slots": [
+      "<<2*2=4>><|endoftext|>",
+      " <<8-4=4>><|endoftext|>",
+      " <<4+5=9>><|endoftext|>",
+      "[PAD]",
+      "[PAD]"
+    ],
+    "status": "PASS"
+  }
+]

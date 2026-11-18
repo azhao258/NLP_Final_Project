@@ -1,0 +1,33 @@
+{
+  "losses": {
+    "loss": 17.797396659851074,
+    "ce_loss": 5.141113340854645,
+    "distill_loss": 0.21314578503370285,
+    "ref_ce_loss": 4.940606772899628,
+    "explain_loss": 7.502530992031097
+  },
+  "groups": {
+    "lora": {
+      "parameter_tensors": 96,
+      "with_gradient": 96,
+      "nonzero_gradient": 48,
+      "finite": true,
+      "norm_before_clip": 1.381068820378374
+    },
+    "projector": {
+      "parameter_tensors": 6,
+      "with_gradient": 6,
+      "nonzero_gradient": 6,
+      "finite": true,
+      "norm_before_clip": 59.62686939193862
+    },
+    "decoder": {
+      "parameter_tensors": 148,
+      "with_gradient": 148,
+      "nonzero_gradient": 148,
+      "finite": true,
+      "norm_before_clip": 52.46877005943527
+    }
+  },
+  "note": "Group-level nonzero gradients required. Some LoRA A gradients can be zero at zero-B initialization."
+}

@@ -56,13 +56,14 @@ def main():
     parser.add_argument("--limit",type=int,default=200)
     parser.add_argument("--output",type=Path,required=True)
     parser.add_argument("--resume",action="store_true")
+    parser.add_argument("--datasets",nargs="+",choices=["gsm8k","gsm_hard","svamp"],default=["gsm8k","gsm_hard","svamp"])
     args=parser.parse_args()
     if not 1<=args.limit<=200:
         parser.error("--limit must be 1..200")
     if not torch.cuda.is_available():
         raise RuntimeError("CUDA unavailable. Verify GPU before starting this job.")
     set_seed(11)
-    config=dict(model_id=IDS[args.model],limit=args.limit,latent_steps=6,
+    config=dict(datasets=args.datasets, model_id=IDS[args.model],limit=args.limit,latent_steps=6,
                 seed=11,batch_size=1,precision="bf16",max_new_tokens=64,warmups=5,
                 gpu=torch.cuda.get_device_name(0),torch=str(torch.__version__),
                 timing="GPU-synchronized prompt + latent + answer generation; excludes tokenization and text decoding",
@@ -82,6 +83,8 @@ def main():
     manifest=json.loads((HERE/"data/manifest.json").read_text())
     datasets={}
     for name,info in manifest["datasets"].items():
+        if name not in args.datasets:
+            continue
         p=HERE/"data"/f"{name}.jsonl"
         assert sha(p)==info["sha256"],name
         datasets[name]=[json.loads(x) for x in p.read_text(encoding="utf8").splitlines()][:args.limit]

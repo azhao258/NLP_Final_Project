@@ -13,9 +13,9 @@
   },
   "svamp": {
     "n": 200,
-    "max_prompt_tokens": 67,
+    "max_prompt_tokens": 64,
     "reference_count": 200,
-    "mean_reference_tokens": 10.355
+    "mean_reference_tokens": 10.855
   },
   "status": "PASS: parser, all 600 gold labels, unique IDs, tokenizer, context budget",
   "gpu_execution": "Not performed locally"

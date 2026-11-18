@@ -1,0 +1,76 @@
+{
+  "_id": "63c6108eeaf11027aa5ba240",
+  "id": "reasoning-machines/gsm-hard",
+  "author": "reasoning-machines",
+  "sha": "960448f73503112d4226baeb8eb41d3fb5ae2506",
+  "lastModified": "2023-01-17T03:21:10Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "language_creators:crowdsourced",
+    "language_creators:expert-generated",
+    "multilinguality:monolingual",
+    "source_datasets:gsm8k (https://huggingface.co/datasets/gsm8k)",
+    "language:code",
+    "license:mit",
+    "size_categories:1K<n<10K",
+    "format:json",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "arxiv:2211.10435",
+    "region:us",
+    "math_reasoning",
+    "symbolic_reasoning"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Summary\n\t\n\nThis is the harder version of gsm8k math reasoning dataset (https://huggingface.co/datasets/gsm8k).\nWe construct this dataset by replacing the numbers in the questions of GSM8K with larger numbers that are less common.\n\u0001\n\n\t\n\t\t\n\t\n\t\n\t\tSupported Tasks and Leaderboards\n\t\n\nThis dataset is used to evaluate math reasoning\n\n\t\n\t\t\n\t\n\t\n\t\tLanguages\n\t\n\nEnglish - Numbers\n\n\t\n\t\t\n\t\n\t\n\t\tDataset Structure\n\t\n\ndataset = load_dataset(\"reasoning-machines/gsm-hard\")\nDatasetDict({… See the full description on the dataset page: https://huggingface.co/datasets/reasoning-machines/gsm-hard.",
+  "downloads": 7898,
+  "likes": 67,
+  "cardData": {
+    "annotations_creators": [],
+    "language_creators": [
+      "crowdsourced",
+      "expert-generated"
+    ],
+    "language": [
+      "code"
+    ],
+    "license": [
+      "mit"
+    ],
+    "multilinguality": [
+      "monolingual"
+    ],
+    "size_categories": [
+      "unknown"
+    ],
+    "source_datasets": [
+      "gsm8k (https://huggingface.co/datasets/gsm8k)"
+    ],
+    "task_categories": [
+      "text2text-generation"
+    ],
+    "task_ids": [],
+    "pretty_name": "gsm-hard",
+    "tags": [
+      "math_reasoning",
+      "symbolic_reasoning"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "gsmhardv2.jsonl"
+    }
+  ],
+  "createdAt": "2023-01-17T03:05:50Z",
+  "usedStorage": 11123649
+}

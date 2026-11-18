@@ -3,4 +3,9 @@
 *.py -text
 e1/data/* -text
 e1/raw/* -text
+e1/audit/** -text
+e3/data/* -text
 e1_results/codi_full/* -text
+
+e3_runs/** -text
+audit_official/** -text

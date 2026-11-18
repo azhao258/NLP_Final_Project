@@ -1,0 +1,2 @@
+dataset,n,em,parse_failures,latent_steps,reference_type,reference_count,mean_reference_tokens,length_ratio,mean_answer_tokens,capped,mean_seconds,median_seconds,p95_seconds
+svamp,200,0.425,0,6,equation,200,10.855,1.8091666666666666,5.14,0,0.19038334696499987,0.18419699750000973,0.24297622889997114

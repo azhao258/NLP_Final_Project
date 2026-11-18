@@ -1,0 +1,1 @@
+{"start_update": 0, "completed_updates": 10, "seconds": 60.678881550999904, "peak_allocated_gib": 4.553143501281738, "note": "Training loop including validation/checkpoint I/O; excludes model loading. Count rental time separately."}

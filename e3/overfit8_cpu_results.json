@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "losses": {
+    "loss": 32.70062732696533,
+    "ce_loss": 10.830473780632019,
+    "distill_loss": 0.1823124699294567,
+    "ref_ce_loss": 10.833539605140686,
+    "explain_loss": 10.85430097579956
+  },
+  "gradient_groups": {
+    "lora": {
+      "parameter_tensors": 8,
+      "with_gradient": 8,
+      "nonzero_gradient": 4,
+      "finite": true,
+      "norm_before_clip": 1.3792981143252718
+    },
+    "projector": {
+      "parameter_tensors": 6,
+      "with_gradient": 6,
+      "nonzero_gradient": 6,
+      "finite": true,
+      "norm_before_clip": 0.09069449172726622
+    },
+    "decoder": {
+      "parameter_tensors": 16,
+      "with_gradient": 16,
+      "nonzero_gradient": 16,
+      "finite": true,
+      "norm_before_clip": 1.7491763759462207
+    }
+  },
+  "optimizer_changed_groups": {
+    "lora": true,
+    "projector": true,
+    "decoder": true
+  },
+  "tests": [
+    "8 label/answer positions",
+    "15 arithmetic target alignments",
+    "manual answer CE equality",
+    "finite nonzero gradients in all 3 groups",
+    "optimizer changes all 3 groups",
+    "free and teacher-forced evaluation export"
+  ],
+  "limitation": "Tiny CPU model only; GPU audit and overfit run not executed"
+}

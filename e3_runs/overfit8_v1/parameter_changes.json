@@ -1,0 +1,13 @@
+{
+  "update": 200,
+  "probe_names": {
+    "lora": "codi.base_model.model.transformer.h.0.attn.c_attn.lora_B.default.weight",
+    "decoder": "decoder.transformer.wte.weight",
+    "projector": "prj.1.weight"
+  },
+  "norm_delta_from_shared_init": {
+    "lora": 1.2723053693771362,
+    "decoder": 7.364140033721924,
+    "projector": 0.916225016117096
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "release_tag": "e3-handoff-2026-11-18",
+  "repository": "azhao258/NLP_Final_Project",
+  "checkpoints": {
+    "shared_init": {
+      "path": "e3_runs/shared_init.pt",
+      "bytes": 1075966903,
+      "sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+      "parts": [
+        {
+          "file": "shared_init.pt.gz.part001",
+          "bytes": 540267707,
+          "sha256": "961e03e8bfdfe12abd65b4e1631c3883d6fef514ce4ef3f852663ab74659819c"
+        }
+      ]
+    },
+    "control": {
+      "path": "e3_runs/control/last.pt",
+      "bytes": 2232097037,
+      "sha256": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+      "parts": [
+        {
+          "file": "control.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "a187379c25de89564e25a939c38048e0305938e3e790f70bef67a55db70a9d1e"
+        },
+        {
+          "file": "control.pt.gz.part002",
+          "bytes": 790324224,
+          "sha256": "efc445b26f41dc6c5df29056c421c9d5580826e93f7b7c140e26e45f97733ba0"
+        }
+      ]
+    },
+    "control_v2": {
+      "path": "e3_runs/control_v2/last.pt",
+      "bytes": 2232097357,
+      "sha256": "f8c503ad6aad1a4cb5d4eadb0746dc8891e7d31598ab20d65ac9dc73fc812742",
+      "parts": [
+        {
+          "file": "control_v2.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "d19c02b3b7efcbe4c77d13bb179c5f0278e24287d6fd0223db9f781076f5017e"
+        },
+        {
+          "file": "control_v2.pt.gz.part002",
+          "bytes": 790449333,
+          "sha256": "c0e555d37c05b078370e48fbfd05182a1bbeda88d2b26e437a90b14357855267"
+        }
+      ]
+    },
+    "control_v3": {
+      "path": "e3_runs/control_v3/last.pt",
+      "bytes": 2232097549,
+      "sha256": "dc0d90886769c586447141bdb4d181a4c278071fe6505efe7d5a3461de8bd797",
+      "parts": [
+        {
+          "file": "control_v3.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "c61e6c7d82b3f6e6d7959e210adcf0fa21fde960669dd613bfac3e4cb05271c9"
+        },
+        {
+          "file": "control_v3.pt.gz.part002",
+          "bytes": 790154685,
+          "sha256": "24adfe7eff186aa8572c1a09b1bcb1951a4bc74fc3d2f97a733d14a1c834d526"
+        }
+      ]
+    },
+    "overfit8_v1": {
+      "path": "e3_runs/overfit8_v1/last.pt",
+      "bytes": 2232097165,
+      "sha256": "a5b637432e0c24ec6d7ce69d918713c39969e092f3d815b4b715e1d8548a738c",
+      "parts": [
+        {
+          "file": "overfit8_v1.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "ed30cb8fd121d7188ed7c1996bd8d1b01f49c5eaee8335049f9b370297dceb99"
+        },
+        {
+          "file": "overfit8_v1.pt.gz.part002",
+          "bytes": 789932185,
+          "sha256": "b5aeb357818aac775c9b6980783bd8f0718ea2cc8a77673cf76eb52748450692"
+        }
+      ]
+    },
+    "pilot": {
+      "path": "e3_runs/pilot/last.pt",
+      "bytes": 2232097037,
+      "sha256": "0c97de48e13c34d9aab44918441fd2bfbf5428293d54ab842eff1f8cfdeedecd",
+      "parts": [
+        {
+          "file": "pilot.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "3e8d7267c959e49cf1e4e48a28b96f6c03541b1e0d670df7f8bac081785049dc"
+        },
+        {
+          "file": "pilot.pt.gz.part002",
+          "bytes": 787140598,
+          "sha256": "7aa726dfcba75b6fb7a6a43035d70408306d67555984f9f8e8d6bec93ea9bff1"
+        }
+      ]
+    }
+  }
+}

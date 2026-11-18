@@ -1,0 +1,58 @@
+[
+  {
+    "id": "gsm8k-aug-train-2",
+    "source_index": 2,
+    "question": "There are 20 students in a class. Each student has 5 pencils. How many pencils are there in total?",
+    "cot": "<<20*5=100>>",
+    "answer": "100"
+  },
+  {
+    "id": "gsm8k-aug-train-3",
+    "source_index": 3,
+    "question": "Stephanie is creating gift baskets. She needs 3 bottles of wine for each basket. If she is making 10 gift baskets, how many bottles of wine does she need?",
+    "cot": "<<3*10=30>>",
+    "answer": "30"
+  },
+  {
+    "id": "gsm8k-aug-train-18",
+    "source_index": 18,
+    "question": "Sarah needs to distribute 84 cookies to 6 children. If each child needs to get an equal amount, how many cookies does each child get?",
+    "cot": "<<84/6=14>>",
+    "answer": "14"
+  },
+  {
+    "id": "gsm8k-aug-train-7",
+    "source_index": 7,
+    "question": "Melanie received 30 candies from her grandmother and shared them with her brother and two friends. Each of her brother and friends got 8 candies. How many candies did Melanie have left?",
+    "cot": "<<8*3=24>> <<30-24=6>>",
+    "answer": "6"
+  },
+  {
+    "id": "gsm8k-aug-train-9",
+    "source_index": 9,
+    "question": "A farmer raises 15 chickens. Each chicken is capable of laying 5 eggs in a week. How many eggs will the farmer collect at the end of 3 weeks?",
+    "cot": "<<5*3=15>> <<15*15=225>>",
+    "answer": "225"
+  },
+  {
+    "id": "gsm8k-aug-train-11",
+    "source_index": 11,
+    "question": "Emily plans on having a picnic and the grocery store suggests 1/4 kg of fruit per person. If she's inviting 8 friends and the fruit costs $5.00 a kg, how much will this cost her?",
+    "cot": "<<8*.25=2>> <<5*2=10.00>>",
+    "answer": "10"
+  },
+  {
+    "id": "gsm8k-aug-train-23",
+    "source_index": 23,
+    "question": "Bella bought 18 packs of chocolates each containing 12 chocolates. If Bella gives away 6 packs, how many dozens of chocolates will she have left?",
+    "cot": "<<18*12=216>> <<216-6*12=144>> <<144/12=12>>",
+    "answer": "12"
+  },
+  {
+    "id": "gsm8k-aug-train-36",
+    "source_index": 36,
+    "question": "Sarah has 8 apples and she eats 2 apples a day for the next 2 days. After that, she buys 5 apples from a store. How many apples does Sarah have left?",
+    "cot": "<<2*2=4>> <<8-4=4>> <<4+5=9>>",
+    "answer": "9"
+  }
+]

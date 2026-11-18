@@ -1,0 +1,41 @@
+{
+  "checkpoint_sha256": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+  "updates": 750,
+  "training_config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "seed": 11,
+  "n": 20,
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126",
+  "data_manifest_sha256": "841cab21a068acd580211d0a7f212975e9eaa91f26cdad4659ccd0159e786d0e",
+  "training_manifest_hash_matches": true,
+  "source_sha256": {
+    "diagnose.py": "cc21f2b9775a8238fe3c81e15ca6a3765e72bf1aca1aff0ab4d1cb65873752c2",
+    "common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976"
+  },
+  "modes": {
+    "fp32_full": "FP32 weights, no autocast, TF32 disabled",
+    "fp32_amp": "FP32 weights, BF16 autocast (training-validation convention)",
+    "bf16_amp": "BF16 weights, BF16 autocast (formal evaluation convention)"
+  },
+  "note": "Diagnostic samples only; no training and no formal latency benchmark."
+}

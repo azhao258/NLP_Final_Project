@@ -1,0 +1,47 @@
+{
+  "kind": "debug_overfit8_not_formal_control",
+  "config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "updates": 200,
+  "audit_only": true,
+  "init_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "train_sha256": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+  "source_sha256": {
+    "overfit8.py": "28df793fe3c14b939b5f4497d5e7a92ea3b0f1c7a550694ffcdca1823ccba7ad",
+    "diagnose.py": "cc21f2b9775a8238fe3c81e15ca6a3765e72bf1aca1aff0ab4d1cb65873752c2",
+    "common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "train.py": "2c0675bca0f748afbd25fa46468ca10d874082f6b43b55824d606fe886acdaa1"
+  },
+  "sample_indices": [
+    2,
+    3,
+    18,
+    7,
+    9,
+    11,
+    23,
+    36
+  ],
+  "scheduler": "original 750-update schedule, truncated at debug cap",
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126"
+}

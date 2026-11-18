@@ -1,0 +1,21 @@
+{
+  "seed": 11,
+  "latent_steps": 4,
+  "epochs": 3,
+  "micro_batch_size": 1,
+  "gradient_accumulation": 8,
+  "learning_rate": 0.00005,
+  "weight_decay": 0.01,
+  "warmup_steps": 38,
+  "max_grad_norm": 1.0,
+  "save_every": 50,
+  "lora_r": 128,
+  "lora_alpha": 32,
+  "lora_dropout": 0.1,
+  "projection_dim": 768,
+  "explain_loss_factor": 1.0,
+  "distill_loss_factor": 1.0,
+  "ref_loss_factor": 1.0,
+  "answer_max_tokens": 64,
+  "decode_max_tokens": 64
+}

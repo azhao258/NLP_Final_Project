@@ -1,0 +1,120 @@
+{
+  "_id": "64463520ca65b9a262f82a04",
+  "id": "ChilleD/SVAMP",
+  "author": "ChilleD",
+  "sha": "5e0bf1e5e7c0e9c4bc39180d224f41f3f801b7ef",
+  "lastModified": "2024-06-05T03:08:36Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:text-generation",
+    "language:en",
+    "license:mit",
+    "size_categories:1K<n<10K",
+    "format:parquet",
+    "modality:text",
+    "library:datasets",
+    "library:pandas",
+    "library:mlcroissant",
+    "library:polars",
+    "region:us"
+  ],
+  "downloads": 27675,
+  "likes": 24,
+  "cardData": {
+    "language": [
+      "en"
+    ],
+    "license": "mit",
+    "size_categories": [
+      "n<1K"
+    ],
+    "task_categories": [
+      "text-generation"
+    ],
+    "dataset_info": {
+      "features": [
+        {
+          "name": "ID",
+          "dtype": "string"
+        },
+        {
+          "name": "Body",
+          "dtype": "string"
+        },
+        {
+          "name": "Question",
+          "dtype": "string"
+        },
+        {
+          "name": "Equation",
+          "dtype": "string"
+        },
+        {
+          "name": "Answer",
+          "dtype": "string"
+        },
+        {
+          "name": "Type",
+          "dtype": "string"
+        },
+        {
+          "name": "question_concat",
+          "dtype": "string"
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 273253,
+          "num_examples": 700
+        },
+        {
+          "name": "test",
+          "num_bytes": 117208,
+          "num_examples": 300
+        }
+      ],
+      "download_size": 166226,
+      "dataset_size": 390461
+    },
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/train-*"
+          },
+          {
+            "split": "test",
+            "path": "data/test-*"
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/test-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "data/train-00000-of-00001.parquet"
+    },
+    {
+      "rfilename": "test.json"
+    },
+    {
+      "rfilename": "train.json"
+    }
+  ],
+  "createdAt": "2023-04-24T07:52:00Z",
+  "usedStorage": 13270654
+}

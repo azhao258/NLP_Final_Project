@@ -1,0 +1,77 @@
+{
+  "name": "control_v2_final_baseline",
+  "freeze_date": "2026-11-18",
+  "selection": "Highest final-checkpoint validation answer EM among v1/v2/v3; 7/200. Small difference, not established superiority.",
+  "checkpoint_sha256": "f8c503ad6aad1a4cb5d4eadb0746dc8891e7d31598ab20d65ac9dc73fc812742",
+  "initialization_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "training_contract": {
+    "variant": "v2",
+    "config": {
+      "seed": 11,
+      "latent_steps": 4,
+      "epochs": 3,
+      "micro_batch_size": 1,
+      "gradient_accumulation": 8,
+      "learning_rate": 0.0001,
+      "weight_decay": 0.01,
+      "warmup_steps": 38,
+      "max_grad_norm": 1.0,
+      "save_every": 50,
+      "lora_r": 128,
+      "lora_alpha": 32,
+      "lora_dropout": 0.1,
+      "projection_dim": 768,
+      "explain_loss_factor": 1.0,
+      "distill_loss_factor": 1.0,
+      "ref_loss_factor": 1.0,
+      "answer_max_tokens": 64,
+      "decode_max_tokens": 64
+    },
+    "order_sha256": "bf8a09b0fb877ebb95a0853152283730468c7e5d78f6c85c0fd1cf55cdfa7ac8",
+    "data_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+    "pilot_updates": 0,
+    "updates": 750,
+    "full_budget_updates": 750,
+    "source_sha256": {
+      "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+      "e3/train.py": "2c0675bca0f748afbd25fa46468ca10d874082f6b43b55824d606fe886acdaa1",
+      "e3/train_variants.py": "fb3634df936ea8ce051e82d38c59b81742366408cba9bb79ca5d767878718903",
+      "e3/variant_support.py": "a046a4dd08237c125e18c6d3f3f5a7bdcc6ca9c739588c5f36c225d065937b87",
+      "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262"
+    },
+    "assets_manifest_sha256": "14f65c0866a449feb5626ec98efd88edb9beb0d2106789b6551f05af829e9570",
+    "gpu": "NVIDIA RTX A6000",
+    "torch": "2.7.1+cu126"
+  },
+  "validation_results": {
+    "correct": 7,
+    "n": 200,
+    "em": 0.035,
+    "explanation_exact_slots": 2,
+    "active_slots": 478
+  },
+  "optimizer_policy": "single group; all trainable parameters weight_decay=0.01",
+  "evaluation": {
+    "latent_steps": 4,
+    "precision": "BF16 weights and autocast",
+    "greedy": true,
+    "batch_size": 1,
+    "max_new_tokens": 64,
+    "warmups": 5,
+    "limit_per_dataset": 200
+  },
+  "required_file_sha256": {
+    "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "e3/evaluate.py": "ca7d64f103122cf0996ad47b5878e6ce5f9e341b58b2d181e4a2a401caacd1f0",
+    "e3/metrics.py": "bdba1287d65247cce74477dc8f5ae343aed42a8b1ba3ece30bc8dd45bd709a00",
+    "e1/metrics.py": "d0977f46786b9049e45349b5f5999a228aca34821188c3b75f7d775cbea597c5",
+    "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262",
+    "e1/data/manifest.json": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1",
+    "e1/data/gsm8k.jsonl": "6ba42bc5a3a7e9744c988d13eb4b3b8be3035c6d79b925753165d51771b00db4",
+    "e1/data/gsm_hard.jsonl": "e6e3943a8ac8b693f3f83087a9aa50dc7ccd640dcbba8f3163251a5c979f4bb8",
+    "e1/data/svamp.jsonl": "7dd68684a74d3287ae85cb353254cefa9f5c240c67c00376e0150c084a6d4ef8",
+    "e3/data/train.jsonl": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+    "e3/data/validation.jsonl": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9"
+  },
+  "note": "Do not select or retune this baseline using the forthcoming test results."
+}

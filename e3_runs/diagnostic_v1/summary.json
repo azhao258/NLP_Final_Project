@@ -1,0 +1,86 @@
+{
+  "fp32_full": {
+    "n": 20,
+    "correct": 0,
+    "parse_failures": 0
+  },
+  "fp32_amp": {
+    "n": 20,
+    "correct": 0,
+    "parse_failures": 0
+  },
+  "bf16_amp": {
+    "n": 20,
+    "correct": 0,
+    "parse_failures": 0
+  },
+  "precision_pairs": [
+    {
+      "left": "fp32_full",
+      "right": "fp32_amp",
+      "changed_answers": 10,
+      "changed_token_sequences": 10
+    },
+    {
+      "left": "fp32_amp",
+      "right": "bf16_amp",
+      "changed_answers": 10,
+      "changed_token_sequences": 10
+    },
+    {
+      "left": "fp32_full",
+      "right": "bf16_amp",
+      "changed_answers": 7,
+      "changed_token_sequences": 7
+    }
+  ],
+  "train_free": {
+    "n": 20,
+    "correct": 0,
+    "top_answers": [
+      [
+        "8",
+        9
+      ],
+      [
+        "12",
+        3
+      ],
+      [
+        "30",
+        1
+      ],
+      [
+        "300",
+        1
+      ],
+      [
+        "20",
+        1
+      ]
+    ],
+    "unique_decoded_texts_by_slot": [
+      3,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  "decoder": {
+    "active_slots": 43,
+    "free_exact_slots": 0,
+    "mean_swapped_minus_normal_nll": 0.008185277151507001,
+    "median_swapped_minus_normal_nll": 0.005841374397277832,
+    "normal_better_slots": 25,
+    "normal": {
+      "token_accuracy": 0.6290322580645161,
+      "mean_nll": 1.4684351849299606
+    },
+    "swapped": {
+      "token_accuracy": 0.6290322580645161,
+      "mean_nll": 1.4756463791734429
+    }
+  },
+  "interpretation": "Small sample diagnostic. Teacher-forcing accuracy benefits from true prefixes. A small swap effect supports insensitivity but does not prove latent information is absent. No significance threshold is imposed."
+}

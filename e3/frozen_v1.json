@@ -1,0 +1,104 @@
+{
+  "name": "control_v1_selected_baseline",
+  "freeze_date": "2026-11-18",
+  "selected_by": "explicit user decision",
+  "selection_used_test_results": true,
+  "selection_reason": "After reviewing v2 test results, retain v1; v1 also had higher strict validation explanation consistency.",
+  "supersedes": "frozen_v2.json as the active baseline; retain v2 artifact as historical record",
+  "checkpoint_sha256": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+  "initialization_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "training_contract": {
+    "config": {
+      "seed": 11,
+      "latent_steps": 4,
+      "epochs": 3,
+      "micro_batch_size": 1,
+      "gradient_accumulation": 8,
+      "learning_rate": 5e-05,
+      "weight_decay": 0.01,
+      "warmup_steps": 38,
+      "max_grad_norm": 1.0,
+      "save_every": 50,
+      "lora_r": 128,
+      "lora_alpha": 32,
+      "lora_dropout": 0.1,
+      "projection_dim": 768,
+      "explain_loss_factor": 1.0,
+      "distill_loss_factor": 1.0,
+      "ref_loss_factor": 1.0,
+      "answer_max_tokens": 64,
+      "decode_max_tokens": 64
+    },
+    "data_sha256": "841cab21a068acd580211d0a7f212975e9eaa91f26cdad4659ccd0159e786d0e",
+    "pilot_updates": 0,
+    "updates": 750,
+    "full_budget_updates": 750,
+    "source_sha256": {
+      "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+      "e3/train.py": "2c0675bca0f748afbd25fa46468ca10d874082f6b43b55824d606fe886acdaa1",
+      "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262"
+    },
+    "assets_manifest_sha256": "14f65c0866a449feb5626ec98efd88edb9beb0d2106789b6551f05af829e9570",
+    "gpu": "NVIDIA RTX A6000",
+    "torch": "2.7.1+cu126"
+  },
+  "optimizer_policy": "single group; all trainable parameters weight_decay=0.01",
+  "evaluation_config": {
+    "checkpoint_sha256": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+    "train_updates": 750,
+    "config": {
+      "seed": 11,
+      "latent_steps": 4,
+      "epochs": 3,
+      "micro_batch_size": 1,
+      "gradient_accumulation": 8,
+      "learning_rate": 5e-05,
+      "weight_decay": 0.01,
+      "warmup_steps": 38,
+      "max_grad_norm": 1.0,
+      "save_every": 50,
+      "lora_r": 128,
+      "lora_alpha": 32,
+      "lora_dropout": 0.1,
+      "projection_dim": 768,
+      "explain_loss_factor": 1.0,
+      "distill_loss_factor": 1.0,
+      "ref_loss_factor": 1.0,
+      "answer_max_tokens": 64,
+      "decode_max_tokens": 64
+    },
+    "split": "test",
+    "limit": 200,
+    "explain": false,
+    "gpu": "NVIDIA RTX A6000",
+    "data_manifest_sha256": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1",
+    "inference_source_sha256": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "precision": "BF16 weights and autocast",
+    "batch_size": 1,
+    "greedy": true,
+    "warmups": 5,
+    "timing": "CUDA synchronized, excludes tokenization, text decoding, explanation export and model loading"
+  },
+  "validation": {
+    "correct": 6,
+    "n": 200,
+    "explanation_exact_slots": 6,
+    "active_slots": 478
+  },
+  "test_results": {
+    "gsm8k": {
+      "correct": 7,
+      "n": 200
+    },
+    "gsm_hard": {
+      "correct": 1,
+      "n": 200
+    },
+    "svamp": {
+      "correct": 2,
+      "n": 200
+    }
+  },
+  "limitation": "These fixed test subsets informed baseline selection. Report all variants; do not call this an untouched confirmatory test. Future comparisons on these subsets are exploratory.",
+  "next_experiment_rule": "Improved model must start from original shared_init.pt with v1 common configuration and matched 750-update budget; do not fine-tune the trained control checkpoint."
+}

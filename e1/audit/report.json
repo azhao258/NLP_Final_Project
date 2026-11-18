@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "hard_question_and_numeric_gold_matches": 1319,
+  "svamp_full_union_field_matches": 1000,
+  "legacy_svamp_split_counts": {
+    "train": 135,
+    "test": 65
+  },
+  "corrected_svamp_test_count": 200,
+  "svamp_old_new_overlap": 44,
+  "unchanged_dataset_sha256": {
+    "gsm8k": "6ba42bc5a3a7e9744c988d13eb4b3b8be3035c6d79b925753165d51771b00db4",
+    "gsm_hard": "e6e3943a8ac8b693f3f83087a9aa50dc7ccd640dcbba8f3163251a5c979f4bb8"
+  },
+  "note": "SVAMP test-only is our evaluation policy; the assignment specifies fixed subsets without explicitly naming this split."
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "tests": [
+    "official forward/backward and optimizer update on tiny GPT-2",
+    "strict checkpoint save/load reproduces answer and all five decoded slots",
+    "empty arithmetic chain gives finite loss without explanation supervision",
+    "four-step compression denominator"
+  ],
+  "limitation": "CPU tiny-model integration only; A6000 pilot required"
+}

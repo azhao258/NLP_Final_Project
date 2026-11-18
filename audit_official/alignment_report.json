@@ -1,0 +1,109 @@
+{
+  "model_source_equal_except_line_endings": true,
+  "training_rows": 2000,
+  "official_preprocess_include_last_cot": {
+    "False": {
+      "mismatches": {
+        "ref_input_ids": 1999,
+        "ref_labels": 1999,
+        "ref_answer_position": 1999
+      },
+      "different_rows": 1999,
+      "examples": [
+        {
+          "id": "gsm8k-aug-train-0",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-1",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-2",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-3",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-4",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-5",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-6",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        },
+        {
+          "id": "gsm8k-aug-train-7",
+          "fields": [
+            "ref_input_ids",
+            "ref_labels",
+            "ref_answer_position"
+          ]
+        }
+      ],
+      "empty_chains": 345
+    },
+    "True": {
+      "mismatches": {},
+      "different_rows": 0,
+      "examples": [],
+      "empty_chains": 1
+    }
+  },
+  "official_digit_first_answer_filter_rejects": [
+    "gsm8k-aug-train-107",
+    "gsm8k-aug-train-559",
+    "gsm8k-aug-train-657",
+    "gsm8k-aug-train-882",
+    "gsm8k-aug-train-933",
+    "gsm8k-aug-train-1049",
+    "gsm8k-aug-train-1209",
+    "gsm8k-aug-train-1314",
+    "gsm8k-aug-train-1468",
+    "gsm8k-aug-train-1502",
+    "gsm8k-aug-train-1587",
+    "gsm8k-aug-train-1694",
+    "gsm8k-aug-train-1934",
+    "gsm8k-aug-train-1985"
+  ],
+  "tiny_path_tests": {
+    "five_projected_latents_match": true,
+    "decoder_embedding_prefixes_match": true,
+    "first_answer_logits_match": true
+  },
+  "limitation": "CPU tiny-model functional tests; not GPU numerical equivalence or proof of released-checkpoint training provenance."
+}

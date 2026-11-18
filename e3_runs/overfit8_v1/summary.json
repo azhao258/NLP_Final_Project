@@ -1,0 +1,12 @@
+{
+  "update": 200,
+  "n": 8,
+  "answer_correct": 8,
+  "answer_em": 1.0,
+  "free_exact_slots": 5,
+  "active_slots": 15,
+  "all_active_steps_exact_examples": 2,
+  "teacher_token_accuracy": 0.9112903225806451,
+  "teacher_mean_nll": 0.20813663640329916,
+  "precision": "FP32 master weights + BF16 autocast; no weight casting between evaluations"
+}

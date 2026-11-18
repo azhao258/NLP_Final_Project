@@ -12,3 +12,9 @@ outputs/
 *.pt
 *.bin
 *.safetensors
+
+!e1_results/codi_svamp_course_test/
+!e1_results/sim_svamp_course_test/
+*.zip
+*.gz
+*.part-*

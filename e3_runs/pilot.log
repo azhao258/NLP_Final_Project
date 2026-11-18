@@ -1,0 +1,27 @@
+The new embeddings will be initialized from a multivariate normal distribution that has old embeddings' mean and covariance. As described in this article: https://nlp.stanford.edu/~johnhew/vocab-expansion.html. To disable this, use `mean_resizing=False`
+/home/user/experiment/.conda312/lib/python3.12/site-packages/peft/tuners/lora/layer.py:1768: UserWarning: fan_in_fan_out is set to False but the target module is `Conv1D`. Setting fan_in_fan_out to True.
+  warnings.warn(
+/home/user/experiment/SIM-CoT/CODI/src/model.py:483: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(dtype=torch.bfloat16, enabled=True):
+/home/user/experiment/SIM-CoT/CODI/src/model.py:519: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(dtype=torch.bfloat16):
+/home/user/experiment/SIM-CoT/CODI/src/model.py:601: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(dtype=torch.bfloat16):
+Passing a tuple of `past_key_values` is deprecated and will be removed in Transformers v4.53.0. You should pass an instance of `Cache` instead, e.g. `past_key_values=DynamicCache.from_legacy_cache(past_key_values)`.
+/home/user/experiment/SIM-CoT/CODI/src/model.py:607: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(dtype=torch.bfloat16, enabled=True):
+/home/user/experiment/SIM-CoT/CODI/src/model.py:685: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(dtype=torch.bfloat16):
+/home/user/experiment/SIM-CoT/CODI/src/model.py:640: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with autocast(dtype=torch.bfloat16):
+{"update": 1, "epoch": 1, "losses": {"loss": 17.668179035186768, "ce_loss": 5.117858827114105, "distill_loss": 0.1930000614374876, "ref_ce_loss": 4.8014742732048035, "explain_loss": 7.55584591627121}, "lr": 1.3157894736842106e-06, "grad_norm": 78.69015502929688, "elapsed_seconds": 6.9637900099999115}
+{"update": 2, "epoch": 1, "losses": {"loss": 17.3394855260849, "ce_loss": 4.8914794921875, "distill_loss": 0.20736998692154884, "ref_ce_loss": 4.735330045223236, "explain_loss": 7.50530606508255}, "lr": 2.631578947368421e-06, "grad_norm": 63.46613311767578, "elapsed_seconds": 12.083124424999824}
+{"update": 3, "epoch": 1, "losses": {"loss": 18.11772632598877, "ce_loss": 5.072591125965118, "distill_loss": 0.22763394936919212, "ref_ce_loss": 4.945715487003326, "explain_loss": 7.871785581111908}, "lr": 3.9473684210526315e-06, "grad_norm": 63.950599670410156, "elapsed_seconds": 17.08468110900003}
+{"update": 4, "epoch": 1, "losses": {"loss": 17.251830339431763, "ce_loss": 4.9937744140625, "distill_loss": 0.18324828147888184, "ref_ce_loss": 4.644638299942017, "explain_loss": 7.430169463157654}, "lr": 5.263157894736842e-06, "grad_norm": 82.45156860351562, "elapsed_seconds": 22.427932874999897}
+{"update": 5, "epoch": 1, "losses": {"loss": 17.604734301567078, "ce_loss": 5.224202513694763, "distill_loss": 0.19071516208350658, "ref_ce_loss": 4.934152215719223, "explain_loss": 7.255664110183716}, "lr": 6.578947368421053e-06, "grad_norm": 64.83541107177734, "elapsed_seconds": 27.31605492599988}
+{"update": 6, "epoch": 1, "losses": {"loss": 17.91150689125061, "ce_loss": 5.200765013694763, "distill_loss": 0.19198733009397984, "ref_ce_loss": 4.9919039607048035, "explain_loss": 7.526850759983063}, "lr": 7.894736842105263e-06, "grad_norm": 73.40038299560547, "elapsed_seconds": 32.131847264000044}
+{"update": 7, "epoch": 1, "losses": {"loss": 17.56018900871277, "ce_loss": 4.898071229457855, "distill_loss": 0.18075787089765072, "ref_ce_loss": 5.0035878121852875, "explain_loss": 7.477771997451782}, "lr": 9.210526315789474e-06, "grad_norm": 74.6618881225586, "elapsed_seconds": 37.17287012099996}
+{"update": 8, "epoch": 1, "losses": {"loss": 17.820149421691895, "ce_loss": 4.753066301345825, "distill_loss": 0.1834722626954317, "ref_ce_loss": 5.265612483024597, "explain_loss": 7.617998003959656}, "lr": 1.0526315789473684e-05, "grad_norm": 68.83860778808594, "elapsed_seconds": 42.03213822399994}
+{"update": 9, "epoch": 1, "losses": {"loss": 16.965781450271606, "ce_loss": 4.9870604276657104, "distill_loss": 0.20006784237921238, "ref_ce_loss": 4.80532842874527, "explain_loss": 6.973324835300446}, "lr": 1.1842105263157895e-05, "grad_norm": 54.97764587402344, "elapsed_seconds": 47.034026638999876}
+{"update": 10, "epoch": 1, "losses": {"loss": 17.12231457233429, "ce_loss": 4.934570372104645, "distill_loss": 0.20046920701861382, "ref_ce_loss": 4.871101021766663, "explain_loss": 7.116174399852753}, "lr": 1.3157894736842106e-05, "grad_norm": 54.01799774169922, "elapsed_seconds": 52.689535575000036}
+COMPLETE e3_runs/pilot/last.pt

@@ -1,0 +1,8 @@
+{
+  "audit_official\\alignment_report.json": "d9e492fb26a2765749cc1ebc947eaf26c8c81cd0b19bf0cf7adb94b616a29d58",
+  "audit_official\\check_alignment.py": "eb77d1e6539dc3523e8e7f137e0a5f70abe9e2648427a375c7b45de7008acefa",
+  "audit_official\\test.py": "45baa4d7f0be4909e3640e3bdfa7b30e6098671aa2430793307c124a7abc99a4",
+  "audit_official\\train.py": "2d91ae731c440323f4fb64b2338f673170abcb5318b4fb2edf1f787cb06ea00d",
+  "audit_official\\scripts\\train_gpt2_gsm8k-aug-decoder-2.sh": "b99cb6f12e6cc1d76bbce13db6c26abcd97246c4dca39b53a44ce71e85e79847",
+  "audit_official\\src\\model.py": "ab482f91dbbdb36d7f760e96c2cd83be1f3d74e7f458c5234900d79d2f5ba32b"
+}
