@@ -1,0 +1,62 @@
+{
+  "config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "variant": {
+    "variant": "step_alignment_v1",
+    "alignment_factor": 0.1,
+    "alignment_loss": "mean(1-cosine), FP32, valid slots only",
+    "student": "projected z0..z4; z4 is readout-only",
+    "teacher": "existing no-grad reference pass, last layer at closing >> token",
+    "tail": "first four steps individually; slot 4 uses final end of merged tail",
+    "teacher_stop_gradient": true,
+    "extra_reference_forward": false,
+    "prefix_mask": false,
+    "operand_weight": 1.0,
+    "explain_loss_factor": 1.0,
+    "reference_warmstart": false,
+    "total_updates": 750,
+    "status": "exploratory: strong-reference prerequisite not established"
+  },
+  "order_sha256": "bf8a09b0fb877ebb95a0853152283730468c7e5d78f6c85c0fd1cf55cdfa7ac8",
+  "data_files_sha256": {
+    "train": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+    "validation": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9"
+  },
+  "initialization_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "data_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+  "pilot_updates": 0,
+  "updates": 750,
+  "full_budget_updates": 750,
+  "source_sha256": {
+    "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "e3/train.py": "2c0675bca0f748afbd25fa46468ca10d874082f6b43b55824d606fe886acdaa1",
+    "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262",
+    "e5/train_p4.py": "b4d81923fffaaaf787bdec9ff31d298df9f82cd0825e328c352de712a814a6da",
+    "e5/p4_alignment.py": "19cc225b55fd098bdb5e3b28f0aaf93a0b26ad9fdcb56fe5ffeff26bbdc11da1",
+    "e5/p4_audit.py": "bab850679853f690d09382d53a8a7fbc002536e63ea1a1f0a6dc2847b2d314ca",
+    "e5/p1_schedule.py": "952a0ebc4f1c6b1216f6ce109821b8fea8e0ada40ea1274e1e9ed02ee2173a3c",
+    "e5/protocol.py": "26459b6a48d12036c3ce82f1953f9c484314ec79112a29771c74c26330861dad"
+  },
+  "assets_manifest_sha256": "14f65c0866a449feb5626ec98efd88edb9beb0d2106789b6551f05af829e9570",
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126"
+}

@@ -1,0 +1,96 @@
+{
+  "release_tag": "e5-checkpoints-2026-11-26",
+  "repository": "azhao258/NLP_Final_Project",
+  "checkpoints": {
+    "prefix_mask": {
+      "path": "e5/prefix_mask/checkpoint/last.pt",
+      "bytes": 2232103689,
+      "sha256": "8132e0a7cdbf000b634b398ecc20749b24fd6944385b361ea5e15cc887525690",
+      "updates": 750,
+      "parts": [
+        {
+          "file": "prefix_mask.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "0904bb00198f92bace0fb1a402c8bf074511421099f209b2c2c5215433d189c4"
+        },
+        {
+          "file": "prefix_mask.pt.gz.part002",
+          "bytes": 759167679,
+          "sha256": "6a85203551e1687a3ef91b0dfbbe1cf8b791538171d6823c26629d5fa608e7b8"
+        }
+      ]
+    },
+    "p1": {
+      "path": "e5/p1/checkpoint/last.pt",
+      "bytes": 2232097997,
+      "sha256": "4276c57a336117c29e8592c98ed1f4262fe37b05c3e3d8ed287bef9fcd2871f8",
+      "updates": 750,
+      "parts": [
+        {
+          "file": "p1.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "e5c98394653ba62656f25ffb4ff89c83e01ebde0c1549275644a6756f1c698b9"
+        },
+        {
+          "file": "p1.pt.gz.part002",
+          "bytes": 759510382,
+          "sha256": "c12a2572973384c55f8bfa62f0a03fc9ca313442963307a469fd907ebc9ba561"
+        }
+      ]
+    },
+    "p2": {
+      "path": "e5/p2/checkpoint/last.pt",
+      "bytes": 2232098445,
+      "sha256": "8764f7f04060a34a319826fd478f17b4e3d6dd40d2ff6358ec23705d96bca599",
+      "updates": 750,
+      "parts": [
+        {
+          "file": "p2.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "324c6270ee6a20a550e1ef5638c161cfac77b556814c5ccaec96a307a7b2555f"
+        },
+        {
+          "file": "p2.pt.gz.part002",
+          "bytes": 759616498,
+          "sha256": "3615fbba7328509db47d871dd74a8acc421232ab8745808dfec0cf827d373c2b"
+        }
+      ]
+    },
+    "p3": {
+      "path": "e5/p3/checkpoint/last.pt",
+      "bytes": 2232098317,
+      "sha256": "54237b3eccad670a6f71f3bc26f01e53957075cb5fcf5de44a20be18a2ce33c0",
+      "updates": 750,
+      "parts": [
+        {
+          "file": "p3.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "f1c8d021bb312a873bb52dfcbd9b1ddf5f532ef1a3e10cdc29467a4deb7bc6e2"
+        },
+        {
+          "file": "p3.pt.gz.part002",
+          "bytes": 759417857,
+          "sha256": "b05b0271a4bba20b721075dfcadc78d43017f276f11184a5a3ee2d0f96d8fee1"
+        }
+      ]
+    },
+    "p4": {
+      "path": "e5/p4/checkpoint/last.pt",
+      "bytes": 2232098637,
+      "sha256": "aa55f07d580ebc9f8e3b5d33b51ff9abb24d37882831824c581a8f8bc527350e",
+      "updates": 750,
+      "parts": [
+        {
+          "file": "p4.pt.gz.part001",
+          "bytes": 1073741824,
+          "sha256": "399b067e27b8612e3044188ce93b724f2044a21f5401e20c3b215d5bd6cbc9f8"
+        },
+        {
+          "file": "p4.pt.gz.part002",
+          "bytes": 759645698,
+          "sha256": "4e9f5c1098a19072cc28d79acabe04d6cea61a1792d5d3b4b26139db75c840d4"
+        }
+      ]
+    }
+  }
+}

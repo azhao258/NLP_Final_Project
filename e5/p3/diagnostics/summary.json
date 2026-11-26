@@ -1,0 +1,278 @@
+{
+  "train": {
+    "n": 32,
+    "normal_correct": 0,
+    "swapped_correct": 1,
+    "changed_answer_tokens": 20,
+    "changed_numeric_answers": 20,
+    "mean_answer_nll_delta": 0.07346880063414574,
+    "valid_explanation_slots": 69,
+    "normal_exact_slots": 0,
+    "swapped_exact_slots": 0,
+    "changed_explanations": 27,
+    "mean_explanation_nll_delta": 0.0028747803923012552,
+    "gradients": {
+      "shared": {
+        "mean_norms": {
+          "ce_loss": 4.264381067049005,
+          "distill_loss": 0.3256014167219711,
+          "ref_ce_loss": 1.396609885807329,
+          "explain_loss": 2.865935293027833
+        },
+        "pairs": {
+          "ce_loss__distill_loss": {
+            "n": 32,
+            "mean_cosine": 0.15579430657045212,
+            "negative_fraction": 0.1875
+          },
+          "ce_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.03456190488191488,
+            "negative_fraction": 0.09375
+          },
+          "ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.13522686530612113,
+            "negative_fraction": 0.125
+          },
+          "distill_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.008077483950540157,
+            "negative_fraction": 0.28125
+          },
+          "distill_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.04392164302039555,
+            "negative_fraction": 0.28125
+          },
+          "ref_ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": -0.00023803819004657409,
+            "negative_fraction": 0.5625
+          }
+        }
+      },
+      "reasoner": {
+        "mean_norms": {
+          "ce_loss": 1.2939507203973484,
+          "distill_loss": 0.08354805301135586,
+          "ref_ce_loss": 1.396609885807329,
+          "explain_loss": 0.07680373705149598
+        },
+        "pairs": {
+          "ce_loss__distill_loss": {
+            "n": 32,
+            "mean_cosine": 0.13190358049334536,
+            "negative_fraction": 0.21875
+          },
+          "ce_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.11227263306325894,
+            "negative_fraction": 0.09375
+          },
+          "ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": -0.008731807577886427,
+            "negative_fraction": 0.59375
+          },
+          "distill_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.03276824936099253,
+            "negative_fraction": 0.28125
+          },
+          "distill_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": -0.00301298845242895,
+            "negative_fraction": 0.53125
+          },
+          "ref_ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": -0.013024818086781482,
+            "negative_fraction": 0.5625
+          }
+        }
+      },
+      "projector": {
+        "mean_norms": {
+          "ce_loss": 4.057231783268694,
+          "distill_loss": 0.31434034460545257,
+          "ref_ce_loss": 0.0,
+          "explain_loss": 2.864728615396162
+        },
+        "pairs": {
+          "ce_loss__distill_loss": {
+            "n": 32,
+            "mean_cosine": 0.15849394939471745,
+            "negative_fraction": 0.1875
+          },
+          "ce_loss__ref_ce_loss": {
+            "n": 0,
+            "mean_cosine": null,
+            "negative_fraction": null
+          },
+          "ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.14167144828541992,
+            "negative_fraction": 0.125
+          },
+          "distill_loss__ref_ce_loss": {
+            "n": 0,
+            "mean_cosine": null,
+            "negative_fraction": null
+          },
+          "distill_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.04579197557152617,
+            "negative_fraction": 0.28125
+          },
+          "ref_ce_loss__explain_loss": {
+            "n": 0,
+            "mean_cosine": null,
+            "negative_fraction": null
+          }
+        }
+      }
+    }
+  },
+  "validation": {
+    "n": 32,
+    "normal_correct": 0,
+    "swapped_correct": 0,
+    "changed_answer_tokens": 15,
+    "changed_numeric_answers": 15,
+    "mean_answer_nll_delta": 0.05794564262032509,
+    "valid_explanation_slots": 71,
+    "normal_exact_slots": 0,
+    "swapped_exact_slots": 0,
+    "changed_explanations": 38,
+    "mean_explanation_nll_delta": 0.0021493837866984624,
+    "gradients": {
+      "shared": {
+        "mean_norms": {
+          "ce_loss": 4.183315838198455,
+          "distill_loss": 0.3140716466113275,
+          "ref_ce_loss": 1.42441395010537,
+          "explain_loss": 2.921475059420301
+        },
+        "pairs": {
+          "ce_loss__distill_loss": {
+            "n": 32,
+            "mean_cosine": 0.13651351623449307,
+            "negative_fraction": 0.21875
+          },
+          "ce_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.04637162443279632,
+            "negative_fraction": 0.03125
+          },
+          "ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.14427287997806584,
+            "negative_fraction": 0.09375
+          },
+          "distill_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.0007395268992490681,
+            "negative_fraction": 0.4375
+          },
+          "distill_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.040001459466225395,
+            "negative_fraction": 0.3125
+          },
+          "ref_ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": -0.00035333445139834233,
+            "negative_fraction": 0.53125
+          }
+        }
+      },
+      "reasoner": {
+        "mean_norms": {
+          "ce_loss": 1.3624563092027089,
+          "distill_loss": 0.08355448191715736,
+          "ref_ce_loss": 1.42441395010537,
+          "explain_loss": 0.07730001829120772
+        },
+        "pairs": {
+          "ce_loss__distill_loss": {
+            "n": 32,
+            "mean_cosine": 0.09184176077451744,
+            "negative_fraction": 0.34375
+          },
+          "ce_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.1399242728313357,
+            "negative_fraction": 0.03125
+          },
+          "ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.008602280712218522,
+            "negative_fraction": 0.34375
+          },
+          "distill_loss__ref_ce_loss": {
+            "n": 32,
+            "mean_cosine": 0.005989349493945556,
+            "negative_fraction": 0.4375
+          },
+          "distill_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.004920087370004666,
+            "negative_fraction": 0.4375
+          },
+          "ref_ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": -0.011068067375922022,
+            "negative_fraction": 0.53125
+          }
+        }
+      },
+      "projector": {
+        "mean_norms": {
+          "ce_loss": 3.9439950710702174,
+          "distill_loss": 0.30241795731993815,
+          "ref_ce_loss": 0.0,
+          "explain_loss": 2.9202452967947328
+        },
+        "pairs": {
+          "ce_loss__distill_loss": {
+            "n": 32,
+            "mean_cosine": 0.1403835531271229,
+            "negative_fraction": 0.21875
+          },
+          "ce_loss__ref_ce_loss": {
+            "n": 0,
+            "mean_cosine": null,
+            "negative_fraction": null
+          },
+          "ce_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.15165389407170654,
+            "negative_fraction": 0.09375
+          },
+          "distill_loss__ref_ce_loss": {
+            "n": 0,
+            "mean_cosine": null,
+            "negative_fraction": null
+          },
+          "distill_loss__explain_loss": {
+            "n": 32,
+            "mean_cosine": 0.04137118151101698,
+            "negative_fraction": 0.3125
+          },
+          "ref_ce_loss__explain_loss": {
+            "n": 0,
+            "mean_cosine": null,
+            "negative_fraction": null
+          }
+        }
+      }
+    }
+  },
+  "checks": {
+    "no_parameter_updates": true,
+    "self_swap_identity": true,
+    "upstream_generation_parity": true
+  },
+  "limitations": "Single checkpoint, small fixed subsets, dropout disabled. Negative cosine is local conflict, not proof of training harm. Swap sensitivity is not proof of faithful reasoning; low sensitivity does not prove absence of latent information. z4 is readout-only. No test-set selection."
+}

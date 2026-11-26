@@ -1,0 +1,650 @@
+{
+  "correct_reference_outputs": [
+    {
+      "role": "control",
+      "id": "gsm8k-aug-train-2040",
+      "question": "Sam wants to print out photos for her photo album. She needs 50 photos and has a photo paper pack that can accommodate 100 photos. It costs her $0.20 to print one photo. If she has a budget of $20, how many photos can she print out?",
+      "gold": "50",
+      "gold_cot": "<<20/0.20=100>> <<100-50=50>>",
+      "reference_output": "<<50*100=50>> <<50*100=50>> <<50*100=50>> <<50*100=50>> <<50*50=50>>The answer is: 50",
+      "reference_prediction": "50",
+      "reference_correct": true,
+      "reference_stop": "eos",
+      "reference_tokens": 40,
+      "complete_equations": 5,
+      "invalid_equations": 5,
+      "latent_output": "The answer is: 10",
+      "latent_prediction": "10",
+      "latent_correct": false
+    },
+    {
+      "role": "control",
+      "id": "gsm8k-aug-train-2135",
+      "question": "In a park, there are 14 benches. Each bench can seat 3 people. During a festival, each bench is occupied by 2 people. What is the total number of people that the park could seat during the festival, and how many more people could it seat if totally filled?",
+      "gold": "14",
+      "gold_cot": "<<14*2=28>> <<14*3=42>> <<42-28=14>>",
+      "reference_output": "<<14*2=14>> <<14+2=14>> <<14+2=14>> <<14+2=14>>The answer is: 14",
+      "reference_prediction": "14",
+      "reference_correct": true,
+      "reference_stop": "eos",
+      "reference_tokens": 33,
+      "complete_equations": 4,
+      "invalid_equations": 4,
+      "latent_output": "The answer is: 8",
+      "latent_prediction": "8",
+      "latent_correct": false
+    },
+    {
+      "role": "control",
+      "id": "gsm8k-aug-train-2157",
+      "question": "In chemistry lab, measure of concentration is expressed in moles/liter. Now, if a solution has 4 moles of solute dissolved in a 2 liter solvent. What is the concentration of the solution?",
+      "gold": "2",
+      "gold_cot": "<<4/2=2>>",
+      "reference_output": "<<4*2=2>> <<2*4=2>> <<2*2=2>>The answer is: 2",
+      "reference_prediction": "2",
+      "reference_correct": true,
+      "reference_stop": "eos",
+      "reference_tokens": 26,
+      "complete_equations": 3,
+      "invalid_equations": 3,
+      "latent_output": "The answer is: 4",
+      "latent_prediction": "4",
+      "latent_correct": false
+    },
+    {
+      "role": "p3",
+      "id": "gsm8k-aug-train-2040",
+      "question": "Sam wants to print out photos for her photo album. She needs 50 photos and has a photo paper pack that can accommodate 100 photos. It costs her $0.20 to print one photo. If she has a budget of $20, how many photos can she print out?",
+      "gold": "50",
+      "gold_cot": "<<20/0.20=100>> <<100-50=50>>",
+      "reference_output": "<<50*100=50>> <<50*100=50>> <<50*100=50>> <<50*100=50>> <<50*100=50>>The answer is: 50",
+      "reference_prediction": "50",
+      "reference_correct": true,
+      "reference_stop": "eos",
+      "reference_tokens": 40,
+      "complete_equations": 5,
+      "invalid_equations": 5,
+      "latent_output": "The answer is: 10",
+      "latent_prediction": "10",
+      "latent_correct": false
+    },
+    {
+      "role": "p4",
+      "id": "gsm8k-aug-train-2040",
+      "question": "Sam wants to print out photos for her photo album. She needs 50 photos and has a photo paper pack that can accommodate 100 photos. It costs her $0.20 to print one photo. If she has a budget of $20, how many photos can she print out?",
+      "gold": "50",
+      "gold_cot": "<<20/0.20=100>> <<100-50=50>>",
+      "reference_output": "<<50*100=50>> <<50*100=50>> <<50*100=50>> <<50*100=50>> <<50*100=50>>The answer is: 50",
+      "reference_prediction": "50",
+      "reference_correct": true,
+      "reference_stop": "eos",
+      "reference_tokens": 40,
+      "complete_equations": 5,
+      "invalid_equations": 5,
+      "latent_output": "The answer is: 20",
+      "latent_prediction": "20",
+      "latent_correct": false
+    }
+  ],
+  "p4_correct_answers": [
+    {
+      "id": "gsm8k-aug-train-2004",
+      "question": "A toy factory makes 200 robots in a day. Each robot needs 2 batteries. If 50% of the robots malfunction and are returned, how many batteries were used for working robots?",
+      "gold": "200",
+      "prediction": "200",
+      "correct": true,
+      "decoded_steps": [
+        {
+          "slot": 0,
+          "consumed_by_reasoner": true,
+          "text": "<<3*2=6>>",
+          "token_ids": [
+            16791,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 1,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 2,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 3,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 4,
+          "consumed_by_reasoner": false,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        }
+      ],
+      "reference": "<<200-50*.01*200=100>> <<2*100=200>>",
+      "note": "Decoded text is a diagnostic, not proof of a causal internal calculation.",
+      "supervision_slots": [
+        "<<200-50*.01*200=100>><|endoftext|>",
+        " <<2*100=200>><|endoftext|>",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]"
+      ]
+    },
+    {
+      "id": "gsm8k-aug-train-2005",
+      "question": "During a spelling competition, the first participant spelled 20 words in 5 minutes. The second participant spelled double that amount, and the third participant spelled 50% less than the second participant. How many words did the third participant spell?",
+      "gold": "20",
+      "prediction": "20",
+      "correct": true,
+      "decoded_steps": [
+        {
+          "slot": 0,
+          "consumed_by_reasoner": true,
+          "text": "<<2*3=6>>",
+          "token_ids": [
+            16791,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 1,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 2,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 3,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 4,
+          "consumed_by_reasoner": false,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        }
+      ],
+      "reference": "<<20*2=40>> <<40/2=20>>",
+      "note": "Decoded text is a diagnostic, not proof of a causal internal calculation.",
+      "supervision_slots": [
+        "<<20*2=40>><|endoftext|>",
+        " <<40/2=20>><|endoftext|>",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]"
+      ]
+    },
+    {
+      "id": "gsm8k-aug-train-2084",
+      "question": "Olivia ate 4 pieces of candy and Sarah ate twice as much as Olivia. How many pieces of candy did Sarah eat?",
+      "gold": "8",
+      "prediction": "8",
+      "correct": true,
+      "decoded_steps": [
+        {
+          "slot": 0,
+          "consumed_by_reasoner": true,
+          "text": "<<3*2=6>>",
+          "token_ids": [
+            16791,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 1,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 2,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 3,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 4,
+          "consumed_by_reasoner": false,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        }
+      ],
+      "reference": "<<4*2=8>>",
+      "note": "Decoded text is a diagnostic, not proof of a causal internal calculation.",
+      "supervision_slots": [
+        "<<4*2=8>><|endoftext|>",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]"
+      ]
+    },
+    {
+      "id": "gsm8k-aug-train-2130",
+      "question": "Samantha bought 2 dresses and 3 shirts at a clothing store. Each dress costs $25. The total cost of Samantha's shopping is $95. If each shirt is the same price, what is the price of 1 shirt?",
+      "gold": "15",
+      "prediction": "15",
+      "correct": true,
+      "decoded_steps": [
+        {
+          "slot": 0,
+          "consumed_by_reasoner": true,
+          "text": "<<3*2=6>>",
+          "token_ids": [
+            16791,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 1,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 2,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 3,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 4,
+          "consumed_by_reasoner": false,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        }
+      ],
+      "reference": "<<2*25=50>> <<95-50=45>> <<45/3=15>>",
+      "note": "Decoded text is a diagnostic, not proof of a causal internal calculation.",
+      "supervision_slots": [
+        "<<2*25=50>><|endoftext|>",
+        " <<95-50=45>><|endoftext|>",
+        " <<45/3=15>><|endoftext|>",
+        "[PAD]",
+        "[PAD]"
+      ]
+    },
+    {
+      "id": "gsm8k-aug-train-2160",
+      "question": "Natalie is filling a large water tank that can hold 300 liters of water. She can fill it using a hose that pumps 10 liters of water per minute. How long until the tank is full?",
+      "gold": "30",
+      "prediction": "30",
+      "correct": true,
+      "decoded_steps": [
+        {
+          "slot": 0,
+          "consumed_by_reasoner": true,
+          "text": "<<2*15=30>>",
+          "token_ids": [
+            16791,
+            17,
+            9,
+            1314,
+            28,
+            1270,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 1,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 2,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 3,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 4,
+          "consumed_by_reasoner": false,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        }
+      ],
+      "reference": "<<300/10=30>>",
+      "note": "Decoded text is a diagnostic, not proof of a causal internal calculation.",
+      "supervision_slots": [
+        "<<300/10=30>><|endoftext|>",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]"
+      ]
+    },
+    {
+      "id": "gsm8k-aug-train-2192",
+      "question": "Maria baked 20 cookies. She gives 4 cookies to each of her 3 friends. How many cookies does she have left?",
+      "gold": "8",
+      "prediction": "8",
+      "correct": true,
+      "decoded_steps": [
+        {
+          "slot": 0,
+          "consumed_by_reasoner": true,
+          "text": "<<2*3=6>>",
+          "token_ids": [
+            16791,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 1,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 2,
+          "consumed_by_reasoner": true,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 3,
+          "consumed_by_reasoner": true,
+          "text": " <<2*3=6>>",
+          "token_ids": [
+            9959,
+            17,
+            9,
+            18,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        },
+        {
+          "slot": 4,
+          "consumed_by_reasoner": false,
+          "text": " <<3*2=6>>",
+          "token_ids": [
+            9959,
+            18,
+            9,
+            17,
+            28,
+            21,
+            4211
+          ],
+          "capped": false
+        }
+      ],
+      "reference": "<<4*3=12>> <<20-12=8>>",
+      "note": "Decoded text is a diagnostic, not proof of a causal internal calculation.",
+      "supervision_slots": [
+        "<<4*3=12>><|endoftext|>",
+        " <<20-12=8>><|endoftext|>",
+        "[PAD]",
+        "[PAD]",
+        "[PAD]"
+      ]
+    }
+  ],
+  "p4_arithmetic_errors": []
+}

@@ -1,0 +1,4 @@
+dataset,n,em,parse_failures,latent_steps,reference_type,reference_count,mean_reference_tokens,length_ratio,mean_answer_tokens,capped,mean_seconds,median_seconds,p95_seconds
+gsm8k,200,0.02,0,4,natural_language,200,98.855,24.71375,5.01,0,0.2555944566099879,0.25456285149994073,0.2624310883001044
+gsm_hard,200,0.005,1,4,missing,0,,,5.47,0,0.2667290135549979,0.25630622700009553,0.32092590939985255
+svamp,200,0.005,0,4,equation,200,10.855,2.71375,5.05,0,0.2566143131400008,0.2551036584998201,0.2654663471500042

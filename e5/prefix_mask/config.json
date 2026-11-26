@@ -1,0 +1,7 @@
+{
+  "variant": "prefix_mask_v1",
+  "probability": 0.3,
+  "mask_seed": 405103,
+  "replacement": "zero_embedding",
+  "protect_equation_boundaries": true
+}

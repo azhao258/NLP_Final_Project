@@ -1,0 +1,9 @@
+{
+  "n": 32,
+  "reference_correct": 3,
+  "latent_correct": 1,
+  "reference_only_correct": 3,
+  "latent_only_correct": 1,
+  "reference_capped": 1,
+  "reference_parse_failures": 1
+}

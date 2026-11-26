@@ -1,0 +1,14 @@
+{
+  "pairing_id": "49c1d84c6a9f45838a70dd80dcf49879",
+  "n": 600,
+  "files": {
+    "svamp.decoded.jsonl": "b16d47eaef2a52ad9a89d6ed7c80d0e66dfc244e5a9d808dcb98edf7882da348",
+    "gsm8k.predictions.jsonl": "eafe6435e14c31712671c742732f6f1916912dbfeda2dc6729ba87402a91ca99",
+    "gsm_hard.predictions.jsonl": "ff93363c1f5ee87538e7390f7366fa2a7f0de873c80f4bb33a1cbed39ab9b6c3",
+    "summary.csv": "7441db123b8e84cde6eccf8404330f95cd7210446c904c30e30fac9e20ebf748",
+    "svamp.predictions.jsonl": "74d0e0020721dd8ec6f53324a0f25ccb5d72264796f7d727d83964e88b3fc969",
+    "gsm_hard.decoded.jsonl": "c0b1bfd423d3f0b48c12c82466cb1f66f3e19d472229b69ff990e1d32bab6898",
+    "config.json": "83b9ac1c3e10188557d2463d9472419a7c8a87302d1c6ead06c3872c4e4b3b32",
+    "gsm8k.decoded.jsonl": "b3995b0784e5ecee11eb273cc7bb58b56520139d0e04488c9965b715f31afdb6"
+  }
+}

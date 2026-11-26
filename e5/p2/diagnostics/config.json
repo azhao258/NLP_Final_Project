@@ -1,0 +1,41 @@
+{
+  "checkpoint": "e5_runs/first_operand_v1/last.pt",
+  "checkpoint_sha256": "8764f7f04060a34a319826fd478f17b4e3d6dd40d2ff6358ec23705d96bca599",
+  "updates": 750,
+  "config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "n": 32,
+  "seed": 11,
+  "smoke": false,
+  "data_manifest_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126",
+  "source_sha256": {
+    "e5/p0_diagnose.py": "3631f44aee7af7928dc9128032afde00747fb386f7c4cccd2884eb781dd8455a",
+    "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "e3/diagnose.py": "cc21f2b9775a8238fe3c81e15ca6a3765e72bf1aca1aff0ab4d1cb65873752c2",
+    "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262"
+  },
+  "gradient_mode": "FP32 master + BF16 autocast, eval mode (dropout off), weighted upstream losses",
+  "intervention_mode": "FP32 master + BF16 autocast; cyclic next-question donor within split",
+  "scope": "Diagnostic only. No optimizer, no test data, no parameter updates."
+}

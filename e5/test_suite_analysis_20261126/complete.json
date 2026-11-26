@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "models": 6,
+  "questions_per_model": 600,
+  "scored_slots": 18000,
+  "paired_questions": 3000,
+  "files": {
+    "categories.csv": "6135d6a7e9268d0dcdc281ae5e73ab550955ff74eb26a21f44db8a4292b9ea73",
+    "categories.jsonl": "0aa9d2449f9fd3040fdeb8b4f9990752cb2d704f069d719d876e35ad0e20d450",
+    "paired_questions.csv": "48eabb5b1df7bef0e7a2cf746b0b9e395985050b0b8e2c05e8aef9fb0bf2531c",
+    "paired_questions.jsonl": "cfcae533717ad1a7dceb1382569397d6263b089ab97267835009bd5eb8c6eecc",
+    "problem_types.csv": "2d27600832601fbf57d3f067976edd5747310a12e04c980fc1fa7aa7f424758f",
+    "problem_types.jsonl": "cfe98a140aea51d77a0f056aacef0fa451f07392a83256a72b70d345c187093e",
+    "provenance.json": "986a5d1b1d5e4f3f6ddeef781e53e27d183087766b448864c1ed0d7542e4fe65",
+    "REPORT.md": "558405f9bdcf922f72f92236f75eb1846cb83053b776ee14d33cc827fbc74b4b",
+    "slots.csv": "1f9433d92d972164b217eb35e8427a3e2ecd15d5eea6ce170b70c24b30a675dd",
+    "slots.jsonl": "eb3a2e031cbc162dbe8444997c5d2a87582572ec372dd9a650b9d2c0ad9ce8b5",
+    "steps.csv": "cb09195250e15f47aeb13098482986083544b036f72981d6ba95fe9d34366ef5",
+    "steps.jsonl": "19d7583ff37af8eed384a440df732317c6afd827c1c564eb3dd23a558df68915",
+    "summary.csv": "b056d99a31efac5927bcce1a863f1f25459436540e5198257e22ad94a59b1ce3",
+    "summary.json": "78be0a868304bf6d5bd2b4adc0512ba54efbaa24e60fd33ecbd44b1bc7f15433",
+    "summary.jsonl": "0a85def54d2be1f07f6680d596c6a5c0034de09f472796c8595aeffea9d7f082"
+  }
+}

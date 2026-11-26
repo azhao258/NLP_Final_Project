@@ -1,0 +1,56 @@
+{
+  "config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "variant": {
+    "variant": "first_operand_weight_v1",
+    "operand_weight": 2.0,
+    "other_token_weight": 1.0,
+    "explain_loss_factor": 1.0,
+    "prefix_mask": false,
+    "normalization": "sum weighted token CE / sum valid token weights per slot; mean over effective slots",
+    "symbolic_policy": "x=5 and X/2=0.5X have no first numeric operand: all valid tokens retain weight 1",
+    "span_policy": "first signed decimal numeric literal per <<equation>>, including each equation in merged tail; overlapping BPE tokens"
+  },
+  "order_sha256": "bf8a09b0fb877ebb95a0853152283730468c7e5d78f6c85c0fd1cf55cdfa7ac8",
+  "data_files_sha256": {
+    "train": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+    "validation": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9"
+  },
+  "initialization_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "data_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+  "pilot_updates": 0,
+  "updates": 750,
+  "full_budget_updates": 750,
+  "source_sha256": {
+    "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "e3/train.py": "2c0675bca0f748afbd25fa46468ca10d874082f6b43b55824d606fe886acdaa1",
+    "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262",
+    "e5/train_p2.py": "f21bbb5815cbfd5b8d79bf1ee843311acfd0c79796f64bcc7e6ed02a2c4512df",
+    "e5/p2_protocol.py": "86ca3737a84504d1fca69afd674583de76df0774f01de7e4ba7646cf21af66ef",
+    "e5/p2_operand.py": "9842a27e2a423659e2349121ec486aa2939e0b62eeba87b556ea4e0214bcf79b",
+    "e5/p1_schedule.py": "952a0ebc4f1c6b1216f6ce109821b8fea8e0ada40ea1274e1e9ed02ee2173a3c",
+    "e5/protocol.py": "26459b6a48d12036c3ce82f1953f9c484314ec79112a29771c74c26330861dad"
+  },
+  "assets_manifest_sha256": "14f65c0866a449feb5626ec98efd88edb9beb0d2106789b6551f05af829e9570",
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126"
+}

@@ -1,0 +1,1001 @@
+﻿id,slot,reference,valid,control,p1,control_strict,p1_strict,control_arithmetic,p1_arithmetic
+gsm8k-aug-train-2000,0,<<38-10=28>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2000,1, <<28/2=14>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2000,2, <<38+14=52>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2000,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2000,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2001,0,<<3*9=27>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2001,1, <<6-1=5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2001,2, <<5+27+9=41>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2001,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2001,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2002,0,<<400/20=20>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2002,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2002,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2002,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2002,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2003,0,<<12*24=288>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2003,1, <<288-34=254>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2003,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2003,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2003,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2004,0,<<200-50*.01*200=100>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2004,1, <<2*100=200>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2004,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2004,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2004,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2005,0,<<20*2=40>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2005,1, <<40/2=20>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2005,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2005,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2005,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2006,0,<<3*2=6>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2006,1, <<3+6=9>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2006,2, <<9*4=36>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2006,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2006,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2007,0,<<3*2=6>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,True,False,True,True
+gsm8k-aug-train-2007,1, <<.5*3=1.5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2007,2, <<3*6=18>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2007,3, <<3+6+2+18=29>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2007,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2008,0,<<5*3=15>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2008,1, <<2*15=30>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2008,2, <<15+30=45>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2008,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2008,4,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2009,0,<<8+3=11>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2009,1, <<15-11=4>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2009,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2009,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2009,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2010,0,<<2*3.14*50=314>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2010,1,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2010,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2010,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2010,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2011,0,<<2*15=30>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,True,True,True
+gsm8k-aug-train-2011,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2011,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2011,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2011,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2012,0,<<1/4*500=125>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2012,1, <<500-125=375>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2012,2, <<375+100=475>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2012,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2012,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2013,0,<<2*3=6>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,True,True,True
+gsm8k-aug-train-2013,1, <<6+2=8>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2013,2, <<8*2=16>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2013,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2013,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2014,0,<<8+7=15>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2014,1, <<6+5=11>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2014,2, <<15+11-3=23>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2014,3, <<-3=-3>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2014,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2015,0,<<5*25=125>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2015,1, <<4*1=4>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2015,2, <<4*5=20>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2015,3, <<20-5=15>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2015,4, <<125/15=8.33>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2016,0,<<2*25=50>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2016,1, <<10+50+15=75>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2016,2, <<75*.20=15>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2016,3, <<75+15=90>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2016,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2017,0,<<15*8=120>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2017,1, <<120*4=480>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2017,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2017,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2017,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2018,0,<<18*6=108>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2018,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2018,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2018,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2018,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2019,0,<<3*15=45>><|endoftext|>,True,<<3*15=45>>,<<3*2=6>>,True,False,True,True
+gsm8k-aug-train-2019,1, <<2*10=20>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2019,2, <<5*5=25>><|endoftext|>,True, <<2*3=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2019,3, <<45+20+25=90>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2019,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2020,0,<<12+4=16>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2020,1, <<16*2=32>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2020,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2020,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2020,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2021,0,<<5/1.5=3.33333>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2021,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2021,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2021,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2021,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2022,0,<<20*7=140>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2022,1, <<300-140=160>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2022,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2022,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2022,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2023,0,<<15*10=150>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2023,1, <<150*5=750>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2023,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2023,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2023,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2024,0,<<8*10=80>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2024,1, <<150-80=70>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2024,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2024,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2024,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2025,0,<<4+1=5>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2025,1, <<5*30=150>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2025,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2025,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2025,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2026,0,<<5*2.5=12.5>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2026,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2026,2,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2026,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2026,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2027,0,<<25*1.5=37.5>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2027,1, <<12*3=36>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2027,2, <<37.5+36=73.5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2027,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2027,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2028,0,<<1200/4=300>><|endoftext|>,True,<<3*15=45>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2028,1, <<300/6=50>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2028,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2028,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2028,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2029,0,<<30*12=360>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2029,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2029,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2029,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2029,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2030,0,<<15+25=40>><|endoftext|>,True,<<3*15=45>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2030,1, <<50-40=10>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2030,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2030,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2030,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2031,0,<<5000*50/100=2500>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2031,1, <<5000+2500=7500>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2031,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2031,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2031,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2032,0,<<120*30=3600>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2032,1, <<75*3600=270000>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2032,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2032,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2032,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2033,0,<<50-20=30>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2033,1, <<1500/30=50>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2033,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2033,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2033,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2034,0,<<2*3=6>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,True,True,True
+gsm8k-aug-train-2034,1, <<6*3=18>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2034,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2034,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2034,4,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2035,0,<<8-3-2-1=2>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2035,1,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2035,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2035,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2035,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2036,0,<<1000-50=950>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2036,1, <<950/20=47.5>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2036,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2036,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2036,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2037,0,<<8*3=24>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2037,1, <<24+3=27>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2037,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2037,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2037,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2038,0,<<11*2=22>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2038,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2038,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2038,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2038,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2039,0,<<4500*3/5=2700>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2039,1, <<4500-2700=1800>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2039,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2039,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2039,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2040,0,<<20/0.20=100>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2040,1, <<100-50=50>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2040,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2040,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2040,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2041,0,<<10*3=30>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2041,1, <<50-30=20>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2041,2, <<20/5=4>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2041,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2041,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2042,0,<<120/4=30>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2042,1, <<120+30=150>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2042,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2042,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2042,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2043,0,<<5*4=20>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2043,1, <<10*3=30>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2043,2, <<20+30=50>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2043,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2043,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2044,0,<<50*15=750>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2044,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2044,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2044,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2044,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2045,0,<<10+4=14>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2045,1, <<14*3=42>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2045,2, <<42-4=38>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2045,3, <<38-2=36>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2045,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2046,0,<<500*3=1500>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2046,1, <<1500*3=4500>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2046,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2046,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2046,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2047,0,<<2*5=10>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2047,1, <<2*3=6>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2047,2, <<6*2=12>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2047,3, <<10+12=22>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2047,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2048,0,<<60-5=55>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2048,1, <<60+60=120>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2048,2, <<120+55=175>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2048,3, <<55+3=58>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2048,4, <<58+175=233>> <<233/4=58.25>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2049,0,<<800/9=88.89>><|endoftext|>,True,<<3*15=45>>,<<3*12=36>>,False,False,True,True
+gsm8k-aug-train-2049,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2049,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2049,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2049,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2050,0,<<100*0.9=90>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2050,1, <<90*0.9=81>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2050,2, <<81*0.9=72.9>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2050,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2050,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2051,0,<<4*7=28>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2051,1, <<3*2=6>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,True,True,True,True
+gsm8k-aug-train-2051,2, <<28+6=34>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2051,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2051,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2052,0,<<5*7=35>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2052,1, <<35/2=17.5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2052,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2052,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2052,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2053,0,<<20*15=300>><|endoftext|>,True,<<3*2=6>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2053,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2053,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2053,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2053,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2054,0,<<3*3=9>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2054,1, <<9/8=1.125>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2054,2, <<2*12=24>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2054,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2054,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2055,0,<<2*500=1000>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2055,1, <<1000/250=4>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2055,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2055,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2055,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2056,0,<<36/3=12>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2056,1, <<12/2=6>><|endoftext|>,True, <<2*3=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2056,2, <<6/1=6>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2056,3, <<36/3=12>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2056,4, <<12-6=6>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2057,0,<<1+6=7>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2057,1, <<7*3=21>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2057,2, <<21/5=4.2>><|endoftext|>,True, <<2*3=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2057,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2057,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2058,0,<<4+8=12>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2058,1, <<2+3=5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2058,2, <<18+12-5=25>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2058,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2058,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2059,0,<<10*8=80>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2059,1, <<80*15=1200>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2059,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2059,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2059,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2060,0,<<4*10=40>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2060,1, <<40/8=5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2060,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2060,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2060,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2061,0,<<12*4=48>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2061,1, <<8*6=48>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2061,2, <<48+48=96>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2061,3, <<180-96=84>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2061,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2062,0,<<7*12=84>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2062,1, <<5*3=15>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2062,2, <<84+15=99>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2062,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2062,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2063,0,<<5*8=40>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2063,1, <<2*6=12>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2063,2, <<5*2=10>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2063,3, <<40+12+10=62>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2063,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2064,0,<<20*25=500>><|endoftext|>,True,<<2*3=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2064,1, <<500/400=1.25>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2064,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2064,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2064,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2065,0,<<7+5=12>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2065,1, <<7*2=14>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2065,2, <<7+12+14=33>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2065,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2065,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2066,0,<<280/20=14>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2066,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2066,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2066,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2066,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2067,0,<<90/10=9>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2067,1, <<1/3*9=3>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2067,2, <<9-3=6>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2067,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2067,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2068,0,<<2*15=30>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,True,False,True,True
+gsm8k-aug-train-2068,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2068,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2068,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2068,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2069,0,<<150/60=2.5>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2069,1, <<60*2.5=150>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2069,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2069,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2069,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2070,0,<<500*5=2500>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2070,1, <<500*2=1000>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2070,2, <<2500+1000=3500>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2070,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2070,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2071,0,<<50*6=300>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2071,1, <<300*5=1500>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2071,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2071,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2071,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2072,0,<<3*5=15>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2072,1, <<15*15=225>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2072,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2072,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2072,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2073,0,<<1000*.30=300>><|endoftext|>,True,<<3*15=45>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2073,1, <<1000*.10=100>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2073,2, <<1000-300-100=600>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2073,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2073,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2074,0,<<4*3=12>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2074,1, <<12*15=180>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2074,2, <<2*3=6>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,True,True,True
+gsm8k-aug-train-2074,3, <<6*12=72>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2074,4, <<180+72=252>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2075,0,<<2*3=6>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,True,True,True
+gsm8k-aug-train-2075,1, <<4*2=8>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2075,2, <<5*1=5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2075,3, <<6+8+5=19.00>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2075,4, <<20-19=1>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2076,0,<<180*0.45=81>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2076,1, <<180-81=99>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2076,2, <<99*0.20=19.8>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2076,3, <<99-20=79>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2076,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2077,0,<<40*4=160>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2077,1, <<160/2=80>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2077,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2077,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2077,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2078,0,<<2*500=1000>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2078,1, <<500+1000+2000=3500>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2078,2, <<7000-3500=3500>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2078,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2078,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2079,0,<<20-10=10>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2079,1, <<4/5*10=8>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2079,2, <<8-20=-12>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2079,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2079,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2080,0,<<50*2=100>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2080,1, <<40*1.5=60>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2080,2, <<30*3=90>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2080,3, <<100+60+90=250>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2080,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2081,0,<<6*100=600>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2081,1, <<4*200=800>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2081,2, <<600+800=1400>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2081,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2081,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2082,0,<<60/4=15>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2082,1, <<60/3=20>><|endoftext|>,True, <<2*3=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2082,2, <<15+20=35>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2082,3, <<60-35=25>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2082,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2083,0,<<30/100*400=120>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2083,1, <<120/3=40>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2083,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2083,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2083,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2084,0,<<4*2=8>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2084,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2084,2,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2084,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2084,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2085,0,<<50*30=1500>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2085,1, <<75*30=2250>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2085,2, <<2250-1500=750>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2085,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2085,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2086,0,<<200/5=40>><|endoftext|>,True,<<3*5=15>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2086,1,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2086,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2086,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2086,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2087,0,<<8.5-1.5=7>><|endoftext|>,True,<<3*2=6>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2087,1, <<7*5=35>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2087,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2087,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2087,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2088,0,<<50-10=40>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2088,1, <<40/3=13.33>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2088,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2088,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2088,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2089,0,<<60+78+90=228>><|endoftext|>,True,<<3*2=6>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2089,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2089,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2089,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2089,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2090,0,<<1.5*5000=7500>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2090,1, <<7500+1000=8500>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2090,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2090,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2090,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2091,0,<<4*10=40>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2091,1, <<40*7=280>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2091,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2091,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2091,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2092,0,<<0.75*500=375>><|endoftext|>,True,<<3*2=6>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2092,1, <<0.10*500=50>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2092,2, <<375-50=325>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2092,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2092,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2093,0,<<3*30=90>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2093,1, <<2*50=100>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2093,2, <<90+100=190>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2093,3, <<250-190=60>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2093,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2094,0,<<7*3=21>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2094,1, <<30+21=51>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2094,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2094,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2094,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2095,0,<<10+8=18>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2095,1, <<2.5*20=50>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2095,2, <<50-18=32>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2095,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2095,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2096,0,<<31-10=21>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2096,1, <<8*21=168>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2096,2, <<8+3=11>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2096,3, <<11*21=231>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2096,4, <<168+231=399>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2097,0,<<4*15=60>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2097,1, <<60+15=75>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2097,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2097,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2097,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2098,0,<<4500/500=9>><|endoftext|>,True,<<3*2=6>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2098,1, <<9*32=288>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2098,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2098,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2098,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2099,0,<<80/4=20>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2099,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2099,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2099,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2099,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2100,0,<<900/20=45>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2100,1, <<60-45=15>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2100,2, <<45-15=30>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2100,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2100,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2101,0,<<100/4=25>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2101,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2101,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2101,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2101,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2102,0,<<8*1/4=2>><|endoftext|>,True,<<3*15=45>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2102,1, <<8-2=6>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2102,2, <<2*6=12>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2102,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2102,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2103,0,<<3*15=45>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2103,1, <<2*45=90>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2103,2, <<15+45+90=150>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2103,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2103,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2104,0,<<60*3=180>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2104,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2104,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2104,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2104,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2105,0,<<500/100=5>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2105,1, <<5-3=2>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2105,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2105,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2105,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2106,0,<<25/100*8=2>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2106,1, <<8-2=6>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2106,2, <<8+6=14>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2106,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2106,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2107,0,<<2*(5+8)=26>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2107,1, <<26*6=156>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2107,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2107,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2107,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2108,0,<<120/8=15>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2108,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2108,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2108,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2108,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2109,0,<<2*4=8>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2109,1, <<8-2=6>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2109,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2109,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2109,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2110,0,<<10+13=23>><|endoftext|>,True,<<3*2=6>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2110,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2110,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2110,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2110,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2111,0,<<18/2=9>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2111,1, <<9-5=4>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2111,2,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2111,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2111,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2112,0,<<2*10=20>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2112,1, <<1*7=7>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2112,2, <<20+7=27>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2112,3, <<3*5=15>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2112,4, <<27-15=12>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2113,0,<<200-75=125>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2113,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2113,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2113,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2113,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2114,0,<<250-70=180>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2114,1, <<180/50=3.6>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2114,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2114,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2114,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2115,0,<<45/12=3.75>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2115,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2115,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2115,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2115,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2116,0,<<5*3=15>><|endoftext|>,True,<<3*15=45>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2116,1, <<25-15=10>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2116,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2116,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2116,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2117,0,<<5*4=20>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2117,1, <<50-20=30>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2117,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2117,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2117,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2118,0,<<30*3=90>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2118,1, <<1/5*90=18>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2118,2, <<90-18=72>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2118,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2118,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2119,0,<<60/2=30>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2119,1, <<60+30=90>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2119,2, <<60+30+90=180>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2119,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2119,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2120,0,<<160/20=8>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2120,1, <<240/30=8>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2120,2, <<8+8=16>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2120,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2120,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2121,0,<<12*2=24>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2121,1, <<24*2=48>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2121,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2121,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2121,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2122,0,<<250/5=50>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2122,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2122,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2122,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2122,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2123,0,<<12+18+6=36>><|endoftext|>,True,<<3*15=45>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2123,1, <<36/2=18>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2123,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2123,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2123,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2124,0,<<12*3=36>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2124,1, <<36+10=46>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2124,2, <<46+36+12=94>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2124,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2124,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2125,0,<<1+2=3>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2125,1, <<4+3=7>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2125,2, <<7-3=4>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2125,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2125,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2126,0,<<5/8*200=125>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2126,1, <<200-125=75>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2126,2, <<75*8=600>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2126,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2126,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2127,0,<<2+1=3>><|endoftext|>,True,<<3*15=45>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2127,1, <<3*5=15>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2127,2, <<4*10=40>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2127,3, <<40/15=2.67>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2127,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2128,0,<<20*0.5=10>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2128,1, <<20-10=10>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2128,2,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2128,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2128,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2129,0,<<800*3=2400>><|endoftext|>,True,<<3*5=15>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2129,1, <<2400-40=2360>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2129,2, <<800+2400+2360=5560>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2129,3, <<5560/4=1390>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2129,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2130,0,<<2*25=50>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2130,1, <<95-50=45>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2130,2, <<45/3=15>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2130,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2130,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2131,0,<<20+20=40>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2131,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2131,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2131,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2131,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2132,0,<<30/3=10>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2132,1, <<10*2=20>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2132,2, <<20*20=400>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2132,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2132,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2133,0,<<2*150+2*75=450>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2133,1, <<4*450=1800>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2133,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2133,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2133,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2134,0,<<12-3=9>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2134,1, <<12*2=24>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2134,2, <<12+9+24=45>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2134,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2134,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2135,0,<<14*2=28>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2135,1, <<14*3=42>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2135,2, <<42-28=14>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2135,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2135,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2136,0,<<70-15=55>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2136,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2136,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2136,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2136,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2137,0,<<45+45=90>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2137,1, <<90/60=1.5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2137,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2137,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2137,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2138,0,<<10-2=8>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2138,1, <<26+10=36>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2138,2, <<36/2=18>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2138,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2138,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2139,0,<<1+8=9>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2139,1, <<27/9=3>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2139,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2139,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2139,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2140,0,<<8*25*.01=2>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2140,1, <<8-2=6>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2140,2, <<4*6=24>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2140,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2140,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2141,0,<<15*20=300>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2141,1, <<10*15=150>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2141,2, <<300-150=150>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2141,3, <<150/5=30>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2141,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2142,0,<<100*20/100=20>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2142,1, <<20/2=10>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2142,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2142,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2142,4,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2143,0,<<60/4=15>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2143,1, <<60/8=7.5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2143,2, <<60-15-7.5=37.5>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2143,3, <<37.5+15=52.5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2143,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2144,0,<<4*10=40>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2144,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2144,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2144,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2144,4,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2145,0,<<3+2+5+7=17>><|endoftext|>,True,<<3*5=15>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2145,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2145,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2145,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2145,4,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2146,0,<<10*3=30>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2146,1, <<10+30=40>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2146,2, <<1/5*40=8>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2146,3, <<40-8=32>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2146,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2147,0,<<100/20=5>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2147,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2147,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2147,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2147,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2148,0,<<8+5=13>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2148,1, <<13-12=1>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2148,2,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2148,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2148,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2149,0,<<15/3=5>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2149,1, <<5*0.8=4>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2149,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2149,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2149,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2150,0,<<150/5=30>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2150,1, <<6*3=18>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2150,2, <<150-18=132>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2150,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2150,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2151,0,<<3*4=12>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2151,1, <<8+4+12=24>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2151,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2151,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2151,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2152,0,<<0.15*2500=375>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2152,1, <<2500+375=2875>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2152,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2152,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2152,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2153,0,<<4000*3=12000>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2153,1, <<12*12000=144000>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2153,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2153,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2153,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2154,0,<<1/5+1/10=0.3>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2154,1, <<1/0.3=3.33>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2154,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2154,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2154,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2155,0,<<5000/5=1000>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2155,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2155,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2155,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2155,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2156,0,<<150*50=7500>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2156,1, <<150/4=37.5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2156,2, <<37.5*300=11250>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2156,3, <<11250-7500=3750>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2156,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2157,0,<<4/2=2>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2157,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2157,2,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2157,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2157,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2158,0,<<18*20=360>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2158,1, <<360/2=180>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2158,2,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2158,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2158,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2159,0,<<3*5=15>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,True,False,True,True
+gsm8k-aug-train-2159,1, <<15-5=10>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2159,2, <<35-30=5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2159,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2159,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2160,0,<<300/10=30>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2160,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2160,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2160,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2160,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2161,0,<<50*.01*60=30>><|endoftext|>,True,<<3*5=15>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2161,1, <<60-30=30>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2161,2, <<25*.01*30=7.5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2161,3, <<30-7.5=22.5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2161,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2162,0,<<10*2=20>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2162,1, <<20+7=27>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2162,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2162,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2162,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2163,0,<<20*15/100=3>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2163,1, <<20-3=17>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2163,2, <<17*3=51>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2163,3,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2163,4,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2164,0,<<60/2=30>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2164,1, <<30*1/3=10>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2164,2, <<30-10=20>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2164,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2164,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2165,0,<<20000*15/100=3000>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2165,1, <<3000*3=9000>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2165,2, <<20000-9000=11000>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2165,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2165,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2166,0,<<25-5=20>><|endoftext|>,True,<<3*5=15>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2166,1, <<20+10=30>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2166,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2166,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2166,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2167,0,<<100/5=20>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2167,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2167,2,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2167,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2167,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2168,0,<<200/4=50>><|endoftext|>,True,<<3*2=6>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2168,1, <<250/50=5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2168,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2168,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2168,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2169,0,<<200*0.2=40>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2169,1, <<40*40=1600>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2169,2, <<1.5*40=60>><|endoftext|>,True, <<2*3=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2169,3, <<1600-60=1540>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2169,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2170,0,<<150*25/100=37.5>><|endoftext|>,True,<<3*15=45>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2170,1, <<150-37.5=112.5>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2170,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2170,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2170,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2171,0,<<75+85+115=275>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2171,1, <<320-275=45>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2171,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2171,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2171,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2172,0,<<10*20=200>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2172,1, <<15*4=60>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2172,2, <<200-60=140>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2172,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2172,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2173,0,<<15*4=60>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2173,1, <<20*2=40>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2173,2, <<60+40=100>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2173,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2173,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2174,0,<<12*4=48>><|endoftext|>,True,<<3*2=6>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2174,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2174,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2174,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2174,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2175,0,<<30+45=75>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2175,1, <<100-75=25>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2175,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2175,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2175,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2176,0,<<2*7=14>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2176,1, <<2*(7-3)=8>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2176,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2176,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2176,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2177,0,<<5*2=10>><|endoftext|>,True,<<3*5=15>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2177,1, <<10/10=1>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2177,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2177,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2177,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2178,0,<<15+5=20>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2178,1, <<15-7=8>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2178,2, <<20+8=28>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2178,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2178,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2179,0,<<6*10=60>><|endoftext|>,True,<<2*15=30>>,<<3*15=45>>,False,False,True,True
+gsm8k-aug-train-2179,1, <<60*20=1200>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2179,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2179,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2179,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2180,0,<<100-50=50>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2180,1, <<50/10=5>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2180,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2180,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2180,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2181,0,<<6*7=42>><|endoftext|>,True,<<3*2=6>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2181,1, <<42*15=630>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2181,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2181,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2181,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2182,0,<<16-0=16>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2182,1, <<16*2=32>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2182,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2182,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2182,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2183,0,<<30/100*70=21>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2183,1, <<70-21=49>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2183,2, <<1/4*49=12.25>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2183,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2183,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2184,0,<<4*25=100>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2184,1, <<100*2=200>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2184,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2184,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2184,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2185,0,<<600/2=300>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2185,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2185,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2185,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2185,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2186,0,<<800-2*200=400>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2186,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2186,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2186,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2186,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2187,0,<<5*8=40>><|endoftext|>,True,<<2*15=30>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2187,1, <<40-22=18>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2187,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2187,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2187,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2188,0,<<130-78=52>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2188,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2188,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2188,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2188,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2189,0,<<5*4=20>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2189,1, <<20/0.75=26.67>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2189,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2189,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2189,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2190,0,<<27-7=20>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2190,1, <<20+15=35>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2190,2,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2190,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2190,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2191,0,<<12*1/3=4>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2191,1, <<12*1/4=3>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2191,2, <<4+3+3=10>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2191,3, <<12-10=2>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2191,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2192,0,<<4*3=12>><|endoftext|>,True,<<2*15=30>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2192,1, <<20-12=8>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2192,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2192,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2192,4,[PAD],False, <<2*3=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2193,0,<<200*20*.01=40>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2193,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2193,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2193,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2193,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2194,0,<<70*.01*100=70>><|endoftext|>,True,<<3*2=6>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2194,1, <<20*.01*70=14>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2194,2, <<70-14=56>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2194,3,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2194,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2195,0,<<10*20=200>><|endoftext|>,True,<<3*5=15>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2195,1, <<5*25=125>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2195,2, <<3*2=6>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,True,False,True,True
+gsm8k-aug-train-2195,3, <<200+125+6=331>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2195,4, <<2*200=400>> <<2*125=250>> <<3*6=18>> <<400+250+18=668>> <<331+668=999>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2196,0,<<12*2=24>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2196,1, <<12*3=36>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2196,2, <<12+24+36=72>><|endoftext|>,True, <<3*2=6>>, <<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2196,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2196,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2197,0,<<60/2=30>><|endoftext|>,True,<<3*5=15>>,<<2*3=6>>,False,False,True,True
+gsm8k-aug-train-2197,1,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2197,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2197,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2197,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2198,0,<<10*15=150>><|endoftext|>,True,<<2*15=30>>,<<2*15=30>>,False,False,True,True
+gsm8k-aug-train-2198,1, <<5*30=150>><|endoftext|>,True, <<3*2=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2198,2, <<150+150=300>><|endoftext|>,True, <<2*3=6>>, <<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2198,3,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2198,4,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2199,0,<<8*4=32>><|endoftext|>,True,<<3*2=6>>,<<3*2=6>>,False,False,True,True
+gsm8k-aug-train-2199,1,[PAD],False, <<3*2=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2199,2,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True
+gsm8k-aug-train-2199,3,[PAD],False, <<2*3=6>>, <<3*2=6>>,,,True,True
+gsm8k-aug-train-2199,4,[PAD],False, <<3*2=6>>, <<2*3=6>>,,,True,True

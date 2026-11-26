@@ -1,0 +1,35 @@
+{
+  "description": "Configuration reference assembled from existing frozen settings; not a replacement for the historical training contract.",
+  "common_config_source": "e3/config.json",
+  "common_config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "method": {
+    "variant": "first_operand_weight_v1",
+    "operand_weight": 2.0,
+    "other_token_weight": 1.0,
+    "explain_loss_factor": 1.0,
+    "prefix_mask": false,
+    "normalization": "sum weighted token CE / sum valid token weights per slot; mean over effective slots",
+    "symbolic_policy": "x=5 and X/2=0.5X have no first numeric operand: all valid tokens retain weight 1",
+    "span_policy": "first signed decimal numeric literal per <<equation>>, including each equation in merged tail; overlapping BPE tokens"
+  }
+}

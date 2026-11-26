@@ -1,0 +1,14 @@
+{
+  "pairing_id": "49c1d84c6a9f45838a70dd80dcf49879",
+  "n": 600,
+  "files": {
+    "svamp.decoded.jsonl": "1b657821aceddc1414466f08919c040d73297a788bd43d386bd27f2af49d6f1f",
+    "gsm8k.predictions.jsonl": "88f6292b65eab5493ca7263263bc214331dd612e78ed58c8b57a1ecc18d6bede",
+    "gsm_hard.predictions.jsonl": "075c923288c05ea633d574a0fca01d84c7edf3d53df3d60a0bf26719ae0944c7",
+    "summary.csv": "6d053721d07e52f5e1056fcc4e8aa7f4e79f97cc4cad08a8b4aa793f32b5db2b",
+    "svamp.predictions.jsonl": "35bd368f27d9deffb24e767a7ae490fcb2ff06821fc3f19fa11742db3e0b8d84",
+    "gsm_hard.decoded.jsonl": "08758a0b60c4161e98e60c4c0fc996730b34851f38f7b8aa70947319d86f1b5b",
+    "config.json": "aa54cdeae5c77103b3dc2155dd46a3edba3db17ed78ead4ba691454f910c7646",
+    "gsm8k.decoded.jsonl": "764bb1a00947d454ef1c32e81066df4c4740ef7debc9e71da9ca36db11bafdc2"
+  }
+}

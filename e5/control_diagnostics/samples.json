@@ -1,0 +1,454 @@
+{
+  "train": [
+    {
+      "id": "gsm8k-aug-train-85",
+      "source_index": 85,
+      "question": "Felix and Olivia were picking cherries. Felix picked 32 cherries and Olivia picked twice as many as Felix. How many cherries did both Felix and Olivia pick?",
+      "cot": "<<32*2=64>> <<32+64=96>>",
+      "answer": "96"
+    },
+    {
+      "id": "gsm8k-aug-train-185",
+      "source_index": 185,
+      "question": "In a basketball tournament, Team Unity has practiced 50 hours total. Team Unity does twice as much practice as Team Conquer. How many hours has Team Conquer practiced?",
+      "cot": "<<50/2=25>>",
+      "answer": "25"
+    },
+    {
+      "id": "gsm8k-aug-train-192",
+      "source_index": 192,
+      "question": "Julie is planning a surprise party for her mom and needs to order cupcakes from the bakery. If each box has 12 cupcakes and she expects 30 guests, each expected to eat 2 cupcakes. How many boxes should Julie order?",
+      "cot": "<<30*2=60>> <<60/12=5>>",
+      "answer": "5"
+    },
+    {
+      "id": "gsm8k-aug-train-290",
+      "source_index": 290,
+      "question": "A group of students are preparing for a water balloon fight. Each student needs 5 balloons. If there are 12 students, how many balloons are needed in total?",
+      "cot": "<<12*5=60>>",
+      "answer": "60"
+    },
+    {
+      "id": "gsm8k-aug-train-378",
+      "source_index": 378,
+      "question": "If a movie theater has 12 rows of seats with 15 seats in each row, how many seats are in the movie theater?",
+      "cot": "<<12*15=180>>",
+      "answer": "180"
+    },
+    {
+      "id": "gsm8k-aug-train-381",
+      "source_index": 381,
+      "question": "Sarah has 30 pages of a book left to read. If she reads 5 pages a day, how many days does she still need to finish the book?",
+      "cot": "<<30/5=6>>",
+      "answer": "6"
+    },
+    {
+      "id": "gsm8k-aug-train-388",
+      "source_index": 388,
+      "question": "If Lily is 3 times older than her younger sister, Mary, who is 8 years old, what is the total age of Lily and Mary?",
+      "cot": "<<3*8=24>> <<24+8=32>>",
+      "answer": "32"
+    },
+    {
+      "id": "gsm8k-aug-train-621",
+      "source_index": 621,
+      "question": "Emma has 7 boxes of chocolates. Each box has 14 chocolates. She eats 2 chocolates every day. How many days will the chocolates last?",
+      "cot": "<<7*14=98>> <<98/2=49>>",
+      "answer": "49"
+    },
+    {
+      "id": "gsm8k-aug-train-914",
+      "source_index": 914,
+      "question": "At a birthday party, a pizza was divided into 8 equal slices. Adam ate 2 slices, Ben ate 3 slices, and Carl ate 1 slice. How many slices of pizza are left?",
+      "cot": "<<2+3+1=6>> <<8-6=2>>",
+      "answer": "2"
+    },
+    {
+      "id": "gsm8k-aug-train-925",
+      "source_index": 925,
+      "question": "Alice reads 30 pages of a novel in one day. She reads twice as many pages on the weekend than she does on the weekdays. If each novel is 300 pages long, how many novels will Alice read in 10 days?",
+      "cot": "<<10=10>> <<10+20=30>> <<30*10=300>> <<300/300=1>>",
+      "answer": "1"
+    },
+    {
+      "id": "gsm8k-aug-train-926",
+      "source_index": 926,
+      "question": "At a birthday party, Alex spent $40 on pizzas and $25 on drinks. He also bought a gift for $50. How much did Alex spend in total?",
+      "cot": "<<40+25+50=115>>",
+      "answer": "115"
+    },
+    {
+      "id": "gsm8k-aug-train-953",
+      "source_index": 953,
+      "question": "In a painting competition, there are 11 participants. Each participant needs 3 brushes. If each brush costs $2, how much money is needed in total for all the brushes?",
+      "cot": "<<11*3=33>> <<33*2=66>>",
+      "answer": "66"
+    },
+    {
+      "id": "gsm8k-aug-train-974",
+      "source_index": 974,
+      "question": "Charlie wants to build a fence around his front yard on four sides. His yard is 8 feet on the front and back and 12 feet on both sides. The neighbors on both his sides agreed to pay a third of their shared sides of his fence. Fencing costs $2 per foot. How much does Charlie have to pay for the fence?",
+      "cot": "<<2*8=16>> <<2*12=24>> <<24*2/3=16>> <<16+16+16+16=64>>",
+      "answer": "64"
+    },
+    {
+      "id": "gsm8k-aug-train-1040",
+      "source_index": 1040,
+      "question": "Andy has 50 candy bars. Four of them are Snickers, 10 are Kit Kats, and the rest are Milky Ways. How many Milky Ways does Andy have?",
+      "cot": "<<50-4-10=36>>",
+      "answer": "36"
+    },
+    {
+      "id": "gsm8k-aug-train-1048",
+      "source_index": 1048,
+      "question": "Samuel needs to commute 60 miles to his office at a speed of 40 miles per hour. How long, in minutes, does he need to drive to reach his office?",
+      "cot": "<<60/40=1.5>> <<1.5*60=90>>",
+      "answer": "90"
+    },
+    {
+      "id": "gsm8k-aug-train-1103",
+      "source_index": 1103,
+      "question": "Tamara, Nora, and Lulu have been saving to pay off a $40 debt. So far, Nora has saved five times what Lulu has, but three times Tamara’s savings.  Lulu has saved $6. If they pay off the debt and divide the remaining money equally, how many dollars will each girl get?",
+      "cot": "<<5*6=30>> <<30/3=10>> <<30+10+6=46>> <<46-40=6>> <<6/3=2>>",
+      "answer": "2"
+    },
+    {
+      "id": "gsm8k-aug-train-1146",
+      "source_index": 1146,
+      "question": "Lea brought 10 packs of chips, each pack has 6 pieces. How many pieces of chips does Lea have?",
+      "cot": "<<10*6=60>>",
+      "answer": "60"
+    },
+    {
+      "id": "gsm8k-aug-train-1202",
+      "source_index": 1202,
+      "question": "Emily has $78. She spends half of her money on a new game. She then buys two DVDs, each costing $8. How much money, in dollars, does she have left?",
+      "cot": "<<78/2=39>> <<8*2=16>> <<78-39-16=23>>",
+      "answer": "23"
+    },
+    {
+      "id": "gsm8k-aug-train-1219",
+      "source_index": 1219,
+      "question": "Aa charity group of 90 volunteers decided to mend clothes for the less fortunate in their community. If each volunteer mends 4 bags of clothes, and each bag contains 12 pieces of clothes, calculate the total number of pieces of clothes the volunteers mended?",
+      "cot": "<<4*12=48>> <<48*90=4320>>",
+      "answer": "4320"
+    },
+    {
+      "id": "gsm8k-aug-train-1257",
+      "source_index": 1257,
+      "question": "John ran 10 kilometers on the first day, on the second day he ran twice as much as on the first day and on the third day he ran half as much as on the second day. How many kilometers did John run in total?",
+      "cot": "<<10*2=20>> <<20/2=10>> <<10+20+10=40>>",
+      "answer": "40"
+    },
+    {
+      "id": "gsm8k-aug-train-1289",
+      "source_index": 1289,
+      "question": "A pair of gloves costs $12. Eve has saved $6. If she saves $2 each week, how many more weeks will she have to save to buy the gloves?",
+      "cot": "<<12-6=6>> <<6/2=3>>",
+      "answer": "3"
+    },
+    {
+      "id": "gsm8k-aug-train-1299",
+      "source_index": 1299,
+      "question": "Daniel's phone cost $450. Andrew's phone is worth three times as much. What is the total price of their phones?",
+      "cot": "<<450*3=1350>> <<450+1350=1800>>",
+      "answer": "1800"
+    },
+    {
+      "id": "gsm8k-aug-train-1420",
+      "source_index": 1420,
+      "question": "Billie is packing her suitcase for a trip. She can either pack 4 pairs of shoes or the equivalent weight in books. If each pair of shoes weighs 2 pounds, and each book weighs half a pound, how many books can Billie pack instead of the shoes?",
+      "cot": "<<4*2=8>> <<8/0.5=16>>",
+      "answer": "16"
+    },
+    {
+      "id": "gsm8k-aug-train-1599",
+      "source_index": 1599,
+      "question": "Alex's garden has 7 apple trees and 5 pear trees. Ben's garden has 4 less than three times as many trees as Alex's garden. How many trees does Ben's garden have?",
+      "cot": "<<7+5=12>> <<12*3=36>> <<36-4=32>>",
+      "answer": "32"
+    },
+    {
+      "id": "gsm8k-aug-train-1624",
+      "source_index": 1624,
+      "question": "Olivia has a collection of 50 records. She has 12 more Pop records than Jazz records. If Olivia has 19 Jazz records, how many Pop records does she have?",
+      "cot": "<<19+12=31>>",
+      "answer": "31"
+    },
+    {
+      "id": "gsm8k-aug-train-1646",
+      "source_index": 1646,
+      "question": "If Alice pays $20 for a bag of cat food that lasts her 4 cats 10 days, how much will she pay over a year if cat food prices do not change?",
+      "cot": "<<365/10=36.5>> <<37*20=740>>",
+      "answer": "740"
+    },
+    {
+      "id": "gsm8k-aug-train-1658",
+      "source_index": 1658,
+      "question": "Steve was selling some of his old video games online. He managed to sell 2 video games and a gaming console. In total, he earned $100. How much did the gaming console cost, if one video game was sold for $20?",
+      "cot": "<<2*20=40>> <<100-40=60>>",
+      "answer": "60"
+    },
+    {
+      "id": "gsm8k-aug-train-1751",
+      "source_index": 1751,
+      "question": "Caroline bicycles 13 miles to school every day. If a gallon of gas costs $3.50, and her car gets 28 miles per gallon, how much does she save on gas by biking to and from school instead of driving for 2 weeks (10 school days)?",
+      "cot": "<<13*2=26>> <<26*10=260>> <<260/28=~9.29>> <<9.29*3.5=32.52>>",
+      "answer": "32.52"
+    },
+    {
+      "id": "gsm8k-aug-train-1754",
+      "source_index": 1754,
+      "question": "Each laboratory in a school needs 15 computers for the students. The school decides to buy additional 3 computers for each laboratory for backup purposes. If the school has 10 laboratories, how many computers are needed?",
+      "cot": "<<15+3=18>> <<18*10=180>>",
+      "answer": "180"
+    },
+    {
+      "id": "gsm8k-aug-train-1773",
+      "source_index": 1773,
+      "question": "I have some sheep on my farm. Every day one sheep produces 4 liters of milk. If I have 5 sheep, how much milk will I get in one week?",
+      "cot": "<<5*4=20>> <<7*20=140>>",
+      "answer": "140"
+    },
+    {
+      "id": "gsm8k-aug-train-1823",
+      "source_index": 1823,
+      "question": "Shawn, Valentina, and Sebastian participated in a pie-eating contest. Shawn ate 2 pies less than Valentina, and Valentina ate 3 pies more than Sebastian. If Valentina ate 7 pies, how many pies did all three of them eat in total?",
+      "cot": "<<7-2=5>> <<7-3=4>> <<5+7+4=16>>",
+      "answer": "16"
+    },
+    {
+      "id": "gsm8k-aug-train-1892",
+      "source_index": 1892,
+      "question": "It's payday but Jebb has to pay 10% for the tax. If his pay is $650, how much is his take-home pay?",
+      "cot": "<<650*10/100=65>> <<650-65=585>>",
+      "answer": "585"
+    }
+  ],
+  "validation": [
+    {
+      "id": "gsm8k-aug-train-2003",
+      "source_index": 2003,
+      "question": "Liam buys 12 packs of crayons for his classroom. Each pack contains 24 crayons. After distributing the crayons, he notices that he has 34 crayons left. How many crayons were distributed to the students?",
+      "cot": "<<12*24=288>> <<288-34=254>>",
+      "answer": "254"
+    },
+    {
+      "id": "gsm8k-aug-train-2010",
+      "source_index": 2010,
+      "question": "Stacy is jogging on a circular track that has a radius of 50 meters. She starts at one point and jogs until she returns to the same point. How far did she travel? (Use Pi = 3.14)",
+      "cot": "<<2*3.14*50=314>>",
+      "answer": "314"
+    },
+    {
+      "id": "gsm8k-aug-train-2023",
+      "source_index": 2023,
+      "question": "A bicycle factory produces 15 bicycles every hour. If the factory works for 10 hours a day, how many bicycles do they produce in a week assuming they work 5 days a week?",
+      "cot": "<<15*10=150>> <<150*5=750>>",
+      "answer": "750"
+    },
+    {
+      "id": "gsm8k-aug-train-2024",
+      "source_index": 2024,
+      "question": "Mike wants to save up for a new bike that costs $150. He saves $10 a week from his allowance. After 8 weeks, how much more does he need to save in order to reach his goal?",
+      "cot": "<<8*10=80>> <<150-80=70>>",
+      "answer": "70"
+    },
+    {
+      "id": "gsm8k-aug-train-2036",
+      "source_index": 2036,
+      "question": "Jack needs to save $1000 for a new car. He saves 20 dollars per week. If he receives a bonus at the start of the saving cycle of $50, how many weeks does he need to save for the car?",
+      "cot": "<<1000-50=950>> <<950/20=47.5>>",
+      "answer": "48"
+    },
+    {
+      "id": "gsm8k-aug-train-2040",
+      "source_index": 2040,
+      "question": "Sam wants to print out photos for her photo album. She needs 50 photos and has a photo paper pack that can accommodate 100 photos. It costs her $0.20 to print one photo. If she has a budget of $20, how many photos can she print out?",
+      "cot": "<<20/0.20=100>> <<100-50=50>>",
+      "answer": "50."
+    },
+    {
+      "id": "gsm8k-aug-train-2047",
+      "source_index": 2047,
+      "question": "Anna spends 2 hours reading books every day. She reads 3 times as much on weekends. How many hours does she spend reading in a week?",
+      "cot": "<<2*5=10>> <<2*3=6>> <<6*2=12>> <<10+12=22>>",
+      "answer": "22"
+    },
+    {
+      "id": "gsm8k-aug-train-2048",
+      "source_index": 2048,
+      "question": "Riley is 3 inches taller than Quinn, who is 5 inches shorter than Jordan. If Mason is 60 inches tall and has the same height as Jordan, calculate the average height of the four people.",
+      "cot": "<<60-5=55>> <<60+60=120>> <<120+55=175>> <<55+3=58>> <<58+175=233>> <<233/4=58.25>>",
+      "answer": "58.25"
+    },
+    {
+      "id": "gsm8k-aug-train-2077",
+      "source_index": 2077,
+      "question": "The sheep on a farm produce 40 pounds of wool in a week on average. If a sweater requires 2 pounds of wool, how many sweaters can be produced from the wool that the farm's sheep produce in 4 weeks?",
+      "cot": "<<40*4=160>> <<160/2=80>>",
+      "answer": "80"
+    },
+    {
+      "id": "gsm8k-aug-train-2101",
+      "source_index": 2101,
+      "question": "Lisa and Mark went to a hoarder's house and discovered piles of dollar coins. Lisa had 3 times less dollar coins than Mark. If they had a total of 100 dollar coins, how many dollar coins does Lisa have?",
+      "cot": "<<100/4=25>>",
+      "answer": "25"
+    },
+    {
+      "id": "gsm8k-aug-train-2114",
+      "source_index": 2114,
+      "question": "Sophia has a book that is 250 pages long. She reads 50 pages a day. If she has already read 70 pages, how many more days does she need to finish the book?",
+      "cot": "<<250-70=180>> <<180/50=3.6>>",
+      "answer": "4"
+    },
+    {
+      "id": "gsm8k-aug-train-2115",
+      "source_index": 2115,
+      "question": "Jimmy saved $45 from his allowance to buy video games. If he spent $12 on each game, how many games was he able to buy?",
+      "cot": "<<45/12=3.75>>",
+      "answer": "3"
+    },
+    {
+      "id": "gsm8k-aug-train-2119",
+      "source_index": 2119,
+      "question": "Natalie is learning three new songs on the piano. She spends sixty minutes learning the first song. The second song is easier, and she learns it in half the time. The third song is more challenging, so it takes her as long as the other two songs to learn. How many minutes did she spend learning the three songs?",
+      "cot": "<<60/2=30>> <<60+30=90>> <<60+30+90=180>>",
+      "answer": "180"
+    },
+    {
+      "id": "gsm8k-aug-train-2121",
+      "source_index": 2121,
+      "question": "A zookeeper found a young tiger cub which was 12 inch tall. In the next three months, her height doubled, then it doubled again in next three months. What would be her height now?",
+      "cot": "<<12*2=24>> <<24*2=48>>",
+      "answer": "48"
+    },
+    {
+      "id": "gsm8k-aug-train-2130",
+      "source_index": 2130,
+      "question": "Samantha bought 2 dresses and 3 shirts at a clothing store. Each dress costs $25. The total cost of Samantha's shopping is $95. If each shirt is the same price, what is the price of 1 shirt?",
+      "cot": "<<2*25=50>> <<95-50=45>> <<45/3=15>>",
+      "answer": "15"
+    },
+    {
+      "id": "gsm8k-aug-train-2131",
+      "source_index": 2131,
+      "question": "Tom decided to cycle to his friend's house and back. He cycled 20 miles to get there and it took him 4 hours. How many miles did Tom cycle in total?",
+      "cot": "<<20+20=40>>",
+      "answer": "40"
+    },
+    {
+      "id": "gsm8k-aug-train-2135",
+      "source_index": 2135,
+      "question": "In a park, there are 14 benches. Each bench can seat 3 people. During a festival, each bench is occupied by 2 people. What is the total number of people that the park could seat during the festival, and how many more people could it seat if totally filled?",
+      "cot": "<<14*2=28>> <<14*3=42>> <<42-28=14>>",
+      "answer": "14"
+    },
+    {
+      "id": "gsm8k-aug-train-2137",
+      "source_index": 2137,
+      "question": "Kelly spends 45 mins every day driving to work and the same amount of time driving back home. How many hours does she spend in daily commuting?",
+      "cot": "<<45+45=90>> <<90/60=1.5>>",
+      "answer": "1.5"
+    },
+    {
+      "id": "gsm8k-aug-train-2143",
+      "source_index": 2143,
+      "question": "The soda machine fails to drop a drink when it’s purchased one in four times. One in eight times, it will accidentally drop two drinks. The rest of the time, it drops the purchased drink. If sixty people have used the soda machine once each to purchase a drink, how many drinks has the soda machine dropped?",
+      "cot": "<<60/4=15>> <<60/8=7.5>> <<60-15-7.5=37.5>> <<37.5+15=52.5>>",
+      "answer": "52.5"
+    },
+    {
+      "id": "gsm8k-aug-train-2150",
+      "source_index": 2150,
+      "question": "Jacob had a bag of 150 candies. He decided to share them equally with his 5 friends. After everyone enjoyed the sweets, he found out that his little brother ate 3 candies per person from everyone. How many candies does Jacob have left in the end?",
+      "cot": "<<150/5=30>> <<6*3=18>> <<150-18=132>>",
+      "answer": "132"
+    },
+    {
+      "id": "gsm8k-aug-train-2152",
+      "source_index": 2152,
+      "question": "A gym had 2500 members at the start of the year. The number increased by 15% over the course of the year. How many members does the gym have at the end of the year?",
+      "cot": "<<0.15*2500=375>> <<2500+375=2875>>",
+      "answer": "2875"
+    },
+    {
+      "id": "gsm8k-aug-train-2157",
+      "source_index": 2157,
+      "question": "In chemistry lab, measure of concentration is expressed in moles/liter. Now, if a solution has 4 moles of solute dissolved in a 2 liter solvent. What is the concentration of the solution?",
+      "cot": "<<4/2=2>>",
+      "answer": "2"
+    },
+    {
+      "id": "gsm8k-aug-train-2159",
+      "source_index": 2159,
+      "question": "Jim is an artist. In the first week, he sold five paintings. In the second week, he sold thrice as many paintings. In the third week, he sold five fewer than in the second week. After the fourth week, he had sold a total of 35 paintings. How many paintings did Jim sell in the fourth week?",
+      "cot": "<<3*5=15>> <<15-5=10>> <<35-30=5>>",
+      "answer": "5"
+    },
+    {
+      "id": "gsm8k-aug-train-2161",
+      "source_index": 2161,
+      "question": "In the cinema theater, there are three types of popcorn sizes. The large bag contains 60 pieces of popcorn. The medium bag contains 50% less popcorn than the large bag. The small bag contains 25% less popcorn than the medium bag. How many pieces are there in the small bag?",
+      "cot": "<<50*.01*60=30>> <<60-30=30>> <<25*.01*30=7.5>> <<30-7.5=22.5>>",
+      "answer": "22.5"
+    },
+    {
+      "id": "gsm8k-aug-train-2162",
+      "source_index": 2162,
+      "question": "Alice has 2 times as many books as Bob. Alice then adds 7 more books to her collection. If Bob has 10 books, how many does Alice have in total?",
+      "cot": "<<10*2=20>> <<20+7=27>>",
+      "answer": "27"
+    },
+    {
+      "id": "gsm8k-aug-train-2166",
+      "source_index": 2166,
+      "question": "Carla had 25 bunches of bananas. She sold 5 bunches in the market and bought another 10 bunches. How many bunches of bananas does Carla have in the end?",
+      "cot": "<<25-5=20>> <<20+10=30>>",
+      "answer": "30"
+    },
+    {
+      "id": "gsm8k-aug-train-2167",
+      "source_index": 2167,
+      "question": "Mary’s garden is rectangular and has an area of 100 square feet. If the garden's width is 5 feet, how long is the garden?",
+      "cot": "<<100/5=20>>",
+      "answer": "20"
+    },
+    {
+      "id": "gsm8k-aug-train-2177",
+      "source_index": 2177,
+      "question": "A local bakery makes bread which comes in loaves of 10 slices. If a family of 5 needs two slices of bread per person for dinner, how many loaves do they need to purchase?",
+      "cot": "<<5*2=10>> <<10/10=1>>",
+      "answer": "1"
+    },
+    {
+      "id": "gsm8k-aug-train-2188",
+      "source_index": 2188,
+      "question": "Dylan bought a pair of sneakers on sale for $78. The original price was $130. What is the amount of the discount?",
+      "cot": "<<130-78=52>>",
+      "answer": "52"
+    },
+    {
+      "id": "gsm8k-aug-train-2192",
+      "source_index": 2192,
+      "question": "Maria baked 20 cookies. She gives 4 cookies to each of her 3 friends. How many cookies does she have left?",
+      "cot": "<<4*3=12>> <<20-12=8>>",
+      "answer": "8"
+    },
+    {
+      "id": "gsm8k-aug-train-2196",
+      "source_index": 2196,
+      "question": "Julian and his classmates had a distance throwing competition. Julian threw the ball 12 meters. Carlos threw the ball twice as far as Julian and Sara threw the ball three times the distance Julian threw. What was the total distance thrown by all three?",
+      "cot": "<<12*2=24>> <<12*3=36>> <<12+24+36=72>>",
+      "answer": "72"
+    },
+    {
+      "id": "gsm8k-aug-train-2199",
+      "source_index": 2199,
+      "question": "A large container can hold 8 gallons of water. Each gallon contains 4 quarts of water. If the container is filled to its maximum capacity, how many quarts of water does it contain?",
+      "cot": "<<8*4=32>>",
+      "answer": "32"
+    }
+  ]
+}

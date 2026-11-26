@@ -1,0 +1,33 @@
+{
+  "description": "Configuration reference assembled from existing frozen settings; not a replacement for the historical training contract.",
+  "common_config_source": "e3/config.json",
+  "common_config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "method": {
+    "variant": "explain_ramp_v1",
+    "start_factor": 0.1,
+    "end_factor": 1.0,
+    "ramp_updates": 250,
+    "prefix_mask": false,
+    "convention": "update 1 uses 0.1; update 250 uses 1.0; updates 251-750 use 1.0"
+  }
+}

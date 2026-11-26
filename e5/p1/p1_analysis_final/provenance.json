@@ -1,0 +1,35 @@
+{
+  "inputs": {
+    "server_backup_p1\\p0_control_v1\\config.json": "354a6e6b220bb1ef12e2481918e1647a85176d465cab32ce7c9605d77a3b0433",
+    "server_backup_p1\\p0_control_v1\\gradients.jsonl": "e9571d657d0a08d3c5f3ff6591bfee991a01a263a1c7467be6c467eceba3e059",
+    "server_backup_p1\\p0_control_v1\\interventions.jsonl": "9f63b87cb05f70707449c8a2a33f6a3caa29855d4663fa020ad77fd005204fa5",
+    "server_backup_p1\\p0_control_v1\\parameters.json": "b83ade0d577081785d5e48415eb45a7078b7a083ca51bc47fc678cf1450b7d21",
+    "server_backup_p1\\p0_control_v1\\samples.json": "1d5adf9ffd09b06bc0844571698c48ad359ebbf83e7282092c39a06dbbfb6be0",
+    "server_backup_p1\\p0_control_v1\\summary.json": "b34f46617650c09ecc1baad822b7e38c6241b4d93a2d080cb9cca6786f3764f2",
+    "server_backup_p1\\p0_p1_v1\\config.json": "cda846a1d00560e578a279920f0bf69684aa4668bde7fe01282fd51e08472f56",
+    "server_backup_p1\\p0_p1_v1\\gradients.jsonl": "9dd933b49d67f77f2a1606c9ce6be18d42ea711a3ac256315081fe04a6c21ff6",
+    "server_backup_p1\\p0_p1_v1\\interventions.jsonl": "b1182bd57f09891a517abb8615faca6793fd80b2a7febca55cb7ebc6fcfc2046",
+    "server_backup_p1\\p0_p1_v1\\parameters.json": "b83ade0d577081785d5e48415eb45a7078b7a083ca51bc47fc678cf1450b7d21",
+    "server_backup_p1\\p0_p1_v1\\samples.json": "1d5adf9ffd09b06bc0844571698c48ad359ebbf83e7282092c39a06dbbfb6be0",
+    "server_backup_p1\\p0_p1_v1\\summary.json": "adb68851d6be53a86a46370367cbe505de712d5161aa7972c0f2768dffb848c1",
+    "server_backup_p1\\p1_control_validation\\config.json": "135aa64d3ed0435bd0105dd7a8dba96baff37d88cfa8013589e1beadc1ce712f",
+    "server_backup_p1\\p1_control_validation\\summary.csv": "9c0c43401ec69895d1f1844208e551f77b87c1b144776717732aa60356106d4d",
+    "server_backup_p1\\p1_control_validation\\validation.decoded.jsonl": "252656e7aaf1b9c87332073477f4cc9bf0292fadce9e98e327663d5dc2cd1f86",
+    "server_backup_p1\\p1_control_validation\\validation.predictions.jsonl": "0872f16ef6c8f2a1191cf62fba596f0ae3e92c0b28a6c60206acbddad9dad756",
+    "server_backup_p1\\p1_validation\\config.json": "62164c11fb92f22f3a536f2a51915502509ca9caeb69d533ee6954dd67380eca",
+    "server_backup_p1\\p1_validation\\summary.csv": "027c7dfad8af3bc3a61a7e3d7427de1bbfc03cc7fc1760753d1ecd08e3eb7c38",
+    "server_backup_p1\\p1_validation\\validation.decoded.jsonl": "af0ba35bd151bc4ccaec888c19dcfd2c43bfc0de121d0af8c2c90bb9ebad190e",
+    "server_backup_p1\\p1_validation\\validation.predictions.jsonl": "db41164daab7772cf2aa72986fa11beca66051fd391d8289316a128a6649dfbe"
+  },
+  "source": {
+    "e5/analyze_p1.py": "61f2e3d7d50a71c71fd045f83ed285ef7332e19ae0b6f79fe3052484e61ade6e",
+    "e4/analyze.py": "9006da449974a851058de1ed3f74981ef2b562639b2b4f2aa269b56c606afdf6",
+    "e1/metrics.py": "d0977f46786b9049e45349b5f5999a228aca34821188c3b75f7d775cbea597c5"
+  },
+  "checkpoints": {
+    "control": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+    "p1": "4276c57a336117c29e8592c98ed1f4262fe37b05c3e3d8ed287bef9fcd2871f8"
+  },
+  "validation_sha256": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9",
+  "checks": "All alignment and recomputation assertions passed"
+}
