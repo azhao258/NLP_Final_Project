@@ -1,0 +1,101 @@
+{
+  "baseline": "v1",
+  "n": 200,
+  "correct": 6,
+  "manifest_hash_matches_export": false,
+  "valid_reference_slots": 478,
+  "pad_slots": 522,
+  "strict_matches": 6,
+  "conservative_matches": 9,
+  "all_strict_questions": 1,
+  "all_conservative_questions": 1,
+  "comparable_slots": 478,
+  "generated_arithmetic_valid_all_slots": 1000,
+  "generated_capped": 0,
+  "answer_parse_failures": 0,
+  "answer_capped": 0,
+  "merged_reference_questions": 2,
+  "reference_equations": 483,
+  "missing_equations_in_merged_slots": 5,
+  "slot_label_counts": {
+    "arithmetic_inconsistency": 0,
+    "fewer_equations_than_reference": 2,
+    "intermediate_result_mismatch": 452,
+    "missing_output": 0,
+    "operand_mismatch": 468,
+    "operator_mismatch": 288,
+    "reference_arithmetic_inconsistency": 7,
+    "reference_step_not_reproduced": 469,
+    "unparseable_output": 0
+  },
+  "question_label_counts": {
+    "arithmetic_inconsistency": 0,
+    "correct_answer_explanation_mismatch": 6,
+    "fewer_equations_than_reference": 2,
+    "frequent_template_on_valid_slot": 156,
+    "intermediate_result_mismatch": 198,
+    "missing_output": 0,
+    "operand_mismatch": 199,
+    "operator_mismatch": 172,
+    "reference_arithmetic_inconsistency": 7,
+    "reference_step_not_reproduced": 199,
+    "unparseable_output": 0
+  },
+  "slots": [
+    {
+      "slot": 0,
+      "consumed_by_reasoner": true,
+      "all_outputs": 200,
+      "valid_reference": 200,
+      "strict_matches": 4,
+      "conservative_matches": 5,
+      "unique_outputs": 5,
+      "most_common": "<<2*15=30>>",
+      "most_common_count": 80
+    },
+    {
+      "slot": 1,
+      "consumed_by_reasoner": true,
+      "all_outputs": 200,
+      "valid_reference": 159,
+      "strict_matches": 1,
+      "conservative_matches": 2,
+      "unique_outputs": 2,
+      "most_common": "<<3*2=6>>",
+      "most_common_count": 188
+    },
+    {
+      "slot": 2,
+      "consumed_by_reasoner": true,
+      "all_outputs": 200,
+      "valid_reference": 82,
+      "strict_matches": 1,
+      "conservative_matches": 2,
+      "unique_outputs": 2,
+      "most_common": "<<3*2=6>>",
+      "most_common_count": 187
+    },
+    {
+      "slot": 3,
+      "consumed_by_reasoner": true,
+      "all_outputs": 200,
+      "valid_reference": 29,
+      "strict_matches": 0,
+      "conservative_matches": 0,
+      "unique_outputs": 2,
+      "most_common": "<<3*2=6>>",
+      "most_common_count": 175
+    },
+    {
+      "slot": 4,
+      "consumed_by_reasoner": false,
+      "all_outputs": 200,
+      "valid_reference": 8,
+      "strict_matches": 0,
+      "conservative_matches": 0,
+      "unique_outputs": 2,
+      "most_common": "<<3*2=6>>",
+      "most_common_count": 177
+    }
+  ]
+}

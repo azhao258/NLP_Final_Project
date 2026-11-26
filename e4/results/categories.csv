@@ -1,0 +1,12 @@
+﻿label,valid_slot_count,question_count
+arithmetic_inconsistency,0,0
+correct_answer_explanation_mismatch,,6
+fewer_equations_than_reference,2,2
+frequent_template_on_valid_slot,,156
+intermediate_result_mismatch,452,198
+missing_output,0,0
+operand_mismatch,468,199
+operator_mismatch,288,172
+reference_arithmetic_inconsistency,7,7
+reference_step_not_reproduced,469,199
+unparseable_output,0,0

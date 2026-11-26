@@ -1,0 +1,87 @@
+{
+  "source_commit": "8040d3a",
+  "checkpoint_sha256": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+  "inputs": {
+    "e3_runs\\control_diagnostics\\validation.decoded.jsonl": "252656e7aaf1b9c87332073477f4cc9bf0292fadce9e98e327663d5dc2cd1f86",
+    "e3_runs\\control_diagnostics\\validation.predictions.jsonl": "ac2955f703af2f19a0e9f8c1bc69012c0dc9b459a94488c4baabc8af0815abd6",
+    "e3_runs\\control_diagnostics\\config.json": "fe363f02a44baa88fce1e477e5ca13cb07ee4609a8b88043f9fc6dc4b5bfb231",
+    "e3\\data\\validation.jsonl": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9",
+    "e3\\data\\manifest.json": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+    "e3\\active_baseline.json": "fc1d330bff78eb8f2c161da6e4ff74524fbc509ae053d77c33466259f7679b5b",
+    "e3\\frozen_v1.json": "2cbc16dec3582ee3d6af72b1814644d4a688acf9e615653ff23a896f65c73118"
+  },
+  "script_sha256": "c41481043419d7fed4c3f0ebe814775e1f9adf85067c0b4c940835947be93b29",
+  "rules_version": 2,
+  "compression_sources": {
+    "inputs": {
+      "e1/data/manifest.json": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1",
+      "e1/metrics.py": "d0977f46786b9049e45349b5f5999a228aca34821188c3b75f7d775cbea597c5",
+      "e3/frozen_v1.json": "2cbc16dec3582ee3d6af72b1814644d4a688acf9e615653ff23a896f65c73118",
+      "e1/data/gsm8k.jsonl": "6ba42bc5a3a7e9744c988d13eb4b3b8be3035c6d79b925753165d51771b00db4",
+      "e1_results/codi_full/gsm8k.predictions.jsonl": "a1406d1ec2616d5f48dfee6cb64b38b7cebb7f2bf8acb54a8889f6899f707aa9",
+      "e1_results/codi_full/config.json": "280e5da23db47011bea746585925e1909ee6bcca051d071697c362ff05e952e6",
+      "e1_results/codi_full/summary.csv": "3caebcd4c5569bca81c79a7d9705d287e960b71e2f9662bf46f1f5a94c3acb5c",
+      "e1_results/sim_full/gsm8k.predictions.jsonl": "720a92ef678bf77e9cefc08de65526e089a0fd37d2f4d448168955a88e255373",
+      "e1_results/sim_full/config.json": "848f0a2933f5db8656a28b913a7b81a76c0ae06ddf03e745ce9b757eda4bb656",
+      "e1_results/sim_full/summary.csv": "bb2f19cb0ca27b2756cd7e1c3da7873c17e2d10e7d9edb7ecd29c30b2cbf51f6",
+      "e3_runs/control_test/gsm8k.predictions.jsonl": "e16c029cae3e44683c7ffe50730d4bbf3fc9e0c0df7cc8db4b1dd21923c216b3",
+      "e3_runs/control_test/config.json": "b7c8d4494aa81ebbaf6cbaeed8b453d7078d97e54f91df1f294995e5070ddea1",
+      "e3_runs/control_test/summary.csv": "8cd207cc5762128dde07e64fc5c8253722c148acdb4b7538e1095c240e89037b",
+      "e1/data/gsm_hard.jsonl": "e6e3943a8ac8b693f3f83087a9aa50dc7ccd640dcbba8f3163251a5c979f4bb8",
+      "e1_results/codi_full/gsm_hard.predictions.jsonl": "30e9d9714a6897ff197a664485b2e4a164814121921e62ef10b42d62bf4cac57",
+      "e1_results/sim_full/gsm_hard.predictions.jsonl": "88a4d315baf4f5185d1710331dc1b5ca9ea8154c58e3422cec918a7463a550eb",
+      "e3_runs/control_test/gsm_hard.predictions.jsonl": "c7ad1045a0839dd9c29c6b4fd201648db86126c8178528386c2ee3eac4e4d90b",
+      "e1/data/svamp.jsonl": "7dd68684a74d3287ae85cb353254cefa9f5c240c67c00376e0150c084a6d4ef8",
+      "e1_results/codi_svamp_course_test/svamp.predictions.jsonl": "e401b98ceb8b03361a61597ab334816547d97377596e901909bb3a3e0aa79077",
+      "e1_results/codi_svamp_course_test/config.json": "e3ec21e5de96e916a006cab66cbf9340502681f900dd9a52ea0a5ee438e61e04",
+      "e1_results/codi_svamp_course_test/summary.csv": "9c004cf390cc5a827972db30492ebd58a1fc595d7102f7abcdcc8418565e9eed",
+      "e1_results/sim_svamp_course_test/svamp.predictions.jsonl": "a4db64b615bb3936068be898f10d572d4f2393bfe5070914c643628e7e663642",
+      "e1_results/sim_svamp_course_test/config.json": "59cfecc2541d12c90691cd374507a5d9ec7c302cf87d6ce34fc8e67b7c15fa9a",
+      "e1_results/sim_svamp_course_test/summary.csv": "10b78a81573635b1c80854c9e4cd959970ac918c5fe1e68a30cdf1b9ce1110e8",
+      "e3_runs/control_test/svamp.predictions.jsonl": "254400f99dcb58b5c75d408f3552ac9fcc89be2cf0296fa07015d9e391ff327d"
+    },
+    "warnings": [
+      {
+        "model": "CODI_released",
+        "dataset": "gsm8k",
+        "message": "Historical whole-manifest hash differs; selected dataset records checked against current frozen rows.",
+        "recorded": "71a506f9b90ec7c71a85bb87a899d2a91ad159e436186c31cf6fd03811b7bf7a",
+        "current": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1"
+      },
+      {
+        "model": "SIM-CoT_released",
+        "dataset": "gsm8k",
+        "message": "Historical whole-manifest hash differs; selected dataset records checked against current frozen rows.",
+        "recorded": "71a506f9b90ec7c71a85bb87a899d2a91ad159e436186c31cf6fd03811b7bf7a",
+        "current": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1"
+      },
+      {
+        "model": "CODI_released",
+        "dataset": "gsm_hard",
+        "message": "Historical whole-manifest hash differs; selected dataset records checked against current frozen rows.",
+        "recorded": "71a506f9b90ec7c71a85bb87a899d2a91ad159e436186c31cf6fd03811b7bf7a",
+        "current": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1"
+      },
+      {
+        "model": "SIM-CoT_released",
+        "dataset": "gsm_hard",
+        "message": "Historical whole-manifest hash differs; selected dataset records checked against current frozen rows.",
+        "recorded": "71a506f9b90ec7c71a85bb87a899d2a91ad159e436186c31cf6fd03811b7bf7a",
+        "current": "91ad539b46dbfdb2970a053e242a701ccd4967a5581e8b2c0fd63202faddd7f1"
+      }
+    ],
+    "scorer": "e1.metrics.extract; numeric-normalized exact match, no tolerance",
+    "percentile": "linear interpolation, same definition as numpy.percentile default",
+    "reference_length": "Reaggregate recorded GPT-2 reference_tokens; not re-tokenized during this CPU summary.",
+    "checkpoint_verification": "Recorded checkpoint identities only; weights not downloaded in this task.",
+    "script_sha256": "7f6b25b0bcb5d90f93840c23fa4f1ba029af70bc402ba37c8f5f45865c2a6bdb"
+  },
+  "frequent_template_threshold": "same normalized text at same slot in >=100/200 questions",
+  "manifest_hash_matches_export": false,
+  "export_manifest_sha256": "841cab21a068acd580211d0a7f212975e9eaa91f26cdad4659ccd0159e786d0e",
+  "current_manifest_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+  "validation_bytes_match_current_manifest": true,
+  "warning": "Archived v1 manifest hash differs from current manifest; validation bytes and row alignment verified, historical manifest identity not established.",
+  "no_training": true,
+  "no_checkpoint_download": true
+}

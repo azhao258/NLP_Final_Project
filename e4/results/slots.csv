@@ -1,0 +1,6 @@
+﻿slot,consumed_by_reasoner,all_outputs,valid_reference,strict_matches,conservative_matches,unique_outputs,most_common,most_common_count
+0,True,200,200,4,5,5,<<2*15=30>>,80
+1,True,200,159,1,2,2,<<3*2=6>>,188
+2,True,200,82,1,2,2,<<3*2=6>>,187
+3,True,200,29,0,0,2,<<3*2=6>>,175
+4,False,200,8,0,0,2,<<3*2=6>>,177
