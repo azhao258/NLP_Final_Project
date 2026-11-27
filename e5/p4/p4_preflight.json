@@ -1,0 +1,74 @@
+{
+  "protocol": {
+    "config": {
+      "seed": 11,
+      "latent_steps": 4,
+      "epochs": 3,
+      "micro_batch_size": 1,
+      "gradient_accumulation": 8,
+      "learning_rate": 5e-05,
+      "weight_decay": 0.01,
+      "warmup_steps": 38,
+      "max_grad_norm": 1.0,
+      "save_every": 50,
+      "lora_r": 128,
+      "lora_alpha": 32,
+      "lora_dropout": 0.1,
+      "projection_dim": 768,
+      "explain_loss_factor": 1.0,
+      "distill_loss_factor": 1.0,
+      "ref_loss_factor": 1.0,
+      "answer_max_tokens": 64,
+      "decode_max_tokens": 64
+    },
+    "variant": {
+      "variant": "step_alignment_v1",
+      "alignment_factor": 0.1,
+      "alignment_loss": "mean(1-cosine), FP32, valid slots only",
+      "student": "projected z0..z4; z4 is readout-only",
+      "teacher": "existing no-grad reference pass, last layer at closing >> token",
+      "tail": "first four steps individually; slot 4 uses final end of merged tail",
+      "teacher_stop_gradient": true,
+      "extra_reference_forward": false,
+      "prefix_mask": false,
+      "operand_weight": 1.0,
+      "explain_loss_factor": 1.0,
+      "reference_warmstart": false,
+      "total_updates": 750,
+      "status": "exploratory: strong-reference prerequisite not established"
+    },
+    "data_files_sha256": {
+      "train": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+      "validation": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9"
+    },
+    "order_sha256": "bf8a09b0fb877ebb95a0853152283730468c7e5d78f6c85c0fd1cf55cdfa7ac8",
+    "full_budget_updates": 750,
+    "sample_presentations": 6000,
+    "initialization_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+    "initialization_available": true,
+    "historical_manifest_sha256": "841cab21a068acd580211d0a7f212975e9eaa91f26cdad4659ccd0159e786d0e",
+    "current_manifest_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+    "historical_manifest_mismatch": true,
+    "note": "Train/validation bytes checked. Historical manifest discrepancy retained. No test data read."
+  },
+  "splits": {
+    "train": {
+      "rows": 2000,
+      "valid_slots": 5102,
+      "consumed_slots": 4956,
+      "readout_only_slots": 146,
+      "merged_tail_rows": 50,
+      "no_step_rows": 1,
+      "maximum_reference_tokens": 172
+    },
+    "validation": {
+      "rows": 200,
+      "valid_slots": 478,
+      "consumed_slots": 470,
+      "readout_only_slots": 8,
+      "merged_tail_rows": 2,
+      "no_step_rows": 0,
+      "maximum_reference_tokens": 146
+    }
+  }
+}
