@@ -1,3 +1,5 @@
+> 2026-11-28 目录调整：测试比较见 [E6](E6/README.md)，步骤/检索/案例见 [E7](E7/README.md)。旧运行记录中的路径是生成时路径，迁移不代表重训或重算分数。
+
 # NLP Final Project — A/B 实验交接
 
 AIAA4051 Project 11 · Compressing Chain-of-Thought via Interpretable Latent Reasoning

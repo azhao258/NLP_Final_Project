@@ -1,3 +1,5 @@
+> 2026-11-28 目录调整：测试比较见 [E6](../E6/README.md)，步骤/检索/案例见 [E7](../E7/README.md)。旧运行记录中的路径是生成时路径，迁移不代表重训或重算分数。
+
 # 给 A 的交接：E4、E5 完成情况及 E6、E7 已覆盖内容
 
 **E4 的分析与案例文档、E5 的五个改进模型训练和测试已经有交付；B 在实施 Part 3 时，也完成了 E6 的主要量化比较和 E7 的自动步骤评分。A 不需要从零重做这些统计，后续重点是人工复核、报告整合及交付验收。**
@@ -49,7 +51,7 @@ E4 案例文档明确留下两项参考质量问题给 A 复核：`gsm8k-aug-tra
 
 受控条件还需要保留两点解释：P1 同时改变解释损失的时间分布和累计权重，不能单独归因于“时机”；P3 总更新数仍为 750，但 latent/decoder 联合训练只有后 600 次，不能说 latent 路径也获得与 v1 相同的 750 次训练。
 
-每个方案目录均有 `checkpoint/last.pt`、`validation/` 和 `test/`。例如 P2 的最终权重为 `e5/p2/checkpoint/last.pt`；其余方案按同样结构存放。验证/测试目录保存配置、汇总、逐题预测和解码解释。v1 的对应副本位于 [control_validation](control_validation/) 和 [control_test](control_test/)。
+每个方案目录均有 `checkpoint/last.pt`、`validation/` 和 `test/`。例如 P2 的最终权重为 `e5/p2/checkpoint/last.pt`；其余方案按同样结构存放。验证/测试目录保存配置、汇总、逐题预测和解码解释。v1 的对应副本位于 [control_validation](control_validation/) 和 [control_test](../E6/exports/v1)。
 
 训练记录与耗时：
 
@@ -75,24 +77,24 @@ E4 案例文档明确留下两项参考质量问题给 A 复核：`gsm8k-aug-tra
 |---|---|---|
 | v1/前缀遮蔽同场推理、计时与解释导出 | [prefix_mask/evaluate.py](prefix_mask/evaluate.py) | 两模型同一进程先后评测；不是交错重复的六模型基准。 |
 | P1–P4 通用推理与解释导出 | [e3/evaluate.py](../e3/evaluate.py) | 各模型独立 BF16 导出；原配置记录源码与 checkpoint 身份。 |
-| 六模型正式固定测试统一比较 | [analyze_test_suite.py](analyze_test_suite.py) | 离线读取已保存预测/解释，核对固定 ID、gold、来源，生成统一比较。 |
-| 共用步骤评分及汇总 | [analyze.py](analyze.py)、[e4/analyze.py](../e4/analyze.py) | 六模型分析复用这些函数；`analyze.py` 当前不再生成前缀遮蔽 Markdown 报告。 |
+| 六模型正式固定测试统一比较 | [analyze_test_suite.py](../E6/analyze_test_suite.py) | 离线读取已保存预测/解释，核对固定 ID、gold、来源，生成统一比较。 |
+| 共用步骤评分及汇总 | [analyze.py](../E7/scoring.py)、[e4/analyze.py](../e4/analyze.py) | 六模型分析复用这些函数；`analyze.py` 当前不再生成前缀遮蔽 Markdown 报告。 |
 | 题型划分 | [problem_types.py](problem_types.py)、[problem_types.json](problem_types.json) | 分组不读取模型预测，六模型采用同一分类。 |
 
 `analyze_p1.py`–`analyze_p4.py` 主要服务此前的 200 题验证集、训练审计与专项诊断。它们及 P1–P4 的历史 REPORT 不应替代本节正式测试结果；旧报告中的“尚未测试”等进度描述也不代表当前状态。
 
 ### 4.2 A 可以直接使用的结果
 
-全部统一结果位于 [test_suite_analysis_20261126/](test_suite_analysis_20261126/)。
+全部统一结果位于 [test_suite_analysis_20261126/](../E6/legacy_six_model_analysis)。
 
 | 文件 | 已覆盖的交付 |
 |---|---|
-| [REPORT.md](test_suite_analysis_20261126/REPORT.md) | 六模型答案与步骤总表、配对得失、分组改善/持平/退化及局限 |
-| [summary.csv](test_suite_analysis_20261126/summary.csv) | 18 行模型×数据集汇总：EM、K、答案/参考长度、长度比、平均/中位/P95 延迟、步骤指标 |
-| [paired_questions.csv](test_suite_analysis_20261126/paired_questions.csv) | 3,000 条改进模型与 v1 的逐题配对：题干、gold、双方答案/解释、错转对和对转错、步骤变化 |
-| [problem_types.csv](test_suite_analysis_20261126/problem_types.csv) | 170 行总体/分组比较：样本数、准确率及步骤变化、gained/lost、小组标记 |
-| [SIX_MODEL_LATENCY_SUMMARY.md](SIX_MODEL_LATENCY_SUMMARY.md)、[SIX_MODEL_LATENCY.csv](SIX_MODEL_LATENCY.csv) | 六模型已有计时的集中整理与计时边界 |
-| [provenance.json](test_suite_analysis_20261126/provenance.json)、[complete.json](test_suite_analysis_20261126/complete.json) | 来源配置/哈希、完成状态、输出文件校验清单 |
+| [REPORT.md](../E6/legacy_six_model_analysis/REPORT.md) | 六模型答案与步骤总表、配对得失、分组改善/持平/退化及局限 |
+| [summary.csv](../E6/legacy_six_model_analysis/summary.csv) | 18 行模型×数据集汇总：EM、K、答案/参考长度、长度比、平均/中位/P95 延迟、步骤指标 |
+| [paired_questions.csv](../E6/legacy_six_model_analysis/paired_questions.csv) | 3,000 条改进模型与 v1 的逐题配对：题干、gold、双方答案/解释、错转对和对转错、步骤变化 |
+| [problem_types.csv](../E6/legacy_six_model_analysis/problem_types.csv) | 170 行总体/分组比较：样本数、准确率及步骤变化、gained/lost、小组标记 |
+| [SIX_MODEL_LATENCY_SUMMARY.md](../E6/SIX_MODEL_LATENCY_SUMMARY.md)、[SIX_MODEL_LATENCY.csv](../E6/SIX_MODEL_LATENCY.csv) | 六模型已有计时的集中整理与计时边界 |
+| [provenance.json](../E6/legacy_six_model_analysis/provenance.json)、[complete.json](../E6/legacy_six_model_analysis/complete.json) | 来源配置/哈希、完成状态、输出文件校验清单 |
 
 正式测试答案结果如下；每格均为“正确数/200（EM）”：
 
@@ -119,10 +121,10 @@ E4 案例文档明确留下两项参考质量问题给 A 复核：`gsm8k-aug-tra
 
 | 文件 | 内容 |
 |---|---|
-| [steps.csv](test_suite_analysis_20261126/steps.csv) / 同名 JSONL | 18,000 个解释槽位：生成式、参考、算术有效性、匹配/错误标签及证据 |
-| [categories.csv](test_suite_analysis_20261126/categories.csv) / 同名 JSONL | 162 行模型×数据集×错误标签计数及分母，可对照 v1 得到错误类型变化 |
-| [slots.csv](test_suite_analysis_20261126/slots.csv) / 同名 JSONL | 90 行位置级模板统计，包括最常见解释及占比 |
-| [paired_questions.csv](test_suite_analysis_20261126/paired_questions.csv) / 同名 JSONL | 同题双方解释、严格/兼容匹配数量及变化；可直接筛选人工核验候选 |
+| [steps.csv](../E6/legacy_six_model_analysis/steps.csv) / 同名 JSONL | 18,000 个解释槽位：生成式、参考、算术有效性、匹配/错误标签及证据 |
+| [categories.csv](../E6/legacy_six_model_analysis/categories.csv) / 同名 JSONL | 162 行模型×数据集×错误标签计数及分母，可对照 v1 得到错误类型变化 |
+| [slots.csv](../E6/legacy_six_model_analysis/slots.csv) / 同名 JSONL | 90 行位置级模板统计，包括最常见解释及占比 |
+| [paired_questions.csv](../E6/legacy_six_model_analysis/paired_questions.csv) / 同名 JSONL | 同题双方解释、严格/兼容匹配数量及变化；可直接筛选人工核验候选 |
 | [前缀遮蔽配对报告](prefix_mask/paired_analysis_v1/REPORT.md)、[叙述报告](prefix_mask/PREFIX_MASK_REPORT.md) | 前缀遮蔽已有专门统计、题型讨论和部分案例文字；历史相对链接和来源描述需按当前目录理解 |
 
 GSM8K 测试集 200 题中，195 题能提取参考算式，共 634 个有效参考槽位。六模型结果为：

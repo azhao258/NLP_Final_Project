@@ -1,3 +1,5 @@
+> 2026-11-28 目录调整：测试比较见 [E6](../E6/README.md)，步骤/检索/案例见 [E7](../E7/README.md)。旧运行记录中的路径是生成时路径，迁移不代表重训或重算分数。
+
 # Part 3 / E5：改进实验与交付索引
 
 ## 范围与当前进度
@@ -46,12 +48,12 @@
 |---|---|---|
 | 方法假设与单项改动 | 五个方案 README、[RESEARCH.md](RESEARCH.md) | 研究文档包含历史计划；当前状态以各方案 README 及测试分析为准。 |
 | 改进代码、checkpoint、配置 | 五个方案目录 | checkpoint 单独交付下载，不纳入普通 Git 历史。 |
-| 固定测试答案准确率、长度、延迟、步骤指标 | [统一汇总表](test_suite_analysis_20261126/summary.csv) | 18 行，六模型×三个数据集。 |
-| 逐题相对 v1 的得失 | [逐题对照](test_suite_analysis_20261126/paired_questions.csv) | 3000 个模型与 v1 的题目配对。 |
-| 第二部分步骤规则的应用 | [步骤明细](test_suite_analysis_20261126/steps.csv)、[错误类别](test_suite_analysis_20261126/categories.csv) | 18000 个解码槽位，参考缺失不记成匹配失败。 |
-| 收益是否跨题型成立 | [分题型结果](test_suite_analysis_20261126/problem_types.csv) | 保留改善/持平/退化与小组样本量，分组轴重叠不能相加。 |
-| 延迟口径与限制 | [延迟说明](SIX_MODEL_LATENCY_SUMMARY.md)、[延迟明细](SIX_MODEL_LATENCY.csv) | 历史测量描述性比较，不作跨会话方法加速归因。 |
-| 汇总报告 | [六模型固定测试报告](test_suite_analysis_20261126/REPORT.md) | 包含结果、配对变化、分组与限制；长度和延迟数值详见汇总表。 |
+| 固定测试答案准确率、长度、延迟、步骤指标 | [统一汇总表](../E6/legacy_six_model_analysis/summary.csv) | 18 行，六模型×三个数据集。 |
+| 逐题相对 v1 的得失 | [逐题对照](../E6/legacy_six_model_analysis/paired_questions.csv) | 3000 个模型与 v1 的题目配对。 |
+| 第二部分步骤规则的应用 | [步骤明细](../E6/legacy_six_model_analysis/steps.csv)、[错误类别](../E6/legacy_six_model_analysis/categories.csv) | 18000 个解码槽位，参考缺失不记成匹配失败。 |
+| 收益是否跨题型成立 | [分题型结果](../E6/legacy_six_model_analysis/problem_types.csv) | 保留改善/持平/退化与小组样本量，分组轴重叠不能相加。 |
+| 延迟口径与限制 | [延迟说明](../E6/SIX_MODEL_LATENCY_SUMMARY.md)、[延迟明细](../E6/SIX_MODEL_LATENCY.csv) | 历史测量描述性比较，不作跨会话方法加速归因。 |
+| 汇总报告 | [六模型固定测试报告](../E6/legacy_six_model_analysis/REPORT.md) | 包含结果、配对变化、分组与限制；长度和延迟数值详见汇总表。 |
 
 ## 根目录共用文件
 
@@ -61,8 +63,8 @@
 
 | 文件 | 内容与用途 | 提交建议 |
 |---|---|---|
-| [analyze.py](analyze.py) | v1/前缀遮蔽配对分析；其中步骤评分、准确率、长度、延迟函数也被统一分析复用。现仅生成结构化数据，不再生成旧 Markdown 报告。 | 提交 |
-| [analyze_test_suite.py](analyze_test_suite.py) | 六模型固定测试统一分析入口，核验原始输出，计算配对、步骤、题型、模板等，并生成统一 REPORT.md；不重新运行模型。 | 提交 |
+| [analyze.py](../E7/scoring.py) | v1/前缀遮蔽配对分析；其中步骤评分、准确率、长度、延迟函数也被统一分析复用。现仅生成结构化数据，不再生成旧 Markdown 报告。 | 提交 |
+| [analyze_test_suite.py](../E6/analyze_test_suite.py) | 六模型固定测试统一分析入口，核验原始输出，计算配对、步骤、题型、模板等，并生成统一 REPORT.md；不重新运行模型。 | 提交 |
 | [analyze_p1.py](analyze_p1.py) | v1/P1 的 200 题验证和 32＋32 诊断比较；辅助函数被后续脚本复用。 | 提交 |
 | [analyze_p2.py](analyze_p2.py) | v1/P1/P2 验证和诊断，核验 P2 日志并分析首操作数。 | 提交 |
 | [analyze_p3.py](analyze_p3.py) | v1/P1/P2/P3 验证和诊断、分阶段训练核验、参考生成及案例分析。 | 提交 |
@@ -73,9 +75,9 @@
 | [protocol.py](protocol.py) | JSON 读写、哈希、样本顺序等共用工具；完整 preflight 和 checkpoint 验证包含前缀遮蔽专属约束。 | 提交 |
 | [problem_types.py](problem_types.py) | 基于参考运算、步骤数、SVAMP 原类型、数字大小/小数等规则分组，不读取模型预测。 | 提交 |
 | [source_history.py](source_history.py) | 当前源码不匹配历史哈希时，从整理前源码快照核验旧版本；当前所需 ZIP 缺失。 | 提交；依赖见后文 |
-| [test_analysis.py](test_analysis.py) | 检查协议、类型清单、步骤评分、配对完整性、不覆盖结果和不生成旧报告等行为。 | 建议提交 |
+| [test_analysis.py](../E7/test_scoring.py) | 检查协议、类型清单、步骤评分、配对完整性、不覆盖结果和不生成旧报告等行为。 | 建议提交 |
 | [test_p0.py](test_p0.py) | 检查诊断损失梯度图及状态替换实现。 | 建议提交 |
-| [test_test_suite.py](test_test_suite.py) | 确认统一分析拒绝乱序题目、错误正确性标签、缺失解释槽位和错误参考。 | 建议提交 |
+| [test_test_suite.py](../E6/test_exports.py) | 确认统一分析拒绝乱序题目、错误正确性标签、缺失解释槽位和错误参考。 | 建议提交 |
 
 `analyze_p1.py`–`analyze_p4.py` 支持历史验证报告，不能替代固定测试的 `analyze_test_suite.py`。P1 最终验证分析已放在 [p1/p1_analysis_final](p1/p1_analysis_final/)；P2–P4 的跨模型结果保留在共用目录。
 
@@ -87,8 +89,8 @@
 | [P0_README.md](P0_README.md) | 梯度和状态替换诊断的协议、运行方式及解释边界。 | 提交 |
 | [RESEARCH.md](RESEARCH.md) | 早期研究依据、课程要求对应和候选方案讨论。含历史计划；其旧报告链接需另外修正，当前前缀遮蔽报告见 [PREFIX_MASK_REPORT.md](prefix_mask/PREFIX_MASK_REPORT.md)。 | 保留历史定位，修正链接后提交 |
 | [problem_types.json](problem_types.json) | 固定 600 道测试题的分组标签、分类政策和来源哈希；所有模型使用相同分组。 | 提交 |
-| [SIX_MODEL_LATENCY.csv](SIX_MODEL_LATENCY.csv) | 六模型×三个数据集共 18 行延迟及相关指标明细。 | 提交 |
-| [SIX_MODEL_LATENCY_SUMMARY.md](SIX_MODEL_LATENCY_SUMMARY.md) | 平均值、中位数、P95 及计时范围、跨会话比较限制；旧文本中的 experiment_summary 路径可用本目录 CSV 对照。 | 提交；建议同步路径文字 |
+| [SIX_MODEL_LATENCY.csv](../E6/SIX_MODEL_LATENCY.csv) | 六模型×三个数据集共 18 行延迟及相关指标明细。 | 提交 |
+| [SIX_MODEL_LATENCY_SUMMARY.md](../E6/SIX_MODEL_LATENCY_SUMMARY.md) | 平均值、中位数、P95 及计时范围、跨会话比较限制；旧文本中的 experiment_summary 路径可用本目录 CSV 对照。 | 提交；建议同步路径文字 |
 | [ORGANIZATION_MANIFEST.json](ORGANIZATION_MANIFEST.json) | 文件整理时的移动/复制来源、目标、哈希和核验结果。包括源码快照路径及哈希，但当前快照文件缺失；其中 current_source_sha256 是整理当时记录，不代表后来修改文件的最新哈希。 | 作为历史记录提交 |
 
 ## v1 共用对照数据
@@ -110,15 +112,15 @@
 
 | 文件 | 内容 | 提交建议 |
 |---|---|---|
-| [control_test/complete.json](control_test/complete.json) | 600 题导出完成记录、配对标识及文件哈希。 | 提交 |
-| [control_test/config.json](control_test/config.json) | v1 身份、训练来源、配置、数据/代码/题型哈希、配对与运行设置。 | 提交 |
-| [control_test/summary.csv](control_test/summary.csv) | 三个数据集汇总，正确数为 7/200、1/200、2/200。 | 提交 |
-| [control_test/gsm8k.predictions.jsonl](control_test/gsm8k.predictions.jsonl) | GSM8K 逐题答案、正确性、长度和延迟。 | 提交 |
-| [control_test/gsm8k.decoded.jsonl](control_test/gsm8k.decoded.jsonl) | GSM8K 解释及参考。 | 提交 |
-| [control_test/gsm_hard.predictions.jsonl](control_test/gsm_hard.predictions.jsonl) | GSM-Hard 逐题答案、正确性、长度和延迟。 | 提交 |
-| [control_test/gsm_hard.decoded.jsonl](control_test/gsm_hard.decoded.jsonl) | GSM-Hard 解释，缺少参考步骤。 | 提交 |
-| [control_test/svamp.predictions.jsonl](control_test/svamp.predictions.jsonl) | SVAMP 逐题答案、正确性、长度和延迟。 | 提交 |
-| [control_test/svamp.decoded.jsonl](control_test/svamp.decoded.jsonl) | SVAMP 解释及整题参考算式。 | 提交 |
+| [control_test/complete.json](../E6/exports/v1/complete.json) | 600 题导出完成记录、配对标识及文件哈希。 | 提交 |
+| [control_test/config.json](../E6/exports/v1/config.json) | v1 身份、训练来源、配置、数据/代码/题型哈希、配对与运行设置。 | 提交 |
+| [control_test/summary.csv](../E6/exports/v1/summary.csv) | 三个数据集汇总，正确数为 7/200、1/200、2/200。 | 提交 |
+| [control_test/gsm8k.predictions.jsonl](../E6/exports/v1/gsm8k.predictions.jsonl) | GSM8K 逐题答案、正确性、长度和延迟。 | 提交 |
+| [control_test/gsm8k.decoded.jsonl](../E6/exports/v1/gsm8k.decoded.jsonl) | GSM8K 解释及参考。 | 提交 |
+| [control_test/gsm_hard.predictions.jsonl](../E6/exports/v1/gsm_hard.predictions.jsonl) | GSM-Hard 逐题答案、正确性、长度和延迟。 | 提交 |
+| [control_test/gsm_hard.decoded.jsonl](../E6/exports/v1/gsm_hard.decoded.jsonl) | GSM-Hard 解释，缺少参考步骤。 | 提交 |
+| [control_test/svamp.predictions.jsonl](../E6/exports/v1/svamp.predictions.jsonl) | SVAMP 逐题答案、正确性、长度和延迟。 | 提交 |
+| [control_test/svamp.decoded.jsonl](../E6/exports/v1/svamp.decoded.jsonl) | SVAMP 解释及整题参考算式。 | 提交 |
 
 ### control_diagnostics：32＋32 机制诊断，6 个文件
 
@@ -184,22 +186,22 @@
 
 | 文件 | 内容 | 提交建议 |
 |---|---|---|
-| [REPORT.md](test_suite_analysis_20261126/REPORT.md) | 六模型准确率、步骤匹配、逐题得失、分组变化及局限报告。 | 提交 |
-| [summary.csv](test_suite_analysis_20261126/summary.csv) | 六模型×三数据集的 18 行汇总，包含答案、长度、延迟和步骤指标。 | 提交 |
-| [summary.json](test_suite_analysis_20261126/summary.json) | 同一总体指标的 JSON 数组。 | 提交 |
-| [summary.jsonl](test_suite_analysis_20261126/summary.jsonl) | 同一总体指标的逐行 JSON。 | 一起提交 |
-| [steps.csv](test_suite_analysis_20261126/steps.csv) | 18000 条逐槽位评分，含生成、参考、算术有效性、匹配、错误标签及证据。 | 提交 |
-| [steps.jsonl](test_suite_analysis_20261126/steps.jsonl) | 同一逐槽位结果的结构化格式，方便保留列表等字段。 | 提交 |
-| [paired_questions.csv](test_suite_analysis_20261126/paired_questions.csv) | 五方案分别对 v1、各 600 题，共 3000 组答案和解释得失。 | 提交 |
-| [paired_questions.jsonl](test_suite_analysis_20261126/paired_questions.jsonl) | 同一逐题配对结果的结构化格式。 | 提交 |
-| [problem_types.csv](test_suite_analysis_20261126/problem_types.csv) | 170 行总体和分组收益，含得失、准确率及步骤变化和小组标记。 | 提交 |
-| [problem_types.jsonl](test_suite_analysis_20261126/problem_types.jsonl) | 同一分组比较的结构化格式。 | 提交 |
-| [categories.csv](test_suite_analysis_20261126/categories.csv) | 162 行步骤错误类别计数及分母。 | 提交 |
-| [categories.jsonl](test_suite_analysis_20261126/categories.jsonl) | 同一步骤错误类别统计的结构化格式。 | 提交 |
-| [slots.csv](test_suite_analysis_20261126/slots.csv) | 90 行槽位模板统计，含不同输出数、最常见解释及占比。 | 提交 |
-| [slots.jsonl](test_suite_analysis_20261126/slots.jsonl) | 同一槽位模板统计的结构化格式。 | 提交 |
-| [provenance.json](test_suite_analysis_20261126/provenance.json) | 输入配置及哈希、题型清单、分析代码、原有汇总回归检查和局限。 | 提交 |
-| [complete.json](test_suite_analysis_20261126/complete.json) | 完成状态、模型/题目/槽位/配对数量，以及输出文件哈希。 | 提交 |
+| [REPORT.md](../E6/legacy_six_model_analysis/REPORT.md) | 六模型准确率、步骤匹配、逐题得失、分组变化及局限报告。 | 提交 |
+| [summary.csv](../E6/legacy_six_model_analysis/summary.csv) | 六模型×三数据集的 18 行汇总，包含答案、长度、延迟和步骤指标。 | 提交 |
+| [summary.json](../E6/legacy_six_model_analysis/summary.json) | 同一总体指标的 JSON 数组。 | 提交 |
+| [summary.jsonl](../E6/legacy_six_model_analysis/summary.jsonl) | 同一总体指标的逐行 JSON。 | 一起提交 |
+| [steps.csv](../E6/legacy_six_model_analysis/steps.csv) | 18000 条逐槽位评分，含生成、参考、算术有效性、匹配、错误标签及证据。 | 提交 |
+| [steps.jsonl](../E6/legacy_six_model_analysis/steps.jsonl) | 同一逐槽位结果的结构化格式，方便保留列表等字段。 | 提交 |
+| [paired_questions.csv](../E6/legacy_six_model_analysis/paired_questions.csv) | 五方案分别对 v1、各 600 题，共 3000 组答案和解释得失。 | 提交 |
+| [paired_questions.jsonl](../E6/legacy_six_model_analysis/paired_questions.jsonl) | 同一逐题配对结果的结构化格式。 | 提交 |
+| [problem_types.csv](../E6/legacy_six_model_analysis/problem_types.csv) | 170 行总体和分组收益，含得失、准确率及步骤变化和小组标记。 | 提交 |
+| [problem_types.jsonl](../E6/legacy_six_model_analysis/problem_types.jsonl) | 同一分组比较的结构化格式。 | 提交 |
+| [categories.csv](../E6/legacy_six_model_analysis/categories.csv) | 162 行步骤错误类别计数及分母。 | 提交 |
+| [categories.jsonl](../E6/legacy_six_model_analysis/categories.jsonl) | 同一步骤错误类别统计的结构化格式。 | 提交 |
+| [slots.csv](../E6/legacy_six_model_analysis/slots.csv) | 90 行槽位模板统计，含不同输出数、最常见解释及占比。 | 提交 |
+| [slots.jsonl](../E6/legacy_six_model_analysis/slots.jsonl) | 同一槽位模板统计的结构化格式。 | 提交 |
+| [provenance.json](../E6/legacy_six_model_analysis/provenance.json) | 输入配置及哈希、题型清单、分析代码、原有汇总回归检查和局限。 | 提交 |
+| [complete.json](../E6/legacy_six_model_analysis/complete.json) | 完成状态、模型/题目/槽位/配对数量，以及输出文件哈希。 | 提交 |
 
 根目录 `problem_types.json` 定义“题目属于哪些组”；这里的 `problem_types.csv/jsonl` 回答“各组收益怎样”。`categories` 是错误类别，`slots` 是模板统计。CSV 和 JSON/JSONL 是不同读取格式，建议按完整导出一起提交，避免删去文件后留下不完整的 complete 哈希清单。
 

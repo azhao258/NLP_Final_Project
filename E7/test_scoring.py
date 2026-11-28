@@ -7,7 +7,7 @@ from pathlib import Path
 
 from e5.protocol import ROOT, DATASETS, preflight, read_json, read_rows, sample_order, sha, validate_checkpoint, write_json
 from e5.problem_types import classify, make_types, reference_slots
-from e5.analyze import POLICY, analyze, inspect_steps
+from E7.scoring import POLICY, analyze, inspect_steps
 from e1.metrics import extract
 
 

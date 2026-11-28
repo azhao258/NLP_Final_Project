@@ -1,0 +1,30 @@
+{
+  "all_moved_destinations_exist": true,
+  "numerical_exports_byte_identical_to_recomputation": [
+    "E6\\results\\paired_questions.csv",
+    "E6\\results\\paired_questions.jsonl",
+    "E6\\results\\problem_types.csv",
+    "E6\\results\\problem_types.jsonl",
+    "E6\\results\\summary.csv",
+    "E6\\results\\summary.jsonl",
+    "E7\\results\\case_review.csv",
+    "E7\\results\\case_review.jsonl",
+    "E7\\results\\categories.csv",
+    "E7\\results\\categories.jsonl",
+    "E7\\results\\reference_path.csv",
+    "E7\\results\\retrieval_comparison.csv",
+    "E7\\results\\slots.csv",
+    "E7\\results\\slots.jsonl",
+    "E7\\results\\steps.csv",
+    "E7\\results\\steps.jsonl"
+  ],
+  "changed_implementation_files": [
+    "E6/analyze_test_suite.py",
+    "E6/test_exports.py",
+    "E7/test_scoring.py",
+    "E6/build_analysis.py"
+  ],
+  "tests": "11 E6/E7 tests and 9 E4 tests passed; legacy CLI help passed",
+  "training_or_gpu_inference": false,
+  "historical_provenance": "Original source/path hashes retained; see MIGRATION_MAP.json and current manifests"
+}

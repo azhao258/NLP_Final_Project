@@ -1,8 +1,10 @@
+> 2026-11-28 目录调整：测试比较见 [E6](../E6/README.md)，步骤/检索/案例见 [E7](../E7/README.md)。旧运行记录中的路径是生成时路径，迁移不代表重训或重算分数。
+
 # E5 补充实验：GRPO 采样检查与 P5
 
 2026-11-27 至 2026-11-28 完成。此目录归档 A 的补充实验，以及后续 E6/E7 离线分析。**冻结基线仍为 v1；没有进行 GRPO 参数更新。P5 完成独立的 750-update 训练，但没有获得整体准确率或解释质量提升。**
 
-本次新增文件全部位于 `E5_supplement/`，不覆盖仓库原 E1–E5 文件。原代码按执行时字节保留，P5/GRPO 主代码哈希与返回配置核对一致。原 README 中的“尚未进行 GPU 验证”等表述是实验准备时记录；完成状态以本文件及返回结果为准。
+首次上传全部位于 `E5_supplement/`；现已将评测分析迁往根目录 E6/E7，训练与GRPO仍保留在此。原代码按执行时字节保留，P5/GRPO 主代码哈希与返回配置核对一致。原 README 中的“尚未进行 GPU 验证”等表述是实验准备时记录；完成状态以本文件及返回结果为准。
 
 ## 目录与阅读顺序
 
@@ -14,13 +16,13 @@
 | `P5/train_negative_pairs.json` | 冻结训练集负例，非验证/测试负例 |
 | `P5/runs/formal/` | 正式训练 contract、初始化、顺序、日志、环境和耗时 |
 | `P5/runs/pilot*/` | 诊断运行记录，不作为正式效果评测 |
-| `P5/results/validation/`、`test/`、`retrieval/` | 200 题验证、600 题测试、200 题验证集检索诊断 |
-| `diagnostics/` | 检索脚本与原使用说明 |
-| `E6_E7_completion/` | 七模型统计代码、原始补充输入、完整统计及 34 个案例 AI 初审 |
+| `P5/results/validation/`、`../E6/exports/p5/`、`../E7/p5_retrieval/` | 200 题验证、600 题测试、200 题验证集检索诊断 |
+| `../E7/` | 检索脚本与原使用说明 |
+| `../E6/`、`../E7/` | 七模型统计代码、原始补充输入、完整统计及 34 个案例 AI 初审 |
 | `prepare_runtime.py` | 将原代码安全复制到所需运行路径；拒绝覆盖不同文件 |
 | `MANIFEST_SHA256.json` | 本目录文件 SHA-256 清单（自身除外） |
 
-先阅读 [E6/E7 报告](E6_E7_completion/results/REPORT.txt)、[配对案例](E6_E7_completion/results/CASE_REVIEW.txt) 和 [复现说明](E6_E7_completion/README.txt)。`E6_E7_completion/p5_outputs` 是离线分析输入快照，与上层 P5 返回记录重复，保留是为了按其 README 复现。
+先阅读 [E6/E7 报告](../E6/results/REPORT.txt)、[配对案例](../E7/results/CASE_REVIEW.txt) 和 [复现说明](../E6/archive/original_completion_README.txt)。`../E6/archive/p5_outputs` 是离线分析输入快照，与上层 P5 返回记录重复，保留是为了按其 README 复现。
 
 ## GRPO：只做采样，不做训练
 
@@ -80,13 +82,7 @@ python e3/evaluate.py --checkpoint P5/runs/new_formal/last.pt --split test --exp
 python e5/check_reference_retrieval.py --checkpoint P5/runs/new_formal/last.pt --n 200 --output P5/results/new_retrieval
 ```
 
-E6/E7 离线复算无需 GPU，使用新输出目录：
-
-```bash
-python E5_supplement/E6_E7_completion/build_analysis.py --repo . --p5 E5_supplement/P5 --output E5_supplement/analysis_rerun
-python E5_supplement/E6_E7_completion/add_diagnostics.py --probes E5_supplement/E6_E7_completion/probe_inputs --output E5_supplement/analysis_rerun
-python E5_supplement/E6_E7_completion/finalize_review.py --repo . --p5 E5_supplement/P5 --results E5_supplement/analysis_rerun
-```
+E6/E7 离线复算无需 GPU，完整命令见 [E6 README](../E6/README.md)。
 
 ## 交接边界
 

@@ -14,7 +14,7 @@ def main():
     for folder in ['P5','GRPO']:
         for f in (src/folder).iterdir():
             if f.is_file():files.append((f,root/folder/f.name))
-    files.append((src/'diagnostics/check_reference_retrieval.py',root/'e5/check_reference_retrieval.py'))
+    files.append((src.parent/'E7/check_reference_retrieval.py',root/'e5/check_reference_retrieval.py'))
     for a,b in files:
         if b.exists() and a.read_bytes()!=b.read_bytes():
             raise SystemExit(f'Existing different file; no files copied: {b}. Use a clean checkout.')
