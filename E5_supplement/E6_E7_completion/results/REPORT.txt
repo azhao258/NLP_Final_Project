@@ -1,0 +1,43 @@
+E6/E7 补齐报告（2026-11-28）
+
+E6：已完成七模型统一离线统计，21行模型×数据集总表、3600条逐题对照、204行分组比较。
+E7：已完成21000槽位评分、105行槽位统计、189行重叠错误分类，以及34个目的性配对案例的AI初审。人类审核签字尚待A/B完成。
+原六模型所有汇总字段回归检查通过，未改写B的原结果。新增P5。
+
+答案正确数（每集200题）：
+v1: GSM8K 7, GSM-Hard 1, SVAMP 2; 合计10/600
+prefix_mask: GSM8K 4, GSM-Hard 1, SVAMP 2; 合计7/600
+p1: GSM8K 3, GSM-Hard 1, SVAMP 2; 合计6/600
+p2: GSM8K 4, GSM-Hard 1, SVAMP 1; 合计6/600
+p3: GSM8K 3, GSM-Hard 2, SVAMP 5; 合计10/600
+p4: GSM8K 6, GSM-Hard 2, SVAMP 1; 合计9/600
+p5: GSM8K 6, GSM-Hard 1, SVAMP 2; 合计9/600
+
+E6 P5分题型发现（沿用冻结标签；分组重叠，禁止跨轴累加）：
+gsm8k / operation_family=add_subtract: n=17, 正确1→0, 新增0/丢失1, 小组=True
+gsm8k / operation_family=mixed: n=141, 正确4→4, 新增1/丢失1, 小组=False
+gsm8k / operation_family=multiply_divide: n=36, 正确2→2, 新增0/丢失0, 小组=False
+gsm8k / operation_family=no_operation: n=1, 正确0→0, 新增0/丢失0, 小组=True
+gsm8k / operation_family=unparsed: n=5, 正确0→0, 新增0/丢失0, 小组=True
+gsm8k / reference_steps=missing: n=5, 正确0→0, 新增0/丢失0, 小组=True
+gsm8k / reference_steps=one: n=11, 正确1→1, 新增0/丢失0, 小组=True
+gsm8k / reference_steps=three_or_more: n=135, 正确5→5, 新增1/丢失1, 小组=False
+gsm8k / reference_steps=two: n=49, 正确1→0, 新增0/丢失1, 小组=False
+svamp / native_type=Addition: n=34, 正确0→0, 新增0/丢失0, 小组=False
+svamp / native_type=Common-Division: n=33, 正确0→0, 新增0/丢失0, 小组=False
+svamp / native_type=Multiplication: n=19, 正确0→0, 新增0/丢失0, 小组=True
+svamp / native_type=Subtraction: n=114, 正确2→2, 新增1/丢失1, 小组=False
+svamp / operation_family=add_subtract: n=142, 正确2→2, 新增1/丢失1, 小组=False
+svamp / operation_family=mixed: n=14, 正确0→0, 新增0/丢失0, 小组=True
+svamp / operation_family=multiply_divide: n=44, 正确0→0, 新增0/丢失0, 小组=False
+
+E7结论：P5 GSM8K严格匹配3/634、兼容9/634；v1为4/634、8/634。P5全部测试3000槽中2870槽为2×3=6或3×2=6（95.67%），模板问题未解决。
+P3/P5在GSM-Hard新增命中1051题存在“速度提高10%”与官方“时间减少10%”的歧义。保持官方准确率，同时披露该案例；不能把它当作确定的语义改善。
+参考标记质量：52题的15=15、473题的1=1，以及39/798等题的未标记计算，使自动提取链不等于完整自然语言推理。未据此改分。
+
+效率与压缩：七模型均K=4，五个解释槽含最后readout-only槽。参考长度比不代表速度比。summary.csv含平均/中位/P95历史延迟，未进行七模型同场重复计时，不能声称加速。
+GSM-Hard参考链缺失：对齐指标为N/A。SVAMP只有整式：整式兼容与逐步匹配区分。槽位自身算术成立不等于题意对应；错误标签可重叠。
+统计边界：单seed、小测试子集；v1曾使用测试结果选型；全部属于探索性比较。未做显著性或因果忠实性证明。
+
+下一步交付：保留v1冻结基线。A/B阅读CASE_REVIEW.txt并在CSV签字；选择代表案例用于报告/海报；保留失败结果。无需为了完成本轮E6/E7重训。若声称稳定速度收益才需新增同场计时，该项当前未声称。
+本包不含模型权重；P5最终checkpoint必须另行备份。训练总GPU租赁成本仍需结合全部会话和平台账单，不能用单次训练循环耗时替代。

@@ -1,0 +1,79 @@
+[
+  {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "file": "assets\\gpt2\\config.json",
+    "bytes": 665,
+    "sha256": "0daed7749b4f02b8f76240d5444551d7b08712dab4d0adb8239c56ba823bb7b4"
+  },
+  {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "file": "assets\\gpt2\\merges.txt",
+    "bytes": 456318,
+    "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+  },
+  {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "file": "assets\\gpt2\\vocab.json",
+    "bytes": 1042301,
+    "sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783"
+  },
+  {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "file": "assets\\gpt2\\tokenizer.json",
+    "bytes": 1355256,
+    "sha256": "8414cab924d8b9b33013f0d221c5862f365ee9be39c5c2bfae8a5a9e970478a6"
+  },
+  {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "file": "assets\\gpt2\\tokenizer_config.json",
+    "bytes": 26,
+    "sha256": "5e04eb606e3a1583530a42e36c2a6b6615c86f34fe77e44d9ddeb43ff940931f"
+  },
+  {
+    "repo": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "file": "assets\\gpt2\\model.safetensors",
+    "bytes": 548105171,
+    "sha256": "248dfc3911869ec493c76e65bf2fcf7f615828b0254c12b473182f0f81d3a707"
+  },
+  {
+    "repo": "zen-E/CODI-gpt2",
+    "revision": "fd641b3d3edc59e4f534b55588e906588c9e36bb",
+    "file": "assets\\codi\\pytorch_model.bin",
+    "bytes": 406398137,
+    "sha256": "fd223b14932b8b66605c2a688e7d7193058ff2b40b2c6f6c1547c227d06d8417"
+  },
+  {
+    "repo": "internlm/SIM_COT-GPT2-CODI",
+    "revision": "8685b42870510ba33f7caae30f7a24a2020d2e50",
+    "file": "assets\\sim\\model.safetensors.index.json",
+    "bytes": 38864,
+    "sha256": "f05a38753918bbf12c8d31a0539077db824711f29ffaa9fa082eb60adc5f17c5"
+  },
+  {
+    "repo": "internlm/SIM_COT-GPT2-CODI",
+    "revision": "8685b42870510ba33f7caae30f7a24a2020d2e50",
+    "file": "assets\\sim\\model-00001-of-00001.safetensors",
+    "bytes": 732436560,
+    "sha256": "9eaa159155d1db8e8fa3024b959b1e7640cbd5f78b738a3759b2aa61b80b409d"
+  },
+  {
+    "repo": "datasets/zen-E/GSM8k-Aug",
+    "revision": "c4972fba71a612e2089d8fb10f78caa01c740083",
+    "file": "assets\\data\\gsm8k_aug_train.json",
+    "bytes": 98233833,
+    "sha256": "07b2e0180ec74693de60503260c51d86e71931c7569a026f3240939334213609"
+  },
+  {
+    "repo": "datasets/zen-E/GSM8k-Aug",
+    "revision": "c4972fba71a612e2089d8fb10f78caa01c740083",
+    "file": "assets\\data\\gsm8k_test.json",
+    "bytes": 423983,
+    "sha256": "3d497ddbd728358309e25046b47a383adf582428cd3b5574767a55376b291d8d"
+  }
+]

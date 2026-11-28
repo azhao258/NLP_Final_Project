@@ -1,0 +1,32 @@
+{
+  "status": "AUTOMATED_ANALYSIS_AND_AI_REVIEW_COMPLETE_HUMAN_SIGNOFF_PENDING",
+  "models": 7,
+  "questions_per_model": 600,
+  "paired_questions": 3600,
+  "scored_slots": 21000,
+  "case_reviews": 34,
+  "files": {
+    "case_coverage.json": "74967cfa52752cb4fc2b25d76f8cb44efdf53c5ffa304a826b0b8e9a36ac9ddd",
+    "case_review.csv": "480211569d845276cc73436628ab58d21a0ef5a87188caa41646e87c1f72d4d9",
+    "case_review.jsonl": "5d9f8990150b765ac94108442d369e18175cb2f85ade87e13b7d42e781f906e7",
+    "CASE_REVIEW.txt": "bb44711f1acfc88232b9bc12a97da51ca09ecd8295242aa2133d3aed629f8e16",
+    "categories.csv": "da14c69bd365c525a60671f3a8b074008e94bebef68d525e9a517e4892bb5cb2",
+    "categories.jsonl": "014a02ee34d9a4123eeb650374f6c3584b539275149e45afde4acc804ed894af",
+    "diagnostic_provenance.json": "b981668c1f88da23c139a3fdaebac68445436c1e0ac00f5cc02eccccf3e64826",
+    "paired_questions.csv": "13e88c8a64cd69c3bdae7dcbd0621008aeafa7d011832e9479ad2ee0e23b6a8f",
+    "paired_questions.jsonl": "fc73e9905fa82f5af6f2378ed3753d70811b5fe8643ac83be4b535b9f0dd3b9d",
+    "problem_types.csv": "05276e1b880b562d80c4e47c87b5836fa465f66f05d64cb2c35849b349355431",
+    "problem_types.jsonl": "82dfacc7ef2e2e84a2910ed4c7ca8647d888577cf9d257aaa5c46785ec5d17dd",
+    "provenance.json": "616d786ba795c2618f168976cc9141a5c3d5ceb16f15f6fba629bd9a79288f09",
+    "reference_path.csv": "10540dad2345e8fb60b41f8e658b141de8f494d17c8215c4fc5c2992a079eb3c",
+    "REPORT.txt": "68da95e0a851a6230c0fa1197fb025bd366a688fd10c60fc9b5a0c43458e45de",
+    "retrieval_comparison.csv": "60e3391d332d3c78b685973b1ec1e0b1145dffb6153805b2fa919edfd43b5486",
+    "RETRIEVAL_NOTES.txt": "0da3c06778362f0900df79ac7035d1ebfc4d6c715d1257b82b2da2e404f1d2fd",
+    "slots.csv": "7ef088b4545417ea0641526da2c62b7136303a13bef886f230c0f4f9100a48c4",
+    "slots.jsonl": "09b155547cf51819cdd832e2bb05114d5cf0999a82ceab4b03d3313050f44423",
+    "steps.csv": "08b12d4cfc2dc47d146b990f213ecbfa6d5673d631f476ad294faa78dff93e70",
+    "steps.jsonl": "5355e07a1e1e07c45a3f7425b9f2183c9bc049d1ccd615f4564b8fa1dc155bca",
+    "summary.csv": "d8c467eb7ad780814171b632b3691c004de50c996fdfae73c3d98a95e8c411b3",
+    "summary.jsonl": "40645df718369a64675e460c2e6a4fff4461afb2c85bb7d091b71619fd34d6ee"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "n": 64,
+  "group_size": 8,
+  "total_samples": 512,
+  "greedy_correct": 2,
+  "sampled_correct": 5,
+  "sample_accuracy": 0.009765625,
+  "groups_any_correct": 5,
+  "groups_mixed_rewards": 5,
+  "groups_all_wrong": 59,
+  "groups_all_correct": 0,
+  "reward_variance_mean": 0.008544921875,
+  "parse_failures": 3,
+  "capped": 0,
+  "mean_unique_texts": 7.765625,
+  "mean_unique_parsed_answers": 7.71875,
+  "note": "Training-subset diagnostic, not test accuracy. Any-correct is sampled coverage, not deployable greedy accuracy.",
+  "weights_unchanged": true,
+  "state_sha256_before": "64d13e317289c70a903b02de285df1f90a67f38bbc14c2cdb39c4c65e8a1beb7",
+  "state_sha256_after": "64d13e317289c70a903b02de285df1f90a67f38bbc14c2cdb39c4c65e8a1beb7"
+}

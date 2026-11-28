@@ -1,0 +1,20 @@
+{
+  "train": {
+    "rows": 2000,
+    "valid_slots": 5102,
+    "consumed_slots": 4956,
+    "readout_only_slots": 146,
+    "merged_tail_rows": 50,
+    "no_step_rows": 1,
+    "maximum_reference_tokens": 172
+  },
+  "validation": {
+    "rows": 200,
+    "valid_slots": 478,
+    "consumed_slots": 470,
+    "readout_only_slots": 8,
+    "merged_tail_rows": 2,
+    "no_step_rows": 0,
+    "maximum_reference_tokens": 146
+  }
+}

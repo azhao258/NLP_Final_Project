@@ -1,0 +1,34 @@
+{
+  "n": 4,
+  "ids": [
+    "gsm8k-aug-train-30",
+    "gsm8k-aug-train-61",
+    "gsm8k-aug-train-73",
+    "gsm8k-aug-train-85"
+  ],
+  "indices": [
+    30,
+    61,
+    73,
+    85
+  ],
+  "group_size": 8,
+  "temperature": 1.0,
+  "top_p": 1.0,
+  "top_k": null,
+  "max_tokens": 64,
+  "latent_steps": 4,
+  "split_seed": 11,
+  "sampling_seed_rule": "110000+source_index*8+candidate_index",
+  "checkpoint_sha256": "02ce2c7589a4d12f3f04702f50bb25e298751f734bcb82c5c2ce53062d3bdc39",
+  "data_sha256": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+  "precision": "BF16 weights + autocast; FP32 sampling probabilities",
+  "torch_version": "2.7.1+cu126",
+  "gpu": "NVIDIA RTX A6000",
+  "source_hashes": {
+    "GRPO/sample_check.py": "1c2f146f7a58f3a83cde5e89a7e0859efb4c30b79280294c2aa9ab2048b4d300",
+    "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "e1/metrics.py": "d0977f46786b9049e45349b5f5999a228aca34821188c3b75f7d775cbea597c5"
+  },
+  "no_update": true
+}

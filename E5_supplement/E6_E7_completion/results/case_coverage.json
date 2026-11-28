@@ -1,0 +1,74 @@
+[
+  {
+    "model": "prefix_mask",
+    "cases": 3,
+    "coverage": {
+      "answer_gain": true,
+      "answer_loss": true,
+      "step_gain": false,
+      "step_loss": true,
+      "correct_answer_incomplete_explanation": true
+    },
+    "note": "prefix_mask无兼容步骤提升候选，不虚构成功案例"
+  },
+  {
+    "model": "p1",
+    "cases": 5,
+    "coverage": {
+      "answer_gain": true,
+      "answer_loss": true,
+      "step_gain": true,
+      "step_loss": true,
+      "correct_answer_incomplete_explanation": true
+    },
+    "note": "AI初审，人工待签"
+  },
+  {
+    "model": "p2",
+    "cases": 4,
+    "coverage": {
+      "answer_gain": true,
+      "answer_loss": true,
+      "step_gain": true,
+      "step_loss": true,
+      "correct_answer_incomplete_explanation": true
+    },
+    "note": "AI初审，人工待签"
+  },
+  {
+    "model": "p3",
+    "cases": 7,
+    "coverage": {
+      "answer_gain": true,
+      "answer_loss": true,
+      "step_gain": true,
+      "step_loss": true,
+      "correct_answer_incomplete_explanation": true
+    },
+    "note": "AI初审，人工待签"
+  },
+  {
+    "model": "p4",
+    "cases": 5,
+    "coverage": {
+      "answer_gain": true,
+      "answer_loss": true,
+      "step_gain": true,
+      "step_loss": true,
+      "correct_answer_incomplete_explanation": true
+    },
+    "note": "AI初审，人工待签"
+  },
+  {
+    "model": "p5",
+    "cases": 10,
+    "coverage": {
+      "answer_gain": true,
+      "answer_loss": true,
+      "step_gain": true,
+      "step_loss": true,
+      "correct_answer_incomplete_explanation": true
+    },
+    "note": "AI初审，人工待签"
+  }
+]

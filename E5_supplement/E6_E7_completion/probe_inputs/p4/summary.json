@@ -1,0 +1,48 @@
+{
+  "n": 200,
+  "valid_slots": 478,
+  "reference": {
+    "cot": {
+      "tokens": 3692,
+      "mean_nll": 1.4517872112672998,
+      "token_accuracy": 0.6102383531960996
+    },
+    "answer": {
+      "tokens": 239,
+      "mean_nll": 0.4621536915081409,
+      "token_accuracy": 0.9330543933054394
+    }
+  },
+  "retrieval": {
+    "same_question/all": {
+      "n": 437,
+      "unique_top1": 0.391304347826087,
+      "mean_margin": -0.0012125199664921181
+    },
+    "same_question/consumed": {
+      "n": 429,
+      "unique_top1": 0.3916083916083916,
+      "mean_margin": -0.0012046395342944663
+    },
+    "same_question/readout": {
+      "n": 8,
+      "unique_top1": 0.375,
+      "mean_margin": -0.0016351081430912018
+    },
+    "other_question_same_slot/all": {
+      "n": 478,
+      "unique_top1": 0.010460251046025104,
+      "mean_margin": -0.009188591311666256
+    },
+    "other_question_same_slot/consumed": {
+      "n": 470,
+      "unique_top1": 0.00851063829787234,
+      "mean_margin": -0.009281230670340517
+    },
+    "other_question_same_slot/readout": {
+      "n": 8,
+      "unique_top1": 0.125,
+      "mean_margin": -0.0037460289895534515
+    }
+  }
+}

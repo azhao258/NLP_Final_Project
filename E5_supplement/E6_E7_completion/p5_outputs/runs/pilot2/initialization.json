@@ -1,0 +1,6 @@
+{
+  "path": "e3_runs/shared_init.pt",
+  "sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "base": "openai-community/gpt2",
+  "released_checkpoint_used": false
+}

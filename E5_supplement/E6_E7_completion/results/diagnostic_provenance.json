@@ -1,0 +1,31 @@
+{
+  "split": "validation",
+  "n": 200,
+  "input_hashes": {
+    "v1": {
+      "config.json": "e41cd27ec99773a91d902b077c36add19e706c188efb5947e2b73cedc2bd3593",
+      "reference.jsonl": "044c5879b6d1ded359c50d9745276c383969bf1aae5366ffa2886817dfaa910c",
+      "retrieval.jsonl": "fffb623a36566c980810060373d472b460f9e561ebabb34b91df0d8a1bb79f66",
+      "summary.json": "b09f5cfa64b29db5da46bf30368227277e6fe750c31daa2ddfc804bf6c2e2ddd"
+    },
+    "p3": {
+      "config.json": "c85bfa24854d5d381128b7b45bde7d68d9392697490c32963a9cd1662bf47d67",
+      "reference.jsonl": "ccf36c20a0ea9f83cb2efe1f4b2aac574cfa7b76602e7d40e3d0dc45360e46f8",
+      "retrieval.jsonl": "a97fb662567bf8c33bcb3c533001bde811b94f864aadf5a77d02837d1b66cc35",
+      "summary.json": "19d0b58b1ffcfc8375966ba13fe46f483dd76eb81df50607e92c7dbfd2ae4e30"
+    },
+    "p4": {
+      "config.json": "9a7366a64407c8683a494b60f8051bb20f3684092b3379b9c22563135751351c",
+      "reference.jsonl": "190b0690ab58c4038514d40e44216c2af2366b2b1b01b662a262f0b9065d299c",
+      "retrieval.jsonl": "ef240ef02dfd5cbc28760ff3aee5ad5e325ecbffba1dcc2b8b4dd8e3c2246309",
+      "summary.json": "355201e1986af412f626ec57c406bbf69d15124b1e22be347fb8bf13c54ea310"
+    },
+    "p5": {
+      "config.json": "7b2d7062dd6ac3a5ad6b96ad421684a6d7480cfe755959e5a46f0a36a82a8028",
+      "reference.jsonl": "21a660bf92b3ec64e4a13b6849fa24beeb0b6585d06ff4cabd0901aed54bee98",
+      "retrieval.jsonl": "cc1bca74e6d3088f2e0ca5b2da5566add4d292493f388c4adb6fd32ce3f31e9a",
+      "summary.json": "9077d7f2d1a48f6caf76de7c45294fb60162fedffe80523c9c4ef78ad186f785"
+    }
+  },
+  "warning": "Gold-conditioned diagnostic; no causal faithfulness or free-answer accuracy claim. No representation tensors packaged."
+}

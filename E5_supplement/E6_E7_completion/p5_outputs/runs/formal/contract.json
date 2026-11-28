@@ -1,0 +1,62 @@
+{
+  "config": {
+    "seed": 11,
+    "latent_steps": 4,
+    "epochs": 3,
+    "micro_batch_size": 1,
+    "gradient_accumulation": 8,
+    "learning_rate": 5e-05,
+    "weight_decay": 0.01,
+    "warmup_steps": 38,
+    "max_grad_norm": 1.0,
+    "save_every": 50,
+    "lora_r": 128,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "projection_dim": 768,
+    "explain_loss_factor": 1.0,
+    "distill_loss_factor": 1.0,
+    "ref_loss_factor": 1.0,
+    "answer_max_tokens": 64,
+    "decode_max_tokens": 64
+  },
+  "variant": {
+    "variant": "p5_cross_question_margin_v1",
+    "alignment_factor": 0.1,
+    "margin": 0.02,
+    "seed": 405105,
+    "negative": "one deterministic train-only donor per anchor; same slot",
+    "filter": "exact arithmetic valid, equal equation counts, disjoint numeric result sets",
+    "teacher": "current reference network, eval mode, stop-gradient on positive and negative",
+    "slots": "z0-z4; z4 readout-only; skip slots without eligible pair",
+    "extra_reference_forward": 2,
+    "total_updates": 750,
+    "note": "Single added contrastive objective vs v1; not equal FLOPs. Not identical teacher sampling to P4."
+  },
+  "order_sha256": "bf8a09b0fb877ebb95a0853152283730468c7e5d78f6c85c0fd1cf55cdfa7ac8",
+  "data_files_sha256": {
+    "train": "49a77e3bf034922f05f0a16f7d32c3b10d39500910693db9d7e43f906b1dfdec",
+    "validation": "ccf0d3456a40ddc93554cd816b5185bc022b6cbf4a0e069577f5cad23fce31f9"
+  },
+  "initialization_sha256": "39576dd4726735472d9298d17de8dc14969ce912e860fa93ec8bcbea380b2e3e",
+  "data_sha256": "e5ceebe3154e11506cd7abcb943aa1c439e7952b3ff176e239ca08f05ef27a68",
+  "pilot_updates": 0,
+  "updates": 750,
+  "full_budget_updates": 750,
+  "source_sha256": {
+    "e3/common.py": "abcc1adc9e287c9c048764648fbc2063fca16254859b96889eb191fab4c44976",
+    "e3/train.py": "2c0675bca0f748afbd25fa46468ca10d874082f6b43b55824d606fe886acdaa1",
+    "SIM-CoT/CODI/src/model.py": "0e20c58f4a61148b7ee19d9b4d032f87c9455398a15c6b8f1ab2e50d50873262",
+    "P5/train.py": "fd1957e6b6b23ae4f19b50bcf8543583fc9d527ff20dc9f240b5059ed88d0d1a",
+    "P5/method.py": "422bffb9e9fd1cd0abf7fe7aed94a31f82f9b644952c373891aebc6a1c36356c",
+    "P5/negatives.py": "348d1d1e40898274036a0cc2fc2c697e78cc9a739f4cf677374cf357704b2da3",
+    "P5/train_negative_pairs.json": "82fdf440780d6605b140956d63eef460118399be1d729220c7070299b8834600",
+    "e5/p4/p4_alignment.py": "19cc225b55fd098bdb5e3b28f0aaf93a0b26ad9fdcb56fe5ffeff26bbdc11da1",
+    "e5/p4/p4_audit.py": "221780f906a296543d89d1f615cca161025230fb1c433a030834d40229fe2923",
+    "e5/p1_schedule.py": "952a0ebc4f1c6b1216f6ce109821b8fea8e0ada40ea1274e1e9ed02ee2173a3c",
+    "e5/protocol.py": "90ed24e25e02aca5d026eac43dd189b2604e691ccbe2b3257dd5eaef6d9c5ea5"
+  },
+  "assets_manifest_sha256": "14f65c0866a449feb5626ec98efd88edb9beb0d2106789b6551f05af829e9570",
+  "gpu": "NVIDIA RTX A6000",
+  "torch": "2.7.1+cu126"
+}

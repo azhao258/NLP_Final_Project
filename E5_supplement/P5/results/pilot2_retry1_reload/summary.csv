@@ -1,0 +1,2 @@
+dataset,n,em,parse_failures,latent_steps,reference_type,reference_count,mean_reference_tokens,length_ratio,mean_answer_tokens,capped,mean_seconds,median_seconds,p95_seconds
+validation,4,0.0,4,4,equation,4,16.25,4.0625,64.0,4,1.0489135682499864,1.0469548969999778,1.076750914049967
